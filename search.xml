@@ -24,4 +24,18 @@
     <content><![CDATA[<p>这是一个测试文章</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>还是测试</title>
+    <url>/2023/02/11/%E8%BF%98%E6%98%AF%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>纯测试$x^2$<br>$$<br>\sum_{i&#x3D;1}^2 p_i \log p_i<br>$$</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap </span><br><span class="line">root((test))</span><br><span class="line">	test </span><br><span class="line">	node1</span><br><span class="line">	node2</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://s2.loli.net/2023/02/11/uyTmh8l6PM23ZKd.png" alt="image-20230211230113543"></p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
 </search>
