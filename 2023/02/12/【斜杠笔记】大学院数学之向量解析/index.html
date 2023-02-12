@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"educatemeonit.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="常用向量1.单位向量  2.基底 向量运算内积$\vec{a}\cdot \vec{b} &#x3D;x_1x_2+y_1y_2+z_1z_2$ &#x3D;|a| |b|$ \cos \theta$ 几何意义： 向量a在向量b上的投影，再乘以向量b的长度 物理意义：力的分量所作的功 用于判断两个向量的方向及角度： 1）内积&gt;0,夹角小于90度 2）内积&#x3D;0，垂直 3）内积&lt;0,夹角大于90度 外积$\v">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【斜杠笔记】大学院数学之向量解析">
+<meta property="og:url" content="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/index.html">
+<meta property="og:site_name" content="东京打工人Jackie">
+<meta property="og:description" content="常用向量1.单位向量  2.基底 向量运算内积$\vec{a}\cdot \vec{b} &#x3D;x_1x_2+y_1y_2+z_1z_2$ &#x3D;|a| |b|$ \cos \theta$ 几何意义： 向量a在向量b上的投影，再乘以向量b的长度 物理意义：力的分量所作的功 用于判断两个向量的方向及角度： 1）内积&gt;0,夹角小于90度 2）内积&#x3D;0，垂直 3）内积&lt;0,夹角大于90度 外积$\v">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2023/02/12/LXEJYwW2ypUVzCn.png">
+<meta property="og:image" content="https://s2.loli.net/2023/02/12/R3TNLHhfaY7oDzG.png">
+<meta property="og:image" content="https://s2.loli.net/2023/02/12/GyDtrBhVEFcgLUM.png">
+<meta property="article:published_time" content="2023-02-12T12:18:19.000Z">
+<meta property="article:modified_time" content="2023-02-12T12:28:46.326Z">
+<meta property="article:author" content="Jackie">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2023/02/12/LXEJYwW2ypUVzCn.png">
+
+
+<link rel="canonical" href="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/","path":"2023/02/12/【斜杠笔记】大学院数学之向量解析/","title":"【斜杠笔记】大学院数学之向量解析"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>【斜杠笔记】大学院数学之向量解析 | 东京打工人Jackie</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">东京打工人Jackie</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">当一个好斜杠</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-links"><a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>友链</a></li><li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%90%91%E9%87%8F"><span class="nav-number">1.</span> <span class="nav-text">常用向量</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%90%91%E9%87%8F%E8%BF%90%E7%AE%97"><span class="nav-number">2.</span> <span class="nav-text">向量运算</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%85%E7%A7%AF"><span class="nav-number">2.1.</span> <span class="nav-text">内积</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%96%E7%A7%AF"><span class="nav-number">2.2.</span> <span class="nav-text">外积</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E9%87%8D%E7%A7%AF"><span class="nav-number">2.3.</span> <span class="nav-text">三重积</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%EF%BC%89%E6%A0%87%E9%87%8F%E7%A7%AF"><span class="nav-number">2.3.1.</span> <span class="nav-text">1）标量积</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%EF%BC%89%E5%90%91%E9%87%8F%E7%A7%AF"><span class="nav-number">2.3.2.</span> <span class="nav-text">2）向量积</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95"><span class="nav-number">3.</span> <span class="nav-text">解析几何</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F"><span class="nav-number">3.1.</span> <span class="nav-text">基本公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%90%91%E9%87%8F%E5%BE%AE%E5%88%86"><span class="nav-number">3.1.1.</span> <span class="nav-text">1)向量微分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%90%91%E9%87%8F%E7%A7%AF%E5%88%86"><span class="nav-number">3.1.2.</span> <span class="nav-text">2)向量积分</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9B%B4%E7%BA%BF%E6%96%B9%E7%A8%8B%E5%BC%8F"><span class="nav-number">3.1.2.1.</span> <span class="nav-text">直线方程式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%82%B9%E5%92%8C%E7%9B%B4%E7%BA%BF%E5%90%91%E9%87%8F"><span class="nav-number">3.1.3.</span> <span class="nav-text">点和直线向量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B9%B3%E9%9D%A2%E6%96%B9%E7%A8%8B%E5%BC%8F"><span class="nav-number">3.1.4.</span> <span class="nav-text">平面方程式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%AE%E5%85%833%E7%A7%8D"><span class="nav-number">3.1.5.</span> <span class="nav-text">微元3种</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BA%BF%E7%B4%A0%EF%BC%8C%E9%9D%A2%E7%B4%A0%EF%BC%8C%E4%BD%93%E7%A7%AF%E8%A6%81%E7%B4%A0%E8%AE%A1%E7%AE%97"><span class="nav-number">4.</span> <span class="nav-text">线素，面素，体积要素计算</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E5%8C%96%E8%BF%90%E7%AE%97"><span class="nav-number">4.1.</span> <span class="nav-text">简化运算</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%97%AD%E5%90%88%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86-%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F"><span class="nav-number">4.1.1.</span> <span class="nav-text">闭合曲线积分 - 格林公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%97%AD%E5%90%88%E6%9B%B2%E7%BA%BF%E7%A7%AF%E5%88%86-%E9%AB%98%E6%96%AF%E5%8F%91%E6%95%A3%E5%AE%9A%E7%90%86"><span class="nav-number">4.1.2.</span> <span class="nav-text">闭合曲线积分 - 高斯发散定理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%97%AD%E5%90%88%E6%9B%B2%E7%BA%BF%E5%86%85%E7%9A%84%E6%9B%B2%E9%9D%A2%E7%A7%AF%E5%88%86-%E6%96%AF%E6%89%98%E5%85%8B%E6%96%AF%E5%AE%9A%E7%90%86"><span class="nav-number">4.1.3.</span> <span class="nav-text">闭合曲线内的曲面积分 - 斯托克斯定理</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%90%91%E9%87%8F%E5%92%8C%E7%BA%BF%E6%80%A7%E7%9B%B8%E5%85%B3"><span class="nav-number">5.</span> <span class="nav-text">向量和线性相关</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-n%E7%BB%B4%E5%90%91%E9%87%8F"><span class="nav-number">5.1.</span> <span class="nav-text">1.n维向量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%90%91%E9%87%8F%E7%BA%BF%E6%80%A7%E7%9B%B8%E5%85%B3%E6%80%A7%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="nav-number">5.2.</span> <span class="nav-text">2.向量线性相关性的概念</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Jackie</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Jackie">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="东京打工人Jackie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="【斜杠笔记】大学院数学之向量解析 | 东京打工人Jackie">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【斜杠笔记】大学院数学之向量解析
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2023-02-12 21:18:19 / 修改时间：21:28:46" itemprop="dateCreated datePublished" datetime="2023-02-12T21:18:19+09:00">2023-02-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">斜杠笔记</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/12/【斜杠笔记】大学院数学之向量解析/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="常用向量"><a href="#常用向量" class="headerlink" title="常用向量"></a>常用向量</h1><p>1.单位向量 </p>
+<p>2.基底</p>
+<h1 id="向量运算"><a href="#向量运算" class="headerlink" title="向量运算"></a>向量运算</h1><h2 id="内积"><a href="#内积" class="headerlink" title="内积"></a>内积</h2><p>$\vec{a}\cdot \vec{b} =x_1x_2+y_1y_2+z_1z_2$</p>
+<p><a,b>=|a| |b|$ \cos \theta$</p>
+<p>几何意义： 向量a在向量b上的投影，再乘以向量b的长度</p>
+<p>物理意义：力的分量所作的功</p>
+<p>用于判断两个向量的方向及角度：</p>
+<p>1）内积&gt;0,夹角小于90度</p>
+<p>2）内积=0，垂直</p>
+<p>3）内积&lt;0,夹角大于90度</p>
+<h2 id="外积"><a href="#外积" class="headerlink" title="外积"></a>外积</h2><p>$\vec{a}\times \vec{b} =det \begin{bmatrix} \vec{i} &amp; \vec{j} &amp; \vec{k} \\x_1 &amp; y_1 &amp; z_1 \\ x_2 &amp; y_2 &amp; z_2 \end{bmatrix} $</p>
+<p>几何意义：</p>
+<p>外积的长度$a\times b =|a||b|\cos \theta$是两向量围成的平行四边形的面积</p>
+<p>物理意义：力矩，如旋转螺丝钉，螺丝钉前进方向垂直于刀口和扭力方向</p>
+<p>外积的方向与两向量均垂直，适合求法向量</p>
+<h2 id="三重积"><a href="#三重积" class="headerlink" title="三重积"></a>三重积</h2><h3 id="1）标量积"><a href="#1）标量积" class="headerlink" title="1）标量积"></a>1）标量积</h3><p>$[\vec{a},\vec{b},\vec{c}]=det \begin{bmatrix} x_1 &amp; y_1 &amp;z_1 \\ x_2 &amp; y_2 &amp;z_2 \\x_3 &amp; y_3 &amp;z_3 \end{bmatrix}$</p>
+<p>等于三个列向量组成的行列式的值</p>
+<p>几何意义：以三个向量为棱的空间平行六面体的体积</p>
+<p>恒等式：</p>
+<p>$a\cdot (b\times c)=b\cdot (c\times a)-c\dot (b\times a )$</p>
+<p>值不变是因为交换了行列式两次，不变号$</p>
+<h3 id="2）向量积"><a href="#2）向量积" class="headerlink" title="2）向量积"></a>2）向量积</h3><p>$\vec{a}\times (\vec{b}\times \vec{c} )=b(a\cdot c)-c(a\cdot b)$</p>
+<p>方便记忆小技巧，BAC-CAB,后面有出租车</p>
+<p>记忆：三重积一定是两个叉积向量的线性组合</p>
+<h1 id="解析几何"><a href="#解析几何" class="headerlink" title="解析几何"></a>解析几何</h1><h2 id="基本公式"><a href="#基本公式" class="headerlink" title="基本公式"></a>基本公式</h2><h3 id="1-向量微分"><a href="#1-向量微分" class="headerlink" title="1)向量微分"></a>1)向量微分</h3><p>$\dfrac{dA}{dt}=\dfrac{dA_x}{dt}i+\dfrac{dA_y}{dt}j+\dfrac{A_z}{dt}k$</p>
+<p>微分满足分配律和乘积</p>
+<p>$\dfrac{d}{dt}(A+B)=\dfrac{dA}{dt}+\dfrac{dB}{dt}$</p>
+<p>$\dfrac{d}{dt}(A\cdot B)=\dfrac{dA}{dt}\cdot B+A\cdot \dfrac{dB}{dt}$</p>
+<p>$\dfrac{d}{dt}(A\times B)=\dfrac{dA}{dt}\times B+A\times \dfrac{dB}{dt}$</p>
+<h3 id="2-向量积分"><a href="#2-向量积分" class="headerlink" title="2)向量积分"></a>2)向量积分</h3><p>$\int Adt =\int A_x dt i+\int A_y dt j+\int A_z dt k$</p>
+<h4 id="直线方程式"><a href="#直线方程式" class="headerlink" title="直线方程式"></a>直线方程式</h4><h3 id="点和直线向量"><a href="#点和直线向量" class="headerlink" title="点和直线向量"></a>点和直线向量</h3><p>$x=x_0+k(x_1-x_0)$</p>
+<p>$y=y_0+k(y_1-y_0)$</p>
+<p>$z=z_0-k(z_1-z_0)$</p>
+<p>$\dfrac{x-x_0}{x_1-x_0}=\dfrac{y-y_0}{y_1-y_0}=\dfrac{z-z_0}{z_1-z_0}=t$</p>
+<p>直线向量$\vec{l}=(x_1,y_1,z_1)$</p>
+<h3 id="平面方程式"><a href="#平面方程式" class="headerlink" title="平面方程式"></a>平面方程式</h3><p>平面法向量 $\vec{n}=(F_x,F_y,F_z)$</p>
+<h3 id="微元3种"><a href="#微元3种" class="headerlink" title="微元3种"></a>微元3种</h3><p>1） 线素</p>
+<p>沿曲线的向量场和线积分<br><img src="https://s2.loli.net/2023/02/12/LXEJYwW2ypUVzCn.png" alt="image-20230212212151588"></p>
+<p>$s=\int ds =\int |dr| =\int_{t_0}^t |\dfrac{dr}{dr}| dt =\int_{t_0}^t \sqrt{(\dfrac{dx}{dt})^2 +(\dfrac{dy}{dt})^2 +(\dfrac{dz}{dt})^2}$</p>
+<p>线素向量： 空间2点$\vec{r}$和$\vec{r}+d\vec{r}$之间的微波变化$d\vec{r}$</p>
+<p>表示曲线上极近的两点$t_0,t$之间的一小段弧长</p>
+<p>与正常含参曲线的弧长公式一致</p>
+<p>单位接线向量：</p>
+<p>$\vec{t}=\dfrac{\vec{dr}}{ds}=\dfrac{\vec{dr}}{dt}\cdot \dfrac{1}{\dfrac{ds}{dt}}\cdot t\cdot t =1$</p>
+<p>ds为曲线微元的长度，当曲线长度无限趋近于某点时，其余斜率等于该点的微分值</p>
+<p>2） 面素</p>
+<p><img src="https://s2.loli.net/2023/02/12/R3TNLHhfaY7oDzG.png" alt="image-20230212212214774"></p>
+<p>面素：曲面上的向量场的面积分</p>
+<p>$d\vec{S}=\vec{dr_1}\times \vec{dr_2}$</p>
+<p>面素向量的大小用dS表示，二者关系为$\vec{dS}=\vec{n}dS$</p>
+<p>3）体积要素</p>
+<p><img src="https://s2.loli.net/2023/02/12/GyDtrBhVEFcgLUM.png" alt="image-20230212212314201"></p>
+<p>$dV=\vec{dr_1}\cdot (\vec{dr_2}\times \vec{dr_3})$</p>
+<p>$\vec{dr_1},\vec{dr_2}, \vec{dr_3}张成的微小平行六面体的体积，所以用混合积表示。$</p>
+<h1 id="线素，面素，体积要素计算"><a href="#线素，面素，体积要素计算" class="headerlink" title="线素，面素，体积要素计算"></a>线素，面素，体积要素计算</h1><h2 id="简化运算"><a href="#简化运算" class="headerlink" title="简化运算"></a>简化运算</h2><h3 id="闭合曲线积分-格林公式"><a href="#闭合曲线积分-格林公式" class="headerlink" title="闭合曲线积分 - 格林公式"></a>闭合曲线积分 - 格林公式</h3><p>1）针对闭合曲线的积分，可以尝试使用Green公式</p>
+<p>若曲线积分$\int_c P(x,y)dx +Q(x,y)dy $满足以下条件：</p>
+<p>1.C是闭合曲线，（D是C围成的密闭领域）</p>
+<p>2.C是左向正向（即沿曲线运动，密闭领域在左手边）</p>
+<p>3.P(x,y)和Q(x,y)在D内连续可导</p>
+<p>则$\oint_c P(x,y) dx+Q(x,y)dy =\iint_D (\dfrac{\partial Q}{\partial x} -\dfrac{\partial P}{\partial y})$</p>
+<h3 id="闭合曲线积分-高斯发散定理"><a href="#闭合曲线积分-高斯发散定理" class="headerlink" title="闭合曲线积分 - 高斯发散定理"></a>闭合曲线积分 - 高斯发散定理</h3><p>$\vec{A}是向量场， V是闭曲面S的内部，\vec{n}是S由内向外的单位法向量$</p>
+<p>$\iint_S \vec{A}\cdot \vec{n} dS =\iiint_V div \vec{A} dV$</p>
+<p>将闭合曲面积分转为三重积分</p>
+<h3 id="闭合曲线内的曲面积分-斯托克斯定理"><a href="#闭合曲线内的曲面积分-斯托克斯定理" class="headerlink" title="闭合曲线内的曲面积分 - 斯托克斯定理"></a>闭合曲线内的曲面积分 - 斯托克斯定理</h3><p>$\vec{A}是向量场，S是闭合曲线C的内部，S是左向正向$</p>
+<p>$\int_C \vec{A}\cdot \vec{t} dS=\iint_s rot\vec{A} \cdot \vec{n} dS$</p>
+<p>rot 旋度</p>
+<p>$rot \vec{F}=det \begin{bmatrix} \vec{i} &amp; \vec{j} &amp; \vec{k} \\ \dfrac{\partial}{\partial x} &amp; \dfrac{\partial }{\partial y} &amp; \dfrac{\partial }{\partial z} \\ F_1 &amp; F_2 &amp; F_3 \end{bmatrix}$</p>
+<h1 id="向量和线性相关"><a href="#向量和线性相关" class="headerlink" title="向量和线性相关"></a>向量和线性相关</h1><h2 id="1-n维向量"><a href="#1-n维向量" class="headerlink" title="1.n维向量"></a>1.n维向量</h2><p>$\alpha=[a_1,a_2,\dots, a_n] \quad n个数构成有序数组$</p>
+<p>n维向量</p>
+<p>$\vec{\alpha}^T =[a_1,a_2,\dots,a_n]^T \quad n维列向量$</p>
+<p>加法： </p>
+<p>$\vec{\alpha}+\vec{\beta}=[a_1+b_1,a_2+b_2,\dots,a_n+b_n]$</p>
+<p>数乘：</p>
+<p>$k\vec{\alpha}=[ka_1,ka_2,\dots, ka_n]$</p>
+<h2 id="2-向量线性相关性的概念"><a href="#2-向量线性相关性的概念" class="headerlink" title="2.向量线性相关性的概念"></a>2.向量线性相关性的概念</h2><p>线性组合</p>
+<p>k个向量</p>
+<p>$\vec{x_1} \sim \vec{x_k}, k个数c_1 \sim c_k 的线性组合$</p>
+<p>线性结合：</p>
+<p>$\sum_{i=1}^k c_i \vec{x_i} $</p>
+<p>$\vec{x_1},\vec{x_2},\dots, \vec{x_k} 的线性结合（1次结合）$</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/02/12/%E3%80%90%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E3%80%91MooC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev" title="【课程笔记】MooC学习笔记">
+                  <i class="fa fa-chevron-left"></i> 【课程笔记】MooC学习笔记
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%BE%AE%E7%A7%AF%E5%88%86/" rel="next" title="【斜杠笔记】大学院数学之微积分">
+                  【斜杠笔记】大学院数学之微积分 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jackie</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.3.0/mermaid.min.js","integrity":"sha256-QdTG1YTLLTwD3b95jLqFxpQX9uYuJMNAtVZgwKX4oYU="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"educatemeonit-github-io","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+</body>
+</html>
