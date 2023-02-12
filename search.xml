@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/02/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2023/02/11/test/</url>
-    <content><![CDATA[<p>这是一个测试文章</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>还是测试</title>
-    <url>/2023/02/11/%E8%BF%98%E6%98%AF%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p>纯测试$x^2$</p>
-<script type="math/tex; mode=display">
-\sum_{i=1}^2 p_i \log p_i</script><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap </span><br><span class="line">root((test))</span><br><span class="line">	test </span><br><span class="line">	node1</span><br><span class="line">	node2</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p><img src="https://s2.loli.net/2023/02/11/uyTmh8l6PM23ZKd.png" alt="image-20230211230113543"></p>
+    <title>Hexo博客回归小记</title>
+    <url>/2023/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%9B%9E%E5%BD%92%E5%B0%8F%E8%AE%B0/</url>
+    <content><![CDATA[<p>在花了几小时深度了几种个人博客方案后，还是决定回归到Hexo+Github上来。</p>
+<p>简单地整理下自己的折腾过程：</p>
+<p>1）本来看到网上有Hugo建站的教程，说是渲染速度快，本地环境搭建简单，但按教程一步步来，最后还是出错，而且自己也不想花时间深究哪里出错了。</p>
+<p>2）又在xhs上看到直接用Notion+Vercel+Github可以实现笔记软件和博客的2合1，也很吸引我，但是在Vercel中进行Deploy的时候又卡住了，继续出错。我本来觉得这个行得通应该是终极解决方案了，一劳永逸，但出错了， 而且Notion的导出选项稍稍有点少（html,md,pdf).</p>
+<p>3）经历前面2次出错，有点失落，本来想着就在本地Mybase笔记软件里写给自己得了，但想了想，搞技术的如果只输出给自己，动力不足，而且会懈怠。还是弄一个博客吧，反正Hexo+Github之前自己试过，成功了，当然那时候写的文章现在也用不着了。于是就有了现在的这个博客。</p>
+<p>目前已完成的部分有：</p>
+<p>1.将Hexo-blog文件夹放在谷歌盘中，方便我多台电脑间同步</p>
+<p>2.将博客配置文件作了调整，增加了一些必要的页面，改动了下logo,然后添加了Disqus评论系统。</p>
+<p>3.当然也有人添加了动画效果，还有虚拟形象之类的增加互动效果，还有的人会搞网易云音乐的插件，但我觉得内容最重要，先保持现在的样式吧。</p>
+<p>记录下自己想测试的功能和结果：</p>
+<p>1.markdown,当然是支持的，数学公式也是支持的，需要安装Module，网上教程很多的。而且我准备本地使用Typora来码字（毕竟花钱入了正版）。</p>
+<p>2.Typora可以配置picgo的图床，然后直接上传，所以我写好的东西发布到Hexo上，不需要另外存图片到github上。</p>
+<p>3.Typora的Mermaid功能也是支持的，虽然我很少用它。</p>
+<p>主要参考的教程有：</p>
+<p><a href="https://blog.csdn.net/as480133937/article/details/100138838">https://blog.csdn.net/as480133937/article/details/100138838</a></p>
+<p>常用的Hexo命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;新文章名&quot;</span><br><span class="line">hexo g //生成</span><br><span class="line">hexo s //本地预览</span><br><span class="line">hexo d //发布</span><br></pre></td></tr></table></figure>
+<p>新建文章的Header字段：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title 文章标题</span><br><span class="line">date 文章创建日期</span><br><span class="line">comments 设置文章是否开启评论</span><br><span class="line">tags 文章标签</span><br><span class="line">categories 文章分类</span><br><span class="line">keywords 文章关键词</span><br></pre></td></tr></table></figure>
+<p>需要注意字段的冒号后面一定要加空格，否则hexo g的时候会出错。</p>
 ]]></content>
       <tags>
-        <tag>测试</tag>
+        <tag>杂谈</tag>
       </tags>
   </entry>
 </search>
