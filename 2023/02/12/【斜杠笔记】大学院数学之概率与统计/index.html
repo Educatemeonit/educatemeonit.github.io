@@ -19,17 +19,19 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"educatemeonit.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default","show_result":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideDownBigOut"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="参考资料： 常用概率分布的矩母函数、特征函数以及期望、方差的推导 https:&#x2F;&#x2F;blog.csdn.net&#x2F;STcyclone&#x2F;article&#x2F;details&#x2F;84310450 离散型随机变量1.两点分布（伯努利分布）$P(X&#x3D;1)&#x3D;p,P(X&#x3D;0)&#x3D;1-p$ 2.均匀分布$P(X&#x3D;a_k)&#x3D;\dfrac{1}{n},k&#x3D;1,2,\dots,n$ 3.二项分布$P(X&#x3D;k)&#x3D;C_n^k p^k(">
+    <meta name="description" content="修改记录： 2023.2.13 整理了常见的离散和连续概率变量的概率密度函数 2023.2.15 补充了大学院备考时自己整理的相关考点 待补充：矩母函数和用它来求期望，方差的方法 参考资料： 常用概率分布的矩母函数、特征函数以及期望、方差的推导 https:&#x2F;&#x2F;blog.csdn.net&#x2F;STcyclone&#x2F;article&#x2F;details&#x2F;84310450 离散型随机变量1.两点分布（伯努利分布）">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【斜杠笔记】大学院数学之概率与统计">
 <meta property="og:url" content="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1/index.html">
 <meta property="og:site_name" content="东京打工人Jackie">
-<meta property="og:description" content="参考资料： 常用概率分布的矩母函数、特征函数以及期望、方差的推导 https:&#x2F;&#x2F;blog.csdn.net&#x2F;STcyclone&#x2F;article&#x2F;details&#x2F;84310450 离散型随机变量1.两点分布（伯努利分布）$P(X&#x3D;1)&#x3D;p,P(X&#x3D;0)&#x3D;1-p$ 2.均匀分布$P(X&#x3D;a_k)&#x3D;\dfrac{1}{n},k&#x3D;1,2,\dots,n$ 3.二项分布$P(X&#x3D;k)&#x3D;C_n^k p^k(">
+<meta property="og:description" content="修改记录： 2023.2.13 整理了常见的离散和连续概率变量的概率密度函数 2023.2.15 补充了大学院备考时自己整理的相关考点 待补充：矩母函数和用它来求期望，方差的方法 参考资料： 常用概率分布的矩母函数、特征函数以及期望、方差的推导 https:&#x2F;&#x2F;blog.csdn.net&#x2F;STcyclone&#x2F;article&#x2F;details&#x2F;84310450 离散型随机变量1.两点分布（伯努利分布）">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2023/02/15/YyAv38sGWB7JUwb.png">
 <meta property="article:published_time" content="2023-02-12T12:18:54.000Z">
-<meta property="article:modified_time" content="2023-02-13T03:24:23.899Z">
+<meta property="article:modified_time" content="2023-02-15T12:08:08.575Z">
 <meta property="article:author" content="Jackie">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2023/02/15/YyAv38sGWB7JUwb.png">
 
 
 <link rel="canonical" href="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1/">
@@ -139,7 +141,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A6%BB%E6%95%A3%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F"><span class="nav-number">1.</span> <span class="nav-text">离散型随机变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E4%B8%A4%E7%82%B9%E5%88%86%E5%B8%83%EF%BC%88%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%88%86%E5%B8%83%EF%BC%89"><span class="nav-number">1.1.</span> <span class="nav-text">1.两点分布（伯努利分布）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83"><span class="nav-number">1.2.</span> <span class="nav-text">2.均匀分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E4%BA%8C%E9%A1%B9%E5%88%86%E5%B8%83"><span class="nav-number">1.3.</span> <span class="nav-text">3.二项分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%87%A0%E4%BD%95%E5%88%86%E5%B8%83"><span class="nav-number">1.4.</span> <span class="nav-text">4.几何分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%B3%8A%E6%9D%BE%E5%88%86%E5%B8%83"><span class="nav-number">1.5.</span> <span class="nav-text">5.泊松分布</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F"><span class="nav-number">2.</span> <span class="nav-text">连续型随机变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83"><span class="nav-number">2.1.</span> <span class="nav-text">1.均匀分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%8C%87%E6%95%B0%E5%88%86%E5%B8%83"><span class="nav-number">2.2.</span> <span class="nav-text">2.指数分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83"><span class="nav-number">2.3.</span> <span class="nav-text">3.正态分布</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A6%BB%E6%95%A3%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F"><span class="nav-number">1.</span> <span class="nav-text">离散型随机变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E4%B8%A4%E7%82%B9%E5%88%86%E5%B8%83%EF%BC%88%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%88%86%E5%B8%83%EF%BC%89"><span class="nav-number">1.1.</span> <span class="nav-text">1.两点分布（伯努利分布）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83"><span class="nav-number">1.2.</span> <span class="nav-text">2.均匀分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E4%BA%8C%E9%A1%B9%E5%88%86%E5%B8%83"><span class="nav-number">1.3.</span> <span class="nav-text">3.二项分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E5%87%A0%E4%BD%95%E5%88%86%E5%B8%83"><span class="nav-number">1.4.</span> <span class="nav-text">4.几何分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%B3%8A%E6%9D%BE%E5%88%86%E5%B8%83"><span class="nav-number">1.5.</span> <span class="nav-text">5.泊松分布</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BF%9E%E7%BB%AD%E5%9E%8B%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F"><span class="nav-number">2.</span> <span class="nav-text">连续型随机变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83"><span class="nav-number">2.1.</span> <span class="nav-text">1.均匀分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%8C%87%E6%95%B0%E5%88%86%E5%B8%83"><span class="nav-number">2.2.</span> <span class="nav-text">2.指数分布</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83"><span class="nav-number">2.3.</span> <span class="nav-text">3.正态分布</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-number">2.3.1.</span> <span class="nav-text">基本概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A0%86%E5%88%97"><span class="nav-number">2.3.2.</span> <span class="nav-text">順列</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B5%84%E3%81%BF%E5%90%88%E3%82%8F%E3%81%9B"><span class="nav-number">2.3.3.</span> <span class="nav-text">組み合わせ</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8B%E4%BB%B6"><span class="nav-number">2.3.4.</span> <span class="nav-text">事件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">2.3.5.</span> <span class="nav-text">马尔可夫不等式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%87%E6%AF%94%E9%9B%AA%E5%A4%AB%E4%B8%8D%E7%AD%89%E5%BC%8F"><span class="nav-number">2.3.6.</span> <span class="nav-text">切比雪夫不等式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E6%95%B0%E6%B3%95%E5%88%99"><span class="nav-number">2.3.7.</span> <span class="nav-text">大数法则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A6%82%E7%8E%87%E6%A8%A1%E5%9E%8B"><span class="nav-number">2.3.8.</span> <span class="nav-text">概率模型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%92%B2%E4%B8%B0%E6%8A%95%E9%92%88"><span class="nav-number">2.3.8.1.</span> <span class="nav-text">蒲丰投针</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%96%E5%B8%BD%E5%AD%90"><span class="nav-number">2.3.8.2.</span> <span class="nav-text">取帽子</span></a></li></ol></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -226,7 +228,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-13 12:24:23" itemprop="dateModified" datetime="2023-02-13T12:24:23+09:00">2023-02-13</time>
+      <time title="修改时间：2023-02-15 21:08:08" itemprop="dateModified" datetime="2023-02-15T21:08:08+09:00">2023-02-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -266,14 +268,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>203</span>
+      <span>3.1k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>3 分钟</span>
     </span>
 </div>
 
@@ -284,7 +286,11 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>参考资料：</p>
+        <p>修改记录：</p>
+<p>2023.2.13 整理了常见的离散和连续概率变量的概率密度函数</p>
+<p>2023.2.15 补充了大学院备考时自己整理的相关考点</p>
+<p>待补充：矩母函数和用它来求期望，方差的方法</p>
+<p>参考资料：</p>
 <p>常用概率分布的矩母函数、特征函数以及期望、方差的推导</p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/STcyclone/article/details/84310450">https://blog.csdn.net/STcyclone/article/details/84310450</a></p>
 <h1 id="离散型随机变量"><a href="#离散型随机变量" class="headerlink" title="离散型随机变量"></a>离散型随机变量</h1><h2 id="1-两点分布（伯努利分布）"><a href="#1-两点分布（伯努利分布）" class="headerlink" title="1.两点分布（伯努利分布）"></a>1.两点分布（伯努利分布）</h2><p>$P(X=1)=p,P(X=0)=1-p$</p>
@@ -295,7 +301,63 @@
 <h1 id="连续型随机变量"><a href="#连续型随机变量" class="headerlink" title="连续型随机变量"></a>连续型随机变量</h1><h2 id="1-均匀分布"><a href="#1-均匀分布" class="headerlink" title="1.均匀分布"></a>1.均匀分布</h2><p>$f(x)=\left \{\begin{array}{ll}\dfrac{1}{b-a},&amp;a&lt;x&lt;b\\0,&amp;x\leq a \quad or \quad x\geq b\end{array}\right.$</p>
 <h2 id="2-指数分布"><a href="#2-指数分布" class="headerlink" title="2.指数分布"></a>2.指数分布</h2><p>$f(x)=\lambda e^{-\lambda x} \quad, \lambda&gt;0$</p>
 <h2 id="3-正态分布"><a href="#3-正态分布" class="headerlink" title="3.正态分布"></a>3.正态分布</h2><script type="math/tex; mode=display">
-f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
+f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script><span id="more"></span>
+<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p>確率：偶然起こる現象の現象全てに対する割合のことである。<br>統計：現象を調査することによって数量で把握すること。</p>
+<p>事件 $\rightarrow$ 割合 $\rightarrow $计数 （加，乘）<br>１）順列<br>２）組み合わせ工具</p>
+<h3 id="順列"><a href="#順列" class="headerlink" title="順列"></a>順列</h3><p>1）n个球不重复取r个排列 $A_n^r$, 特别当取n个球时，排列方式有$n!$个<br>2）n个球有放回取r个 $n^r$</p>
+<p>3）n个球有同色球，a有$n_1$个，b有$n_2$个  $\dfrac{n!}{n_1!n_2!\dots }$<br>4）圆排列 $(n-1)!$</p>
+<h3 id="組み合わせ"><a href="#組み合わせ" class="headerlink" title="組み合わせ"></a>組み合わせ</h3><p>从n中取r个，组合方式有$C_n^r$<br>可重复取时，有$C_{n+r-1}^{n-1}$</p>
+<h3 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h3><p>$\Omega$全事象</p>
+<p>$A_1 \cap A_2$ 積事象　</p>
+<p>$A_1 \cup A_2$ 和事象</p>
+<p>$A_1 \cap A_2$ 排反</p>
+<p>$0\leq P(A) \leq 1$</p>
+<p>$P(A_1 \cup A_2)=P(A_1) +P(A_2) - P(A_1\cap A_2) $</p>
+<p>加法定理　$P(A_1 \cup A_2 \dots A_k)= P(A_1)+P(A_2)+\dots P(A_k)$</p>
+<p>乘法定理 $P(A_1 \cap A_2 \dots \cap A_k) =P(A_1)P(A_2|A_1)P(A_3|A_1\cap A_2)\dots P(A_k|A_1\cap A_2\cap \dots A_{k-1})$</p>
+<p>全確率　$P(B)=\sum_{i=1}^n P(A_i) P(B|A_i)$</p>
+<p>贝叶斯 $P(A_j|B)=\dfrac{P(B|A_j)P(A_j)}{P(B)}$</p>
+<p><img src="https://s2.loli.net/2023/02/15/YyAv38sGWB7JUwb.png" alt="马尔可夫不等式"></p>
+<h3 id="马尔可夫不等式"><a href="#马尔可夫不等式" class="headerlink" title="马尔可夫不等式"></a>马尔可夫不等式</h3><p>$P(X\geq a) \leq \dfrac{E(X)}{a} $ </p>
+<h3 id="切比雪夫不等式"><a href="#切比雪夫不等式" class="headerlink" title="切比雪夫不等式"></a>切比雪夫不等式</h3><p>$P\{|X-EX|\geq \epsilon \} \leq \dfrac{Var(X)}{\epsilon^2}$<br>偏离中心的概率，越远离平均值，概率越低</p>
+<p>证明：<br>$P(X\geq a )=\int_0^{+\infin} f(x)dx \leq \int_a^{+\infin} f(x)dx$</p>
+<p>$E(\dfrac{x}{a})=\int_{-\infin}^a \dfrac{x}{a} f(x)dx +\int_a^{+\infin} \dfrac{x}{a}f(x)dx$</p>
+<p>显然 $\int_{-\infin}^a \dfrac{x}{a}f(x)dx \geq 0$</p>
+<p>$\therefore$ $P(x\geq a)\leq \int_a^{+\infin} \dfrac{x}{a} f(x)dx \leq E(\dfrac{x}{a})$</p>
+<p>$\therefore$ $P(x\geq a)\leq E(\dfrac{x}{a})=\dfrac{E(X)}{a}$</p>
+<p>将$|x-\mu|$代入<br>$P(|x-\mu|&gt;a)\leq \dfrac{E(|x-\mu|}{a}$</p>
+<p>$\rightarrow P((x-\mu)^2 \leq a^2)\leq \dfrac{E[(x-\mu)^2]}{a^2} =\dfrac{\sigma^2}{a^2}$</p>
+<p>令 $k=\dfrac{a}{\sigma}$ 则$k\leq 0, a^2=k^2\sigma^2$</p>
+<p>$P(|x-\mu|)\leq k\sigma)\leq \dfrac{1}{k^2}$</p>
+<h3 id="大数法则"><a href="#大数法则" class="headerlink" title="大数法则"></a><strong>大数法则</strong></h3><p>$x_1,x_2,\dots ,x_n$独立，$E(x_i)=\mu, V(x_i)=\sigma^2$</p>
+<p>$\bar{X}=\sum_{i=1} ^n X_i/n, \xi&gt;0$</p>
+<p>$\lim_{n\to \infin} P(|\bar{x}-\mu|)\geq \xi)=0$ n次实验抛硬币<br>正面概率趋近于0.5</p>
+<h3 id="概率模型"><a href="#概率模型" class="headerlink" title="概率模型"></a><strong>概率模型</strong></h3><h4 id="蒲丰投针"><a href="#蒲丰投针" class="headerlink" title="蒲丰投针"></a>蒲丰投针</h4><p>$\dfrac{2l}{\pi a}$</p>
+<h4 id="取帽子"><a href="#取帽子" class="headerlink" title="取帽子"></a>取帽子</h4><p>n个帽子错排号（所有元素都不在原位） 客斥原理</p>
+<p>1）k=1,错排数 $D_1=0$</p>
+<p>2）k=2, $D_2=1$</p>
+<p>3）$k\neq n$, n排在第k位， $1\leq k\leq n-1$,那<br>    k在n上，除了n和k还有n-2个数 $D_{n-2}$<br>    k不在n上，将第n位当作新的第k位，含k的n-1个数的第一种<br>    错排部等价于 n-1个数的错排</p>
+<p>$D_n=(n-1)(D_{n-1}+D_{n-2}$</p>
+<p>问题也类似于<br>N封信，前N-1封可以有N-1或N-2封错装<br>从N-1取1封与第N封错装<br>$(N-1)D_{n-1}$<br>有一封，第N-1封是对的，将其与N封错装 $(N-1)D_{n-2}$</p>
+<p>推导过程<br>$M_1=0, M_2=\frac{1}{2!}$</p>
+<p>$D_n=(n-1)(D_{n_1}+D_{n-2})$</p>
+<p>记$D_n=n!M_n$</p>
+<p>$D_{n-1}=(n-1)!M_{n-1}$, $D_{n-2}=(n-2)!M_{n-2}$</p>
+<p>$n!M_n=(n-1)(n-1)!M_{n-1}+(n-1)(n-2)!M_{n-1}$</p>
+<p>$=n!M_{n-1}-(n-1)!M_{n-1}+(n-1)!M_{n-2}$ 同时除以(n-1)!</p>
+<p>$nM_n=nM_{n-1}-M_{n-1}+M_{n-2}$</p>
+<p>$M_n-M_{n-1}=-\frac{1}{n}(M_{n-1}-M_{n-2})$</p>
+<p>$=(-\frac{1}{n})(-\frac{1}{n-1})\dots (-\frac{1}{3})(M_2-M_1)$</p>
+<p>$=(-1)^{n-2} \cdot \frac{1}{(n-2)!}(\frac{1}{2}-0)$</p>
+<p>$=(-1)^n\cdot \frac{1}{n!}$</p>
+<p>$\therefore M_n-M_{n-1}=(-1)^n \frac{1}{n!}$</p>
+<p>$M_{n-1}-M_{n-2}=(-1)^{n-1} \frac{1}{(n-1)!}$</p>
+<p>$\vdots$</p>
+<p>$M_2-M_1=(-1)^2 \frac{1}{2!}$</p>
+<p>左右累加</p>
+<p>$M_n-M_1=M_n=(-1)^2\frac{1}{2!}+(-1)^3\frac{1}{3!}+\dots+(-1)^n\frac{1}{n!}$</p>
+<p>$\therefore D_n=n!M_n=n!(\frac{1}{2!}-\frac{1}{3!}+\dots +(-1)^n\frac{1}{n!})$</p>
+
     </div>
 
     
@@ -353,14 +415,14 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">9k</span>
+    <span title="站点总字数">27k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">34 分钟</span>
+    <span title="站点阅读时长">25 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
