@@ -1068,10 +1068,8 @@ y(t)=x_1(t)x_2(t)
 <p>$\left\{\begin{array}{ll}CTFT: 连续时间FT\xrightarrow{扩充} &amp; Laplace\\DFTF: 离散时间FT\xrightarrow{扩充}&amp;Z\end{array}\right.$</p>
 <p>$\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}$绝对可和 $\sum_{-\infty}^{\infty}|x[n]|&lt;\infty$</p>
 <p>$x[n]$乘以$a^{-n}$</p>
-<p>$\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}$</p>
-<p>$\therefore \sum_{n=-\infty}^{\infty}x<a href="a e^{jw}">n</a>^{-n}$</p>
-<p>$\Rightarrow \sum_{n=-\infty}^{\infty}x<a href="ae^{jw}">n</a>^{-m}$</p>
-<p>将极坐标形式的复数$a\cdot e^{jw}$记为$z$</p>
+<script type="math/tex; mode=display">
+\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}\\\Rightarrow \sum_{n=-\infty}^{\infty}x[n](ae^{jw})^{-n}</script><p>将极坐标形式的复数$a\cdot e^{jw}$记为$z$</p>
 <p>$\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$就得到了Z变换</p>
 ]]></content>
   </entry>
