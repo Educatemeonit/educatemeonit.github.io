@@ -19,12 +19,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"educatemeonit.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default","show_result":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideDownBigOut"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="微分导数导数的性质$(\dfrac{f}{g})’&#x3D;\dfrac{f’g-fg’}{g^2}$ $(fg)’&#x3D;f’g+fg’$ $\dfrac{dy}{dx}&#x3D;\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}$ $\dfrac{dx}{dy}&#x3D;\dfrac{1}{\dfrac{dy}{dx}}$ 导数与极限$\displaystyle \lim_{\Delta x \to 0}">
+    <meta name="description" content="微分 导数 导数的性质 \((\dfrac{f}{g})&#39;&#x3D;\dfrac{f&#39;g-fg&#39;}{g^2}\) \((fg)&#39;&#x3D;f&#39;g+fg&#39;\) \(\dfrac{dy}{dx}&#x3D;\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}\) \(\dfrac{dx}{dy}&#x3D;\dfrac{1}{\dfrac{dy}{dx}}\)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【斜杠笔记】大学院数学之微积分">
 <meta property="og:url" content="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%BE%AE%E7%A7%AF%E5%88%86/index.html">
 <meta property="og:site_name" content="东京打工人Jackie">
-<meta property="og:description" content="微分导数导数的性质$(\dfrac{f}{g})’&#x3D;\dfrac{f’g-fg’}{g^2}$ $(fg)’&#x3D;f’g+fg’$ $\dfrac{dy}{dx}&#x3D;\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}$ $\dfrac{dx}{dy}&#x3D;\dfrac{1}{\dfrac{dy}{dx}}$ 导数与极限$\displaystyle \lim_{\Delta x \to 0}">
+<meta property="og:description" content="微分 导数 导数的性质 \((\dfrac{f}{g})&#39;&#x3D;\dfrac{f&#39;g-fg&#39;}{g^2}\) \((fg)&#39;&#x3D;f&#39;g+fg&#39;\) \(\dfrac{dy}{dx}&#x3D;\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}\) \(\dfrac{dx}{dy}&#x3D;\dfrac{1}{\dfrac{dy}{dx}}\)">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-02-12T12:18:30.000Z">
 <meta property="article:modified_time" content="2023-02-15T13:20:27.324Z">
@@ -139,7 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BE%AE%E5%88%86"><span class="nav-number">1.</span> <span class="nav-text">微分</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%BC%E6%95%B0"><span class="nav-number">1.1.</span> <span class="nav-text">导数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%BC%E6%95%B0%E7%9A%84%E6%80%A7%E8%B4%A8"><span class="nav-number">1.1.1.</span> <span class="nav-text">导数的性质</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%BC%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90"><span class="nav-number">1.1.2.</span> <span class="nav-text">导数与极限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E8%A6%81%E7%9A%84%E6%9E%81%E9%99%90"><span class="nav-number">1.1.3.</span> <span class="nav-text">重要的极限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0%E7%9A%84%E5%AF%BC%E6%95%B0"><span class="nav-number">1.1.4.</span> <span class="nav-text">常见函数的导数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%B0%E5%8B%92%E7%BA%A7%E6%95%B0-%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E7%B4%9A%E6%95%B0"><span class="nav-number">1.2.</span> <span class="nav-text">泰勒级数 テイラー級数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%B1%E5%AF%BC%E6%95%B0%E5%88%A4%E5%AE%9A%E6%9E%81%E5%80%BC"><span class="nav-number">1.3.</span> <span class="nav-text">由导数判定极值</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A7%AF%E5%88%86"><span class="nav-number">2.</span> <span class="nav-text">积分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86"><span class="nav-number">2.0.1.</span> <span class="nav-text">不定积分</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E7%A7%AF%E5%88%86"><span class="nav-number">2.1.</span> <span class="nav-text">定积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E7%A7%AF%E5%88%86"><span class="nav-number">2.2.</span> <span class="nav-text">部分积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86"><span class="nav-number">2.3.</span> <span class="nav-text">广义积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E9%87%8D%E7%A7%AF%E5%88%86"><span class="nav-number">2.4.</span> <span class="nav-text">三重积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B1%82%E8%A7%A3%E6%96%B9%E6%B3%95"><span class="nav-number">2.5.</span> <span class="nav-text">求解方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%EF%BC%89%E5%9F%BA%E6%9C%AC%E7%A7%AF%E5%88%86"><span class="nav-number">2.5.1.</span> <span class="nav-text">1）基本积分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%88%86%E5%BC%8F%E7%A7%AF%E5%88%86"><span class="nav-number">2.5.2.</span> <span class="nav-text">2)分式积分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">2.5.3.</span> <span class="nav-text"> </span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E7%90%86%E5%87%BD%E6%95%B0"><span class="nav-number">2.5.4.</span> <span class="nav-text">无理函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0"><span class="nav-number">2.5.5.</span> <span class="nav-text">三角函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E7%A7%AF%E5%88%86%E7%9A%84%E5%BA%94%E7%94%A8"><span class="nav-number">2.5.6.</span> <span class="nav-text">定积分的应用</span></a></li></ol></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BE%AE%E5%88%86"><span class="nav-number">1.</span> <span class="nav-text">微分</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%BC%E6%95%B0"><span class="nav-number">1.1.</span> <span class="nav-text">导数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%BC%E6%95%B0%E7%9A%84%E6%80%A7%E8%B4%A8"><span class="nav-number">1.1.1.</span> <span class="nav-text">导数的性质</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%BC%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90"><span class="nav-number">1.1.2.</span> <span class="nav-text">导数与极限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E8%A6%81%E7%9A%84%E6%9E%81%E9%99%90"><span class="nav-number">1.1.3.</span> <span class="nav-text">重要的极限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E5%87%BD%E6%95%B0%E7%9A%84%E5%AF%BC%E6%95%B0"><span class="nav-number">1.1.4.</span> <span class="nav-text">常见函数的导数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B3%B0%E5%8B%92%E7%BA%A7%E6%95%B0-%E3%83%86%E3%82%A4%E3%83%A9%E3%83%BC%E7%B4%9A%E6%95%B0"><span class="nav-number">1.2.</span> <span class="nav-text">泰勒级数 テイラー級数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%B1%E5%AF%BC%E6%95%B0%E5%88%A4%E5%AE%9A%E6%9E%81%E5%80%BC"><span class="nav-number">1.3.</span> <span class="nav-text">由导数判定极值</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%A7%AF%E5%88%86"><span class="nav-number">2.</span> <span class="nav-text">积分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86"><span class="nav-number">2.0.1.</span> <span class="nav-text">不定积分</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E7%A7%AF%E5%88%86"><span class="nav-number">2.1.</span> <span class="nav-text">定积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E5%88%86%E7%A7%AF%E5%88%86"><span class="nav-number">2.2.</span> <span class="nav-text">部分积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86"><span class="nav-number">2.3.</span> <span class="nav-text">广义积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E9%87%8D%E7%A7%AF%E5%88%86"><span class="nav-number">2.4.</span> <span class="nav-text">三重积分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%B1%82%E8%A7%A3%E6%96%B9%E6%B3%95"><span class="nav-number">2.5.</span> <span class="nav-text">求解方法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%A7%AF%E5%88%86"><span class="nav-number">2.5.1.</span> <span class="nav-text">1）基本积分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%86%E5%BC%8F%E7%A7%AF%E5%88%86"><span class="nav-number">2.5.2.</span> <span class="nav-text">2)分式积分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section"><span class="nav-number">2.5.3.</span> <span class="nav-text"></span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E7%90%86%E5%87%BD%E6%95%B0"><span class="nav-number">2.5.4.</span> <span class="nav-text">无理函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0"><span class="nav-number">2.5.5.</span> <span class="nav-text">三角函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9A%E7%A7%AF%E5%88%86%E7%9A%84%E5%BA%94%E7%94%A8"><span class="nav-number">2.5.6.</span> <span class="nav-text">定积分的应用</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -264,7 +264,7 @@
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
+      <span>6 分钟</span>
     </span>
 </div>
 
@@ -275,120 +275,250 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="微分"><a href="#微分" class="headerlink" title="微分"></a>微分</h1><h2 id="导数"><a href="#导数" class="headerlink" title="导数"></a>导数</h2><h3 id="导数的性质"><a href="#导数的性质" class="headerlink" title="导数的性质"></a>导数的性质</h3><p>$(\dfrac{f}{g})’=\dfrac{f’g-fg’}{g^2}$</p>
-<p>$(fg)’=f’g+fg’$</p>
-<p>$\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}$</p>
-<p>$\dfrac{dx}{dy}=\dfrac{1}{\dfrac{dy}{dx}}$</p>
-<h3 id="导数与极限"><a href="#导数与极限" class="headerlink" title="导数与极限"></a>导数与极限</h3><p>$\displaystyle \lim_{\Delta x \to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}$</p>
-<h3 id="重要的极限"><a href="#重要的极限" class="headerlink" title="重要的极限"></a>重要的极限</h3><p>$\displaystyle \lim_{x\to \infty}\frac{\sin x}{x}=1$</p>
-<p>$\displaystyle \lim_{x\to \pm \infty}(1+\frac{1}{x})^x =e$</p>
-<p>$\displaystyle \lim_{x\to \infty}\frac{x^{\alpha}}{e^x}=0 (\alpha &gt;0)$ 洛必达</p>
-<p>$\displaystyle \lim_{x \to \infty} \frac{\log(1+x)}{x}=1$</p>
-<p>$\displaystyle \lim_{x \to +0}x^x=1$</p>
-<p>$\displaystyle x^x=e^{x\ln x}=e^{\frac{\ln x}{x}}\to e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}=e^{-x}\to 0$</p>
-<p>$\displaystyle \lim_{x\to 0}\frac{\arctan x}{x}=1$</p>
-<p>$\displaystyle \lim_{x\to 0}\frac{\sin x^3}{(\sin x)^2}=0$</p>
-<p>$\displaystyle \lim_{x \to \infty}(1+\frac{\alpha}{x})^{\beta}=e^{\alpha \beta}$</p>
-<p>$\displaystyle \lim_{n\to \infty} \frac{n^k}{a^n}=0 (k&gt;0,a&gt;1)$</p>
-<p>$\displaystyle \frac{(n^k)’}{(e^{n\ln a})’}=\frac{kn^{k-1}}{\ln ae^{n\ln a}}=\frac{k!}{(\ln a)^k}\cdot e^{\frac{1}{n\ln a}}=0$</p>
-<p>$\displaystyle \lim_{n\to \infty}\frac{a^n}{n!} (a&gt;1)=0$</p>
-<p>$\displaystyle \frac{a^n}{n!}=\frac{a}{n}\cdot \frac{a}{n-1}\dots \cdot \frac{a}{1}$</p>
-<p>$n&gt;a \Rightarrow 0$</p>
-<p>$\displaystyle \lim_{n\to \infty}\sqrt[n]{n}=\lim_{n\to \infty}n^\frac{1}{n}=e^\frac{1}{n}\ln n=e^0=1$</p>
+        <h1 id="微分">微分</h1>
+<h2 id="导数">导数</h2>
+<h3 id="导数的性质">导数的性质</h3>
+<p><span
+class="math inline">\((\dfrac{f}{g})&#39;=\dfrac{f&#39;g-fg&#39;}{g^2}\)</span></p>
+<p><span class="math inline">\((fg)&#39;=f&#39;g+fg&#39;\)</span></p>
+<p><span class="math inline">\(\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot
+\dfrac{dt}{dx}\)</span></p>
+<p><span
+class="math inline">\(\dfrac{dx}{dy}=\dfrac{1}{\dfrac{dy}{dx}}\)</span></p>
+<h3 id="导数与极限">导数与极限</h3>
+<p><span class="math inline">\(\displaystyle \lim_{\Delta x \to 0}
+\frac{f(x+\Delta x)-f(x)}{\Delta x}\)</span></p>
+<h3 id="重要的极限">重要的极限</h3>
+<p><span class="math inline">\(\displaystyle \lim_{x\to
+\infty}\frac{\sin x}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to \pm
+\infty}(1+\frac{1}{x})^x =e\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to
+\infty}\frac{x^{\alpha}}{e^x}=0 (\alpha &gt;0)\)</span> 洛必达</p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to \infty}
+\frac{\log(1+x)}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to
++0}x^x=1\)</span></p>
+<p><span class="math inline">\(\displaystyle x^x=e^{x\ln x}=e^{\frac{\ln
+x}{x}}\to e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}=e^{-x}\to
+0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to 0}\frac{\arctan
+x}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to 0}\frac{\sin
+x^3}{(\sin x)^2}=0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to
+\infty}(1+\frac{\alpha}{x})^{\beta}=e^{\alpha \beta}\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to \infty}
+\frac{n^k}{a^n}=0 (k&gt;0,a&gt;1)\)</span></p>
+<p><span class="math inline">\(\displaystyle \frac{(n^k)&#39;}{(e^{n\ln
+a})&#39;}=\frac{kn^{k-1}}{\ln ae^{n\ln a}}=\frac{k!}{(\ln a)^k}\cdot
+e^{\frac{1}{n\ln a}}=0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to
+\infty}\frac{a^n}{n!} (a&gt;1)=0\)</span></p>
+<p><span class="math inline">\(\displaystyle
+\frac{a^n}{n!}=\frac{a}{n}\cdot \frac{a}{n-1}\dots \cdot
+\frac{a}{1}\)</span></p>
+<p><span class="math inline">\(n&gt;a \Rightarrow 0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to
+\infty}\sqrt[n]{n}=\lim_{n\to \infty}n^\frac{1}{n}=e^\frac{1}{n}\ln
+n=e^0=1\)</span></p>
 <span id="more"></span>
-<h3 id="常见函数的导数"><a href="#常见函数的导数" class="headerlink" title="常见函数的导数"></a>常见函数的导数</h3><p>$(\alpha^x)’=\alpha^x \log x$</p>
-<p>$(\log |x|)’=\dfrac{1}{x}$</p>
-<p>$(\arctan x)’=\dfrac{1}{1+x^2}$</p>
-<p>$(arccot x)’=-\dfrac{1}{1+x^2}$</p>
-<p>$(x^\alpha)^{(n)}=\alpha (\alpha-1)\dots(\alpha-n+1)x^{\alpha-n}$</p>
-<p>$(\log_a|x|)’=(\dfrac{\log |x|}{\log a})’=\dfrac{1}{\log a}\cdot \dfrac{1}{x}$</p>
-<p>$(\sin x)^{(n)}=\sin(x+\dfrac{n\pi}{2})$</p>
-<p>$(\cos x)^{(n)}=\cos(x+\dfrac{n\pi}{2})$</p>
+<h3 id="常见函数的导数">常见函数的导数</h3>
+<p><span class="math inline">\((\alpha^x)&#39;=\alpha^x \log
+x\)</span></p>
+<p><span class="math inline">\((\log |x|)&#39;=\dfrac{1}{x}\)</span></p>
+<p><span class="math inline">\((\arctan
+x)&#39;=\dfrac{1}{1+x^2}\)</span></p>
+<p><span class="math inline">\((arccot
+x)&#39;=-\dfrac{1}{1+x^2}\)</span></p>
+<p><span class="math inline">\((x^\alpha)^{(n)}=\alpha
+(\alpha-1)\dots(\alpha-n+1)x^{\alpha-n}\)</span></p>
+<p><span class="math inline">\((\log_a|x|)&#39;=(\dfrac{\log |x|}{\log
+a})&#39;=\dfrac{1}{\log a}\cdot \dfrac{1}{x}\)</span></p>
+<p><span class="math inline">\((\sin
+x)^{(n)}=\sin(x+\dfrac{n\pi}{2})\)</span></p>
+<p><span class="math inline">\((\cos
+x)^{(n)}=\cos(x+\dfrac{n\pi}{2})\)</span></p>
 <p>为了便于计算机计算，将函数用多项式逼近</p>
-<h2 id="泰勒级数-テイラー級数"><a href="#泰勒级数-テイラー級数" class="headerlink" title="泰勒级数 テイラー級数"></a>泰勒级数 テイラー級数</h2><p>$\displaystyle f(x)=f(a)+\frac{f’(a)}{1!}(x-a)+\frac{f’’(a)}{2!}(x-a)^2+\dots \frac{f^{(n-1)(a)}}{(n-1)!}(x-a)^{n-1}+R_n $ 极小项</p>
-<p>$\displaystyle =\sum_{k=0}^{n-1} \frac{f^{(k)}(a)}{k!}(x-a)^k+R_n$</p>
+<h2 id="泰勒级数-テイラー級数">泰勒级数 テイラー級数</h2>
+<p>$f(x)=f(a)+(x-a)+(x-a)<sup>2+(x-a)</sup>{n-1}+R_n $ 极小项</p>
+<p><span class="math inline">\(\displaystyle =\sum_{k=0}^{n-1}
+\frac{f^{(k)}(a)}{k!}(x-a)^k+R_n\)</span></p>
 <p>a=0のとき、</p>
-<p>$\displaystyle f(x)=f(0)+\frac{f’(0)}{1!}x+\frac{f’(0)}{2!}x^2+\dots +\frac{f^{(n-1)(0)}}{(n-1)!}x^{n-1}+R_n$</p>
-<p>$\displaystyle e^x=1+x+\frac{x^2}{2!}+\dots +\frac{x^{n-1}}{(n-1)!}+R_n$</p>
-<p>$\displaystyle \sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\dots +(-1)^{n-1}\frac{x^{2n-1}}{(2n-1)!}+R_{2n+1}$</p>
-<p>$\displaystyle \cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\dots +(-1)^n\frac{x^{2n}}{(2n)!}+R_{2n+2}$</p>
-<p>$\displaystyle \log(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\dots +(-1)^n\frac{x^{n-1}}{n-1}+R_n$</p>
-<p>$\displaystyle (1+x)^n=1+C_n^1x+C_n^2x^2+\dots +C_n^{n-1}x^{n-1}+R_n$ 二项式定理</p>
-<p>$\displaystyle \frac{1}{1-x}=1+x+x^2+\dots +x^n+\dots $  等比求和</p>
-<h2 id="由导数判定极值"><a href="#由导数判定极值" class="headerlink" title="由导数判定极值"></a>由导数判定极值</h2><p>$f’(x)=0$ 判定前后f’(x)正负（单调性）<br>$f’’(x)&gt;0 \leftrightarrow y=f(x)$ 下凸 如$y=x^2$<br>$f’’(x)&lt;0 \leftrightarrow y=f(x)$ 上凸 </p>
+<p><span class="math inline">\(\displaystyle
+f(x)=f(0)+\frac{f&#39;(0)}{1!}x+\frac{f&#39;(0)}{2!}x^2+\dots
++\frac{f^{(n-1)(0)}}{(n-1)!}x^{n-1}+R_n\)</span></p>
+<p><span class="math inline">\(\displaystyle
+e^x=1+x+\frac{x^2}{2!}+\dots +\frac{x^{n-1}}{(n-1)!}+R_n\)</span></p>
+<p><span class="math inline">\(\displaystyle \sin
+x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\dots
++(-1)^{n-1}\frac{x^{2n-1}}{(2n-1)!}+R_{2n+1}\)</span></p>
+<p><span class="math inline">\(\displaystyle \cos
+x=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\dots
++(-1)^n\frac{x^{2n}}{(2n)!}+R_{2n+2}\)</span></p>
+<p><span class="math inline">\(\displaystyle
+\log(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\dots
++(-1)^n\frac{x^{n-1}}{n-1}+R_n\)</span></p>
+<p><span class="math inline">\(\displaystyle
+(1+x)^n=1+C_n^1x+C_n^2x^2+\dots +C_n^{n-1}x^{n-1}+R_n\)</span>
+二项式定理</p>
+<p>$=1+x+x<sup>2++x</sup>n+$ 等比求和</p>
+<h2 id="由导数判定极值">由导数判定极值</h2>
+<p><span class="math inline">\(f&#39;(x)=0\)</span>
+判定前后f'(x)正负（单调性） <span
+class="math inline">\(f&#39;&#39;(x)&gt;0 \leftrightarrow
+y=f(x)\)</span> 下凸 如<span class="math inline">\(y=x^2\)</span> <span
+class="math inline">\(f&#39;&#39;(x)&lt;0 \leftrightarrow
+y=f(x)\)</span> 上凸</p>
 <p>多元函数的极值计算</p>
 <p>黑塞矩阵</p>
-<p>对于二元函数$f(x,y)$,若有$f_x(x_0,y_0)=f_y(x_0,y_0)=0$</p>
-<p>如何判定在点$(x_0,y_0)$处取极值呢？</p>
-<p>$H=det\begin{pmatrix}f_{xx}&amp;f_{xy}\\f_{yx}&amp;f_{yy}\end{pmatrix}=f_{xx}f_{yy}-(f_{xy})^2$</p>
+<p>对于二元函数<span class="math inline">\(f(x,y)\)</span>,若有<span
+class="math inline">\(f_x(x_0,y_0)=f_y(x_0,y_0)=0\)</span></p>
+<p>如何判定在点<span
+class="math inline">\((x_0,y_0)\)</span>处取极值呢？</p>
+<p><span
+class="math inline">\(H=det\begin{pmatrix}f_{xx}&amp;f_{xy}\\f_{yx}&amp;f_{yy}\end{pmatrix}=f_{xx}f_{yy}-(f_{xy})^2\)</span></p>
 <ul>
-<li>H&gt;0: 若$f_{xx}&gt;0$,则$(x_0,y_0)$处取极小值，若$f_{xx}&lt;0$,则$(x_0,y_0)$处取极大值 </li>
-<li>H&lt;0:则$(x_0,y_0)$是鞍点，$(x_0,y_0)$处不是极值点</li>
+<li>H&gt;0: 若<span class="math inline">\(f_{xx}&gt;0\)</span>,则<span
+class="math inline">\((x_0,y_0)\)</span>处取极小值，若<span
+class="math inline">\(f_{xx}&lt;0\)</span>,则<span
+class="math inline">\((x_0,y_0)\)</span>处取极大值</li>
+<li>H&lt;0:则<span class="math inline">\((x_0,y_0)\)</span>是鞍点，<span
+class="math inline">\((x_0,y_0)\)</span>处不是极值点</li>
 <li>H=0: 则二阶导数无法判断该临界点的性质，需要考察更高阶的导数。</li>
 </ul>
-<hr>
-<h1 id="积分"><a href="#积分" class="headerlink" title="积分"></a>积分</h1><h3 id="不定积分"><a href="#不定积分" class="headerlink" title="不定积分"></a>不定积分</h3><p>$\int f(x)=F(x)+C$</p>
-<h2 id="定积分"><a href="#定积分" class="headerlink" title="定积分"></a>定积分</h2><p>$\displaystyle \int_a^{a+T}f(x)dx=\int_0^T f(x)dx$</p>
-<p>$\displaystyle \int_a^b f(x)dx=\int_{\alpha}^{\beta}f\{\Phi(t)\}\Phi’(t)dt$</p>
-<h2 id="部分积分"><a href="#部分积分" class="headerlink" title="部分积分"></a>部分积分</h2><p>$\displaystyle \int_a^b f(x)g’(x)dx=[f(x)g(x)]_a^b-\int_a^b f’(x)g(x)dx$</p>
-<h2 id="广义积分"><a href="#广义积分" class="headerlink" title="广义积分"></a>广义积分</h2><p>1) $\displaystyle \int_a^{+\infty}f(x)=\lim_{b\to +\infty}\int_a^b f(x)dx$</p>
-<p>2) $\displaystyle \int_{-\infty}^b f(x)dx=\lim_{a\to -\infty}^b f(x)dx$</p>
-<p>3) $\displaystyle \int_a^b f(x)dx=\lim_{x\to 0+}\int_a^{c-\varepsilon_1}f(x)dx+\lim_{x\to 0+}\int_{c+\varepsilon_2}^b f(x)dx$ c处有断点</p>
-<h2 id="三重积分"><a href="#三重积分" class="headerlink" title="三重积分"></a>三重积分</h2><p>$x=r\sin \theta \cos \phi$</p>
-<p>$y=r\sin \theta \sin \phi$</p>
-<p>$z=r\cos \phi$</p>
-<p>$\int_A \int \int f(x,y,z)dxdydz=\iiint_B f(r\sin\theta\cos \phi, r\sin \theta\sin \phi, r\cos \theta)r^2 \sin \theta drd\theta d \phi$</p>
-<p>$\displaystyle \int f(x)dx=F(x)+C$</p>
-<h2 id="求解方法"><a href="#求解方法" class="headerlink" title="求解方法"></a>求解方法</h2><h3 id="1）基本积分"><a href="#1）基本积分" class="headerlink" title="1）基本积分"></a>1）基本积分</h3><p>$\displaystyle \int \tan(\alpha x)dx=-\frac{1}{\alpha}\log |\cos \alpha x|$</p>
-<p>$\displaystyle \int \cot\alpha x dx=\frac{1}{\alpha}\log |\sin \alpha x|$</p>
-<p>$\displaystyle \int \frac{1}{x}dx=\log |x|$</p>
-<p>$\displaystyle \int \frac{1}{x^2+a^2}dx=\frac{1}{a}\arctan (\frac{x}{a})$</p>
-<p>$\displaystyle \int \frac{1}{x^2-a^2}dx=\frac{1}{2a}\log |\frac{x-a}{x+a}|$</p>
-<p>$\displaystyle \int ax^k dx=a\frac{1}{k+1}x^k+C$</p>
-<p>$\displaystyle \int \frac{1}{\sqrt{a^2-x^2}}dx=\arcsin \frac{x}{a}$</p>
-<h3 id="2-分式积分"><a href="#2-分式积分" class="headerlink" title="2)分式积分"></a>2)分式积分</h3><p><strong>有理函数</strong></p>
+<hr />
+<h1 id="积分">积分</h1>
+<h3 id="不定积分">不定积分</h3>
+<p><span class="math inline">\(\int f(x)=F(x)+C\)</span></p>
+<h2 id="定积分">定积分</h2>
+<p><span class="math inline">\(\displaystyle \int_a^{a+T}f(x)dx=\int_0^T
+f(x)dx\)</span></p>
+<p><span class="math inline">\(\displaystyle \int_a^b
+f(x)dx=\int_{\alpha}^{\beta}f\{\Phi(t)\}\Phi&#39;(t)dt\)</span></p>
+<h2 id="部分积分">部分积分</h2>
+<p><span class="math inline">\(\displaystyle \int_a^b
+f(x)g&#39;(x)dx=[f(x)g(x)]_a^b-\int_a^b f&#39;(x)g(x)dx\)</span></p>
+<h2 id="广义积分">广义积分</h2>
+<ol type="1">
+<li><p><span class="math inline">\(\displaystyle
+\int_a^{+\infty}f(x)=\lim_{b\to +\infty}\int_a^b
+f(x)dx\)</span></p></li>
+<li><p><span class="math inline">\(\displaystyle \int_{-\infty}^b
+f(x)dx=\lim_{a\to -\infty}^b f(x)dx\)</span></p></li>
+<li><p><span class="math inline">\(\displaystyle \int_a^b
+f(x)dx=\lim_{x\to 0+}\int_a^{c-\varepsilon_1}f(x)dx+\lim_{x\to
+0+}\int_{c+\varepsilon_2}^b f(x)dx\)</span> c处有断点</p></li>
+</ol>
+<h2 id="三重积分">三重积分</h2>
+<p><span class="math inline">\(x=r\sin \theta \cos \phi\)</span></p>
+<p><span class="math inline">\(y=r\sin \theta \sin \phi\)</span></p>
+<p><span class="math inline">\(z=r\cos \phi\)</span></p>
+<p><span class="math inline">\(\int_A \int \int f(x,y,z)dxdydz=\iiint_B
+f(r\sin\theta\cos \phi, r\sin \theta\sin \phi, r\cos \theta)r^2 \sin
+\theta drd\theta d \phi\)</span></p>
+<p><span class="math inline">\(\displaystyle \int
+f(x)dx=F(x)+C\)</span></p>
+<h2 id="求解方法">求解方法</h2>
+<h3 id="基本积分">1）基本积分</h3>
+<p><span class="math inline">\(\displaystyle \int \tan(\alpha
+x)dx=-\frac{1}{\alpha}\log |\cos \alpha x|\)</span></p>
+<p><span class="math inline">\(\displaystyle \int \cot\alpha x
+dx=\frac{1}{\alpha}\log |\sin \alpha x|\)</span></p>
+<p><span class="math inline">\(\displaystyle \int \frac{1}{x}dx=\log
+|x|\)</span></p>
+<p><span class="math inline">\(\displaystyle \int
+\frac{1}{x^2+a^2}dx=\frac{1}{a}\arctan (\frac{x}{a})\)</span></p>
+<p><span class="math inline">\(\displaystyle \int
+\frac{1}{x^2-a^2}dx=\frac{1}{2a}\log |\frac{x-a}{x+a}|\)</span></p>
+<p><span class="math inline">\(\displaystyle \int ax^k
+dx=a\frac{1}{k+1}x^k+C\)</span></p>
+<p><span class="math inline">\(\displaystyle \int
+\frac{1}{\sqrt{a^2-x^2}}dx=\arcsin \frac{x}{a}\)</span></p>
+<h3 id="分式积分">2)分式积分</h3>
+<p><strong>有理函数</strong></p>
 <p><strong>1次多项式</strong></p>
-<p>$\displaystyle \frac{A}{(b_kx+C_k)^n}\Rightarrow \int \frac{A}{b_k^n (x+\frac{c_k}{b_k})^n}=\frac{A}{b_k^n}\cdot \frac{1}{n+1}(x+\frac{c_k}{b_k})^{n+1} (n&gt;1)$</p>
-<p>$\displaystyle =\frac{A}{b_k}\log (x+\frac{c_k}{b_k}) (n=1)$</p>
+<p><span class="math inline">\(\displaystyle
+\frac{A}{(b_kx+C_k)^n}\Rightarrow \int \frac{A}{b_k^n
+(x+\frac{c_k}{b_k})^n}=\frac{A}{b_k^n}\cdot
+\frac{1}{n+1}(x+\frac{c_k}{b_k})^{n+1} (n&gt;1)\)</span></p>
+<p><span class="math inline">\(\displaystyle =\frac{A}{b_k}\log
+(x+\frac{c_k}{b_k}) (n=1)\)</span></p>
 <p><strong>2次多项式</strong></p>
 <p>分母凑成平方和</p>
-<p>$\displaystyle \int \frac{x}{(x^2+a^2)^m}dx$</p>
+<p><span class="math inline">\(\displaystyle \int
+\frac{x}{(x^2+a^2)^m}dx\)</span></p>
 <p><strong>大式拆为小式</strong></p>
-<p>$\left \{ \begin{array}{cc} \displaystyle \frac{-1}{2(m-1)(x^2+a^2)^{m-1}} &amp;(m&gt;1)\\\displaystyle \frac{1}{2}\log (x^2+a^2) &amp;(m=1)\end{array}\right.$</p>
+<p><span class="math inline">\(\left \{ \begin{array}{cc} \displaystyle
+\frac{-1}{2(m-1)(x^2+a^2)^{m-1}} &amp;(m&gt;1)\\\displaystyle
+\frac{1}{2}\log (x^2+a^2) &amp;(m=1)\end{array}\right.\)</span></p>
 <p>例：</p>
-<p>$\displaystyle \frac{4x^4+2x^3+10x^2+3x+9}{(x+1)(x^2+2)^2}=\frac{A}{x+1}+\frac{Bx+C}{x^2+2}+\frac{Dx+E}{(x^2+2)^2}$</p>
-<h3 id=""><a href="#" class="headerlink" title=" "></a> </h3><p>$\displaystyle \int \frac{1}{(x^2+a^2)^n}dx=I_n$</p>
-<p>$\displaystyle I_n=\frac{x}{(x^2+a^2)^n}-\int \frac{x(-n)\cdot 2x}{(x^2+a^2)^{n+1}}dx$</p>
-<p>$\displaystyle =\frac{x}{(x^2+a^2)^n}+2n\int \frac{x^2}{(x^2+a^2)^{n+1}}dx$</p>
-<p>$\displaystyle =\frac{x}{(x^2+a^2)^n}+2n\int \frac{x^2+a^2-a^2}{(x^2+a^2)^{n+1}}dx$</p>
-<p>$\displaystyle =\frac{x}{(x^2+a^2)^n+2n\int \frac{1}{(x^2+a^2)^n}}dx-2a^2n\int \frac{1}{(x^2+a^2)^{n+1}}dx$</p>
-<p>$\displaystyle =\frac{x}{(x^2+a^2)^n}+2nI_n-2a^nI_{n+1}$</p>
-<p>$\displaystyle \therefore I_{n+1}=\frac{1}{2a^2}[\frac{x}{(x^2+a^2)^n}+(2n-1)I_n]$</p>
-<h3 id="无理函数"><a href="#无理函数" class="headerlink" title="无理函数"></a>无理函数</h3><p>1） $\sqrt{ax^2+bx+c}$ 配平方式</p>
-<p>2)$\sqrt[n]{ax+b}$ 换元法</p>
-<p>3)$\displaystyle \sqrt[n]{\frac{ax+b}{cx+d}}$ 换元法</p>
-<p>4)$\displaystyle \sqrt{x^2+a^2}$ $x=a\tan \theta$</p>
-<p>5)$\sqrt{a^2-x^2}, x=a\sin \theta$</p>
-<p>6)$\sqrt{x^2-a^2}, x=a\cos \theta$</p>
-<h3 id="三角函数"><a href="#三角函数" class="headerlink" title="三角函数"></a>三角函数</h3><p>1)$\int f(\sin x)\cos x dx$ 把cos x放到dx中</p>
-<p>2)$\int f(\cos x)\sin x dx$把sin x放到dx中</p>
-<p>3)$\int f(\sin^2 x, \cos^2x, \tan x)dx$ 令$t=\tan x$使用万能公式</p>
-<p>4)$\int f(\sin x,\cos x)dx$ 令$t=\tan \frac{x}{2}$</p>
-<h3 id="定积分的应用"><a href="#定积分的应用" class="headerlink" title="定积分的应用"></a>定积分的应用</h3><p>1.求面积</p>
-<p>$S=\int_a^b \{f(x)-g(x)\}dx, r=f(\theta)$</p>
-<p>$S=\dfrac{1}{2}\int_{\alpha}^{\beta}r^2d\theta$</p>
-<p>$=\dfrac{1}{2}\int_{\alpha}^{\beta}f^2(\theta)d\theta$</p>
+<p><span class="math inline">\(\displaystyle
+\frac{4x^4+2x^3+10x^2+3x+9}{(x+1)(x^2+2)^2}=\frac{A}{x+1}+\frac{Bx+C}{x^2+2}+\frac{Dx+E}{(x^2+2)^2}\)</span></p>
+<h3 id="section"></h3>
+<p><span class="math inline">\(\displaystyle \int
+\frac{1}{(x^2+a^2)^n}dx=I_n\)</span></p>
+<p><span class="math inline">\(\displaystyle
+I_n=\frac{x}{(x^2+a^2)^n}-\int \frac{x(-n)\cdot
+2x}{(x^2+a^2)^{n+1}}dx\)</span></p>
+<p><span class="math inline">\(\displaystyle
+=\frac{x}{(x^2+a^2)^n}+2n\int \frac{x^2}{(x^2+a^2)^{n+1}}dx\)</span></p>
+<p><span class="math inline">\(\displaystyle
+=\frac{x}{(x^2+a^2)^n}+2n\int
+\frac{x^2+a^2-a^2}{(x^2+a^2)^{n+1}}dx\)</span></p>
+<p><span class="math inline">\(\displaystyle
+=\frac{x}{(x^2+a^2)^n+2n\int \frac{1}{(x^2+a^2)^n}}dx-2a^2n\int
+\frac{1}{(x^2+a^2)^{n+1}}dx\)</span></p>
+<p><span class="math inline">\(\displaystyle
+=\frac{x}{(x^2+a^2)^n}+2nI_n-2a^nI_{n+1}\)</span></p>
+<p><span class="math inline">\(\displaystyle \therefore
+I_{n+1}=\frac{1}{2a^2}[\frac{x}{(x^2+a^2)^n}+(2n-1)I_n]\)</span></p>
+<h3 id="无理函数">无理函数</h3>
+<p>1） <span class="math inline">\(\sqrt{ax^2+bx+c}\)</span>
+配平方式</p>
+<p>2)<span class="math inline">\(\sqrt[n]{ax+b}\)</span> 换元法</p>
+<p>3)<span class="math inline">\(\displaystyle
+\sqrt[n]{\frac{ax+b}{cx+d}}\)</span> 换元法</p>
+<p>4)<span class="math inline">\(\displaystyle \sqrt{x^2+a^2}\)</span>
+<span class="math inline">\(x=a\tan \theta\)</span></p>
+<p>5)<span class="math inline">\(\sqrt{a^2-x^2}, x=a\sin
+\theta\)</span></p>
+<p>6)<span class="math inline">\(\sqrt{x^2-a^2}, x=a\cos
+\theta\)</span></p>
+<h3 id="三角函数">三角函数</h3>
+<p>1)<span class="math inline">\(\int f(\sin x)\cos x dx\)</span> 把cos
+x放到dx中</p>
+<p>2)<span class="math inline">\(\int f(\cos x)\sin x dx\)</span>把sin
+x放到dx中</p>
+<p>3)<span class="math inline">\(\int f(\sin^2 x, \cos^2x, \tan
+x)dx\)</span> 令<span class="math inline">\(t=\tan
+x\)</span>使用万能公式</p>
+<p>4)<span class="math inline">\(\int f(\sin x,\cos x)dx\)</span>
+令<span class="math inline">\(t=\tan \frac{x}{2}\)</span></p>
+<h3 id="定积分的应用">定积分的应用</h3>
+<p>1.求面积</p>
+<p><span class="math inline">\(S=\int_a^b \{f(x)-g(x)\}dx,
+r=f(\theta)\)</span></p>
+<p><span
+class="math inline">\(S=\dfrac{1}{2}\int_{\alpha}^{\beta}r^2d\theta\)</span></p>
+<p><span
+class="math inline">\(=\dfrac{1}{2}\int_{\alpha}^{\beta}f^2(\theta)d\theta\)</span></p>
 <p>2.回转体的表面积</p>
-<p>$y=f(x)$绕X轴旋转</p>
-<p>$S=2\pi \int_a^b y\cdot \sqrt{(dx)^2+(dy)^2}$</p>
-<p>$=2\pi \int_a^b f(x)\sqrt{1+f’^2(x)}dx$</p>
-<p>周长$2\pi r(y) \times 高 \rightarrow 弧长$</p>
-<p>$V=\pi \int_a^b f^2(x)dx$</p>
+<p><span class="math inline">\(y=f(x)\)</span>绕X轴旋转</p>
+<p><span class="math inline">\(S=2\pi \int_a^b y\cdot
+\sqrt{(dx)^2+(dy)^2}\)</span></p>
+<p><span class="math inline">\(=2\pi \int_a^b
+f(x)\sqrt{1+f&#39;^2(x)}dx\)</span></p>
+<p>周长<span class="math inline">\(2\pi r(y) \times 高 \rightarrow
+弧长\)</span></p>
+<p><span class="math inline">\(V=\pi \int_a^b f^2(x)dx\)</span></p>
 <p>圆盘法向量垂直于旋转轴，切成一个个圆盘，a,b是高度方向上的上下限。</p>
-<p>$\pi f^2(x)=\pi r^2$</p>
+<p><span class="math inline">\(\pi f^2(x)=\pi r^2\)</span></p>
 <p>3.弧长</p>
-<p>$l=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt$</p>
-<p>$=\sqrt{r^2+(\frac{dr}{d\theta})^2}d\theta$</p>
+<p><span
+class="math inline">\(l=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt\)</span></p>
+<p><span
+class="math inline">\(=\sqrt{r^2+(\frac{dr}{d\theta})^2}d\theta\)</span></p>
 
     </div>
 
@@ -447,14 +577,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">12k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">12 分钟</span>
+    <span title="站点阅读时长">44 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">

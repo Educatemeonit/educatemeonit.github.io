@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>【分析工具使用】Tableau</title>
-    <url>/2023/02/12/%E3%80%90%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E3%80%91Tableau/</url>
+    <title>【分析工具使用】Elastic</title>
+    <url>/2023/02/12/%E3%80%90%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E3%80%91Elastic/</url>
     <content><![CDATA[<p>占位</p>
 ]]></content>
       <categories>
@@ -10,37 +10,8 @@
       </categories>
   </entry>
   <entry>
-    <title>Hexo博客回归小记</title>
-    <url>/2023/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%9B%9E%E5%BD%92%E5%B0%8F%E8%AE%B0/</url>
-    <content><![CDATA[<p>在花了几小时深度了几种个人博客方案后，还是决定回归到Hexo+Github上来。</p>
-<p>简单地整理下自己的折腾过程：</p>
-<p>1）本来看到网上有Hugo建站的教程，说是渲染速度快，本地环境搭建简单，但按教程一步步来，最后还是出错，而且自己也不想花时间深究哪里出错了。</p>
-<p>2）又在xhs上看到直接用Notion+Vercel+Github可以实现笔记软件和博客的2合1，也很吸引我，但是在Vercel中进行Deploy的时候又卡住了，继续出错。我本来觉得这个行得通应该是终极解决方案了，一劳永逸，但出错了， 而且Notion的导出选项稍稍有点少（html,md,pdf).</p>
-<p>3）经历前面2次出错，有点失落，本来想着就在本地Mybase笔记软件里写给自己得了，但想了想，搞技术的如果只输出给自己，动力不足，而且会懈怠。还是弄一个博客吧，反正Hexo+Github之前自己试过，成功了，当然那时候写的文章现在也用不着了。于是就有了现在的这个博客。</p>
-<span id="more"></span>
-<p>目前已完成的部分有：</p>
-<p>1.将Hexo-blog文件夹放在谷歌盘中，方便我多台电脑间同步</p>
-<p>2.将博客配置文件作了调整，增加了一些必要的页面，改动了下logo,然后添加了Disqus评论系统。</p>
-<p>3.当然也有人添加了动画效果，还有虚拟形象之类的增加互动效果，还有的人会搞网易云音乐的插件，但我觉得内容最重要，先保持现在的样式吧。</p>
-<p>记录下自己想测试的功能和结果：</p>
-<p>1.markdown,当然是支持的，数学公式也是支持的，需要安装Module，网上教程很多的。而且我准备本地使用Typora来码字（毕竟花钱入了正版）。</p>
-<p>2.Typora可以配置picgo的图床，然后直接上传，所以我写好的东西发布到Hexo上，不需要另外存图片到github上。</p>
-<p>3.Typora的Mermaid功能也是支持的，虽然我很少用它。</p>
-<p>主要参考的教程有：</p>
-<p><a href="https://blog.csdn.net/as480133937/article/details/100138838">https://blog.csdn.net/as480133937/article/details/100138838</a></p>
-<p>常用的Hexo命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;新文章名&quot;</span><br><span class="line">hexo g //生成</span><br><span class="line">hexo s //本地预览</span><br><span class="line">hexo d //发布</span><br></pre></td></tr></table></figure>
-<p>新建文章的Header字段：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title 文章标题</span><br><span class="line">date 文章创建日期</span><br><span class="line">comments 设置文章是否开启评论</span><br><span class="line">tags 文章标签</span><br><span class="line">categories 文章分类</span><br><span class="line">keywords 文章关键词</span><br></pre></td></tr></table></figure>
-<p>需要注意字段的冒号后面一定要加空格，否则hexo g的时候会出错。</p>
-]]></content>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【分析工具使用】Elastic</title>
-    <url>/2023/02/12/%E3%80%90%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E3%80%91Elastic/</url>
+    <title>【分析工具使用】Tableau</title>
+    <url>/2023/02/12/%E3%80%90%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E3%80%91Tableau/</url>
     <content><![CDATA[<p>占位</p>
 ]]></content>
       <categories>
@@ -57,6 +28,36 @@
       </categories>
   </entry>
   <entry>
+    <title>Hexo博客回归小记</title>
+    <url>/2023/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%9B%9E%E5%BD%92%E5%B0%8F%E8%AE%B0/</url>
+    <content><![CDATA[<p>在花了几小时深度了几种个人博客方案后，还是决定回归到Hexo+Github上来。</p>
+<p>简单地整理下自己的折腾过程：</p>
+<p>1）本来看到网上有Hugo建站的教程，说是渲染速度快，本地环境搭建简单，但按教程一步步来，最后还是出错，而且自己也不想花时间深究哪里出错了。</p>
+<p>2）又在xhs上看到直接用Notion+Vercel+Github可以实现笔记软件和博客的2合1，也很吸引我，但是在Vercel中进行Deploy的时候又卡住了，继续出错。我本来觉得这个行得通应该是终极解决方案了，一劳永逸，但出错了，
+而且Notion的导出选项稍稍有点少（html,md,pdf).</p>
+<p>3）经历前面2次出错，有点失落，本来想着就在本地Mybase笔记软件里写给自己得了，但想了想，搞技术的如果只输出给自己，动力不足，而且会懈怠。还是弄一个博客吧，反正Hexo+Github之前自己试过，成功了，当然那时候写的文章现在也用不着了。于是就有了现在的这个博客。</p>
+<span id="more"></span>
+<p>目前已完成的部分有：</p>
+<p>1.将Hexo-blog文件夹放在谷歌盘中，方便我多台电脑间同步</p>
+<p>2.将博客配置文件作了调整，增加了一些必要的页面，改动了下logo,然后添加了Disqus评论系统。</p>
+<p>3.当然也有人添加了动画效果，还有虚拟形象之类的增加互动效果，还有的人会搞网易云音乐的插件，但我觉得内容最重要，先保持现在的样式吧。</p>
+<p>记录下自己想测试的功能和结果：</p>
+<p>1.markdown,当然是支持的，数学公式也是支持的，需要安装Module，网上教程很多的。而且我准备本地使用Typora来码字（毕竟花钱入了正版）。</p>
+<p>2.Typora可以配置picgo的图床，然后直接上传，所以我写好的东西发布到Hexo上，不需要另外存图片到github上。</p>
+<p>3.Typora的Mermaid功能也是支持的，虽然我很少用它。</p>
+<p>主要参考的教程有：</p>
+<p>https://blog.csdn.net/as480133937/article/details/100138838</p>
+<p>常用的Hexo命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;新文章名&quot;</span><br><span class="line">hexo g //生成</span><br><span class="line">hexo s //本地预览</span><br><span class="line">hexo d //发布</span><br></pre></td></tr></table></figure>
+<p>新建文章的Header字段：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title 文章标题</span><br><span class="line">date 文章创建日期</span><br><span class="line">comments 设置文章是否开启评论</span><br><span class="line">tags 文章标签</span><br><span class="line">categories 文章分类</span><br><span class="line">keywords 文章关键词</span><br></pre></td></tr></table></figure>
+<p>需要注意字段的冒号后面一定要加空格，否则hexo g的时候会出错。</p>
+]]></content>
+      <tags>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【安全产品使用】Qualys</title>
     <url>/2023/02/12/%E3%80%90%E5%AE%89%E5%85%A8%E4%BA%A7%E5%93%81%E4%BD%BF%E7%94%A8%E3%80%91Qualys/</url>
     <content><![CDATA[<p>占位</p>
@@ -66,825 +67,266 @@
       </categories>
   </entry>
   <entry>
-    <title>【安全框架】MITRE ATT&amp;CK</title>
-    <url>/2023/02/12/%E3%80%90%E5%AE%89%E5%85%A8%E6%A1%86%E6%9E%B6%E3%80%91MITRE-ATT-CK/</url>
-    <content><![CDATA[<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>Reconnaissance<br />侦察</th>
-<th>Resource Development<br />资源扩展</th>
-<th>Initial Access<br />最初入口</th>
-<th>Execution<br />执行攻击</th>
-<th>Persistence<br />持续性控制</th>
-<th>Privilege Escalation<br />权限提升</th>
-<th>Defense Evasion<br />躲避防御机制</th>
-<th>Credential Access<br />获取合法凭证访问</th>
-<th>Discovery<br />查看信息</th>
-<th>Lateral Movement<br />横向权限扩展</th>
-<th>Collection<br />收集信息</th>
-<th>Command and Control<br />命令控制</th>
-<th>Exfiltration<br />信息窃取</th>
-<th>Impact</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Active Scanning</td>
-<td>Acquire Infrastructure</td>
-<td>Drive-by Infrastructure</td>
-<td>Command and Scripting Interpreter</td>
-<td>Account Manipulation</td>
-<td>Abuse Elevation Control Mechanism</td>
-<td>Abuse Elevation Control Mechanism</td>
-<td>Adversary-in-the-Middle</td>
-<td>Account Discovery</td>
-<td>Exploitation of Remote Services</td>
-<td>Adversary-in-the-Middle</td>
-<td>Application Layer Protocol</td>
-<td>Automated Exfiltration</td>
-<td>Account Access Removal</td>
-</tr>
-<tr>
-<td>Gather Victim Host Information</td>
-<td>Compromise Accounts</td>
-<td>Exploit Public-Facing Application</td>
-<td>Container Administration Command</td>
-<td>BITS Jobs</td>
-<td>Access Token Manipulation</td>
-<td>Access Token Manipulation</td>
-<td>Brute Force</td>
-<td>Application Windows Discovery</td>
-<td>Internal Spearphishing</td>
-<td>Archive Collected Data</td>
-<td>Communication Through Removable Media</td>
-<td>Data Transfer Size Limits</td>
-<td>Data Destruction</td>
-</tr>
-<tr>
-<td>Gather Victim Identity Information</td>
-<td>Compromise Infrastructure</td>
-<td>External Remote Services</td>
-<td>Deploy Container</td>
-<td>Boot or Logon Autostart Execution</td>
-<td>Boot or Logon Autostart Execution</td>
-<td>BITS Jobs</td>
-<td>Credentials from Password Stores</td>
-<td>Browser Bookmark Discovery</td>
-<td>Lateral Tool Transfer</td>
-<td>Audio Capture</td>
-<td>Data Encoding</td>
-<td>Exfiltration Over Alternative Protocol</td>
-<td>Data Encrypted for Impact</td>
-</tr>
-<tr>
-<td>Gather Victim Network Information</td>
-<td>Develop Capabilities</td>
-<td>Hardware Additions</td>
-<td>Exploitation for Client Execution</td>
-<td>Boot or Logon Initialization Scripts</td>
-<td>Boot or Logon Initialization Scripts</td>
-<td>Build Image on Host</td>
-<td>Exploitation for Credential Access</td>
-<td>Cloud Service Dashboard</td>
-<td>Remote Service Session Hijacking</td>
-<td>Automated Collection</td>
-<td>Data Obfuscation</td>
-<td>Exfiltration Over C2 Channel</td>
-<td>Data Manipulation</td>
-</tr>
-<tr>
-<td>Gather Victim Org Information</td>
-<td>Eastablish Accounts</td>
-<td>Phishing</td>
-<td>Inter-Process Communication</td>
-<td>Browser Extensions</td>
-<td>Create or Modify System Process</td>
-<td>Debugger Evasion</td>
-<td>Forced Authentication</td>
-<td>Cloud Service Discovery</td>
-<td>Remote Services</td>
-<td>Browser Session Hijacking</td>
-<td>Dynamic Resolution</td>
-<td>Exfiltration Over Other Network Medium</td>
-<td>Defacement</td>
-</tr>
-<tr>
-<td>Phishing for Information</td>
-<td>Obtain Capabilities</td>
-<td>Replication Through Removable Media</td>
-<td>Native API</td>
-<td>Compromise Client Software Binary</td>
-<td>Domain Policy Modification</td>
-<td>Deobfuscate/Decode Files or Information</td>
-<td>Forge Web Credentials</td>
-<td>Cloud Storage Object Discovery</td>
-<td>Replication Through Removable Media</td>
-<td>Clipboard Data</td>
-<td>Encrypted Channel</td>
-<td>Exfiltration Over Physical Medium</td>
-<td>Disk Wipe</td>
-</tr>
-<tr>
-<td>Search Closed Sources</td>
-<td>Stage Capabilities</td>
-<td>Supply Chain Compromise</td>
-<td>Scheduled Task/Job</td>
-<td>Create Account</td>
-<td>Escape to Host</td>
-<td>Deploy Container</td>
-<td>Input Capture</td>
-<td>Container and Resource Discovery</td>
-<td>Software Deployment Tools</td>
-<td>Data from Cloud Storage</td>
-<td>Fallback Channels</td>
-<td>Exfiltration Over Web Service</td>
-<td>Endpoint Denial of Service</td>
-</tr>
-<tr>
-<td>Search Open Technical Databases</td>
-<td></td>
-<td>Trusted Relationship</td>
-<td>Serverless Execution</td>
-<td>Create or Modify System Process</td>
-<td>Event Triggered Execution</td>
-<td>Direct Volume Access</td>
-<td>Modify Authentication Process</td>
-<td>Debugger Evasion</td>
-<td>Taint Shared Content</td>
-<td>Data from Configuration Repository</td>
-<td>Ingress Tool Transfer</td>
-<td>Scheduled Transfer</td>
-<td>Firmware Corruption</td>
-</tr>
-<tr>
-<td>Search Open Websites/Domains</td>
-<td></td>
-<td>Valid Accounts</td>
-<td>Shared Modules</td>
-<td>Event Triggered Execution</td>
-<td>Exploitation for Privilege Escalation</td>
-<td>Domain Policy Modification</td>
-<td>Multi-Factor Authentication Interception</td>
-<td>Domain Trust Discovery</td>
-<td>Use Alternate Authentication Material</td>
-<td>Data from Informatoin Repositories</td>
-<td>Multi-Stage Channels</td>
-<td>Transfer Data to Cloud Account</td>
-<td>Inhibit System Recovery</td>
-</tr>
-<tr>
-<td>Search Victim-Owned Websites</td>
-<td></td>
-<td></td>
-<td>Software Deployment Tools</td>
-<td>External Remote Services</td>
-<td>Hijack Execution Flow</td>
-<td>Execution Guardrails</td>
-<td>Multi-Factor Authentication Request Generation</td>
-<td>File and Directory Discovery</td>
-<td></td>
-<td>Data from Information Repositories</td>
-<td>Non-Application Layer Protocol</td>
-<td></td>
-<td>Network Denial of Service</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>System Services</td>
-<td>Hijack Execution Flow</td>
-<td>Process Injection</td>
-<td>Exploitation for Defense Evasion</td>
-<td>Network Sniffing</td>
-<td>Group Policy Discovery</td>
-<td></td>
-<td>Data from Local System</td>
-<td>Non-Standard Port</td>
-<td></td>
-<td>Resource Hijacking</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>User Execution</td>
-<td>Implant Internal Image</td>
-<td>Scheduled Task/Job</td>
-<td>File and Directory Permissions Modification</td>
-<td>OS Credential Dumping</td>
-<td>Network Service Discovery</td>
-<td></td>
-<td>Data from Network Shared Drive</td>
-<td>Protocol Tunneling</td>
-<td></td>
-<td>Service Stop</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>Windows Management Instrumentation</td>
-<td>Modify Authentication Process</td>
-<td>Valid Accounts</td>
-<td>Hide Artifacts</td>
-<td>Steal Application Access Token</td>
-<td>Network Share Discovery</td>
-<td></td>
-<td>Data from Removable Media</td>
-<td>Proxy</td>
-<td></td>
-<td>System Shutdown/Reboot</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Modify Cloud Compute Infrastructure</td>
-<td></td>
-<td>Hijack Execution Flow</td>
-<td>Steal or Forge Authentication Certificates</td>
-<td>Network Sniffing</td>
-<td></td>
-<td>Data Staged</td>
-<td>Remote Access Software</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Modify Registry</td>
-<td></td>
-<td>Impair Defenses</td>
-<td>Steal or Forge Kerberos Tickets</td>
-<td>Password Policy</td>
-<td></td>
-<td>Email Collection</td>
-<td>Traffic Signaling</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Modify System Image</td>
-<td></td>
-<td>Indicator Removal</td>
-<td>Steal web Session Cookie</td>
-<td>Peripheral Device Discovery</td>
-<td></td>
-<td>Input Capture</td>
-<td>Web Service</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Network Boundary Bridging</td>
-<td></td>
-<td>Indirect Command Execution</td>
-<td>Unsecured Credentials</td>
-<td>Permission Groups Discovery</td>
-<td></td>
-<td>Screen Capture</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Obfuscated Files or Information</td>
-<td></td>
-<td>Masquerading</td>
-<td></td>
-<td>Process Discovery</td>
-<td></td>
-<td>Video Capture</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Plist File Modification</td>
-<td></td>
-<td>Modify Authentication Process</td>
-<td></td>
-<td>Query Registry</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Pre-OS Boot</td>
-<td></td>
-<td>Modify Cloud Compute Infrastructure</td>
-<td></td>
-<td>Remote System Discovery</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Process Injection</td>
-<td></td>
-<td>Modify Registry</td>
-<td></td>
-<td>Software Discovery</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Modify System Image</td>
-<td></td>
-<td>System Information Discovery</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Network Boundary Bridging</td>
-<td></td>
-<td>System Network Configuration Discovery</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Obfuscated Files or Information</td>
-<td></td>
-<td>System Network Connections Discovery</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Plist File Modification</td>
-<td></td>
-<td>System Owner/User Discovery</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Pre-OS Boot</td>
-<td></td>
-<td>System Service Discovery</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Process Injection</td>
-<td></td>
-<td>System Time Discovery</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Reflective Code Loading</td>
-<td></td>
-<td>Virtualization/Sandbox Evasion</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Rogue Domain Controller</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Rootkit</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Subvert Trust Controls</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>System Binary Proxy Execution</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>System Script Proxy Execution</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Template Injection</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Traffice Signaling</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Trusted Developer Utilities Proxy Execution</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Unused/Unsupported Cloud Regions</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Use Alternate Authentication Material</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Valid Accounts</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Virtualization/Sandbox Evasion</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Weaken Encryption</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>XLS Script Processing</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>因为攻击手法千奇百怪，所以暂时先从常见的入手：</p>
-<p>Non-Standard Port</p>
-<p><a href="https://attack.mitre.org/techniques/T1571/">Non-Standard Port, Technique T1571 - Enterprise | MITRE ATT&amp;CK®</a></p>
-<p>Adversaries may communicate using a protocol and port paring that are typically not associated. For example, HTTPS over port 8088[1] or port 587[2] as opposed to the traditional port 443. Adversaries may make changes to the standard port used by a protocol to bypass filtering or muddle analysis/parsing of network data.</p>
-]]></content>
-      <categories>
-        <category>安全框架</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【安全标准研究】ISO/IEC 27001</title>
     <url>/2023/02/12/%E3%80%90%E5%AE%89%E5%85%A8%E6%A0%87%E5%87%86%E7%A0%94%E7%A9%B6%E3%80%91ISO-IEC-27001/</url>
     <content><![CDATA[<p>[TOC]</p>
-<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><blockquote>
-<p> <strong>0.1总则</strong><br>本标准提供建立，实现，维护和持续改进信息安全管理体系的要求。采用信息安全管理体系是组织的一项战略性决策。组织信息安全管理体系的建立和实现受组织的需要和目标，安全要求，组织所采用的过程，规模和结构的影响。所有这些影响因素可能随时间发生变化。<br>信息安全管理体系通过应用风险管理过程来保持信息的保密性，完整性和可用性，并为相关方树立风险得到充分管理的信心。<br>重要的是，信息安全管理体系是组织的过程和整体管理结构的一部分并集成在其中，并且在过程，信息系统和控制的设计中要考虑到信息安全。期望的是，信息安全管理体系的实现程度要与组织的需要相符合。<br>本标准可被内部和外部各方用于评估组织的能力是否满足自身的信息安全要求。<br>本标准中所表述要求的顺序不反映各要求的重要性或暗示这些要求要予实现的顺序。条款编号仅为方便引用。<br>ISO/IEC 27000描述了信息安全管理体系的概要和词汇，引用了信息安全管理体系标准族（包括ISO/IEC 27003, ISO/IEC 27004, ISO/IEC 27005)，以及相关术语和定义。</p>
+<h1 id="引言">引言</h1>
+<blockquote>
+<p><strong>0.1总则</strong>
+本标准提供建立，实现，维护和持续改进信息安全管理体系的要求。采用信息安全管理体系是组织的一项战略性决策。组织信息安全管理体系的建立和实现受组织的需要和目标，安全要求，组织所采用的过程，规模和结构的影响。所有这些影响因素可能随时间发生变化。
+信息安全管理体系通过应用风险管理过程来保持信息的保密性，完整性和可用性，并为相关方树立风险得到充分管理的信心。
+重要的是，信息安全管理体系是组织的过程和整体管理结构的一部分并集成在其中，并且在过程，信息系统和控制的设计中要考虑到信息安全。期望的是，信息安全管理体系的实现程度要与组织的需要相符合。
+本标准可被内部和外部各方用于评估组织的能力是否满足自身的信息安全要求。
+本标准中所表述要求的顺序不反映各要求的重要性或暗示这些要求要予实现的顺序。条款编号仅为方便引用。
+ISO/IEC
+27000描述了信息安全管理体系的概要和词汇，引用了信息安全管理体系标准族（包括ISO/IEC
+27003, ISO/IEC 27004, ISO/IEC 27005)，以及相关术语和定义。</p>
 </blockquote>
 <p>解读：</p>
 <span id="more"></span>
 <blockquote>
-<p><strong>0.2 与其他管理体系标准的兼容性</strong><br>本标准应用ISO/IEC合并导则附录SL中定义的高层结构，相同条款标题，相同文本，通用术语和核心定义，因此维护了与其他采用附录SL的管理体系的标准具有兼容性。<br>附录SL中定义的通信途径对于选择运行单一管理体系来满足两个或更多管理体系标准要求的组织是有用的。</p>
+<p><strong>0.2 与其他管理体系标准的兼容性</strong>
+本标准应用ISO/IEC合并导则附录SL中定义的高层结构，相同条款标题，相同文本，通用术语和核心定义，因此维护了与其他采用附录SL的管理体系的标准具有兼容性。
+附录SL中定义的通信途径对于选择运行单一管理体系来满足两个或更多管理体系标准要求的组织是有用的。</p>
 </blockquote>
 <p>解读：</p>
-<h1 id="1-范围"><a href="#1-范围" class="headerlink" title="1 范围"></a>1 范围</h1><blockquote>
-<p> 本标准规定了在组织环境下建立，实现，维护和持续改进信息安全管理体系的要求。本标准还包括了根据组织所需求所剪裁的信息安全风险评估和处置的要求。<br>本标准规定的要求是通用的，适用于各种类型，规模或性质的组织。当组织声称符合本标准时，不能排除第4章到第10章中所规定的任何要求。</p>
+<h1 id="范围">1 范围</h1>
+<blockquote>
+<p>本标准规定了在组织环境下建立，实现，维护和持续改进信息安全管理体系的要求。本标准还包括了根据组织所需求所剪裁的信息安全风险评估和处置的要求。
+本标准规定的要求是通用的，适用于各种类型，规模或性质的组织。当组织声称符合本标准时，不能排除第4章到第10章中所规定的任何要求。</p>
 </blockquote>
-<h1 id="2-规范性引用文件"><a href="#2-规范性引用文件" class="headerlink" title="2 规范性引用文件"></a>2 规范性引用文件</h1><blockquote>
-<p>下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。<br>ISO/IEC 27000 信息技术 安全技术 信息安全管理体系 概述和词汇 (Information technoloy-Security techniques-Information security management systems-Overview and vocabulary)</p>
+<h1 id="规范性引用文件">2 规范性引用文件</h1>
+<blockquote>
+<p>下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。
+ISO/IEC 27000 信息技术 安全技术 信息安全管理体系 概述和词汇 (Information
+technoloy-Security techniques-Information security management
+systems-Overview and vocabulary)</p>
 </blockquote>
-<h1 id="3-术语和定义"><a href="#3-术语和定义" class="headerlink" title="3 术语和定义"></a>3 术语和定义</h1><blockquote>
+<h1 id="术语和定义">3 术语和定义</h1>
+<blockquote>
 <p>ISO/IEC 27000界定的术语和定义适用于本文件</p>
 </blockquote>
-<h1 id="4-组织环境"><a href="#4-组织环境" class="headerlink" title="4 组织环境"></a>4 组织环境</h1><h2 id="4-1-理解组织及其环境"><a href="#4-1-理解组织及其环境" class="headerlink" title="4.1 理解组织及其环境"></a>4.1 理解组织及其环境</h2><blockquote>
-<p>组织应确定与其意图相关的，且影响其实现信息安全管理体系预期结果能力的外部和内部事项。<br>注：对这些事项的确定，参见ISO 31000：2009，5.3中建立外部和内部环境的内容。</p>
+<h1 id="组织环境">4 组织环境</h1>
+<h2 id="理解组织及其环境">4.1 理解组织及其环境</h2>
+<blockquote>
+<p>组织应确定与其意图相关的，且影响其实现信息安全管理体系预期结果能力的外部和内部事项。
+注：对这些事项的确定，参见ISO
+31000：2009，5.3中建立外部和内部环境的内容。</p>
 </blockquote>
-<h2 id="4-2-理解相关方和需求和期望"><a href="#4-2-理解相关方和需求和期望" class="headerlink" title="4.2 理解相关方和需求和期望"></a>4.2 理解相关方和需求和期望</h2><blockquote>
-<p>组织应确定：<br>a)信息安全管理体系相关方；<br>b)这些相关方与信息安全相关的要求。<br>注：相关方的要求可包括法律，法规要求和合同义务。</p>
+<h2 id="理解相关方和需求和期望">4.2 理解相关方和需求和期望</h2>
+<blockquote>
+<p>组织应确定： a)信息安全管理体系相关方；
+b)这些相关方与信息安全相关的要求。
+注：相关方的要求可包括法律，法规要求和合同义务。</p>
 </blockquote>
-<h2 id="4-3-确定信息安全管理体系范围"><a href="#4-3-确定信息安全管理体系范围" class="headerlink" title="4.3 确定信息安全管理体系范围"></a>4.3 确定信息安全管理体系范围</h2><blockquote>
-<p>组织应确定信息安全管理体系的边界及其适用性，以建立其范围。<br>在确定范围时，组织应考虑：<br>a) 4.1中提到的外部和内部事项；<br>b) 4.2中提到的要求；<br>c) 组织实施的活动之间的及其与其他组织实施的活动之间的接口和依赖关系。该范围应形成文件化信息并可用。</p>
+<h2 id="确定信息安全管理体系范围">4.3 确定信息安全管理体系范围</h2>
+<blockquote>
+<p>组织应确定信息安全管理体系的边界及其适用性，以建立其范围。
+在确定范围时，组织应考虑： a) 4.1中提到的外部和内部事项； b)
+4.2中提到的要求； c)
+组织实施的活动之间的及其与其他组织实施的活动之间的接口和依赖关系。该范围应形成文件化信息并可用。</p>
 </blockquote>
-<h2 id="4-4-信息安全管理体系"><a href="#4-4-信息安全管理体系" class="headerlink" title="4.4 信息安全管理体系"></a>4.4 信息安全管理体系</h2><blockquote>
-<p> 组织应按照本标准的要求，建立，实现，维护和持续改进信息安全管理体系。</p>
+<h2 id="信息安全管理体系">4.4 信息安全管理体系</h2>
+<blockquote>
+<p>组织应按照本标准的要求，建立，实现，维护和持续改进信息安全管理体系。</p>
 </blockquote>
-<h1 id="5-领导"><a href="#5-领导" class="headerlink" title="5 领导"></a>5 领导</h1><h2 id="5-1-领导和承诺"><a href="#5-1-领导和承诺" class="headerlink" title="5.1 领导和承诺"></a>5.1 领导和承诺</h2><blockquote>
-<p>最高管理层应通过以下活动，证实对信息安全管理体系的领导和承诺：<br>a)确保建立了信息安全策略和信息安全目标，并与组织战略方向一致；<br>b)确保将信息安全管理体系要求整合到组织过程中；<br>c)确保信息安全管理体系所需资源可用;<br>d)沟通有效的信息安全管理及符合信息安全管理体系要求的重要性;<br>e)确保信息安全管理体系达到预期结果;<br>f)指导并支持相关人员为信息安全管理体系的有效性做出贡献；<br>g)促进持续改进;<br>h)支持其他相关管理角色，以证实他们的领导按角色应用于其责任范围。</p>
+<h1 id="领导">5 领导</h1>
+<h2 id="领导和承诺">5.1 领导和承诺</h2>
+<blockquote>
+<p>最高管理层应通过以下活动，证实对信息安全管理体系的领导和承诺：
+a)确保建立了信息安全策略和信息安全目标，并与组织战略方向一致；
+b)确保将信息安全管理体系要求整合到组织过程中；
+c)确保信息安全管理体系所需资源可用;
+d)沟通有效的信息安全管理及符合信息安全管理体系要求的重要性;
+e)确保信息安全管理体系达到预期结果;
+f)指导并支持相关人员为信息安全管理体系的有效性做出贡献； g)促进持续改进;
+h)支持其他相关管理角色，以证实他们的领导按角色应用于其责任范围。</p>
 </blockquote>
-<h2 id="5-2-方针"><a href="#5-2-方针" class="headerlink" title="5.2 方针"></a>5.2 方针</h2><blockquote>
-<p>最高管理层应建立信息安全方针，该方针应：<br>a)与组织意图相适宜；<br>b)包括信息安全目标（见6.2）或为设定信息安全目标提供框架；<br>c)包括对满足适用的信息安全相关要求的承诺；<br>d)包括对持续改进信息安全管理体系的承诺。<br>信息安全方针应：<br>e)形成文件化信息并可用；<br>f)在组织内得到沟通；<br>g)适当时，对相关方可用。</p>
+<h2 id="方针">5.2 方针</h2>
+<blockquote>
+<p>最高管理层应建立信息安全方针，该方针应： a)与组织意图相适宜；
+b)包括信息安全目标（见6.2）或为设定信息安全目标提供框架；
+c)包括对满足适用的信息安全相关要求的承诺；
+d)包括对持续改进信息安全管理体系的承诺。 信息安全方针应：
+e)形成文件化信息并可用； f)在组织内得到沟通；
+g)适当时，对相关方可用。</p>
 </blockquote>
-<h2 id="5-3-组织的角色，责任和权限"><a href="#5-3-组织的角色，责任和权限" class="headerlink" title="5.3 组织的角色，责任和权限"></a>5.3 组织的角色，责任和权限</h2><blockquote>
-<p>最高管理层应确保与信息安全相关角色的责任和权限得到分配和沟通，最高管理层应分配责任和权限，以：<br>a)确保信息安全管理体系符合本标准的要求；<br>b)向最高管理者报告信息安全管理体系绩效。<br>注：最高管理层可以为组织内报告信息安全管理体系绩效，分配责任和权限。</p>
+<h2 id="组织的角色责任和权限">5.3 组织的角色，责任和权限</h2>
+<blockquote>
+<p>最高管理层应确保与信息安全相关角色的责任和权限得到分配和沟通，最高管理层应分配责任和权限，以：
+a)确保信息安全管理体系符合本标准的要求；
+b)向最高管理者报告信息安全管理体系绩效。
+注：最高管理层可以为组织内报告信息安全管理体系绩效，分配责任和权限。</p>
 </blockquote>
-<h1 id="6-规划"><a href="#6-规划" class="headerlink" title="6 规划"></a>6 规划</h1><h2 id="6-1-应对风险和机会的措施"><a href="#6-1-应对风险和机会的措施" class="headerlink" title="6.1 应对风险和机会的措施"></a>6.1 应对风险和机会的措施</h2><blockquote>
+<h1 id="规划">6 规划</h1>
+<h2 id="应对风险和机会的措施">6.1 应对风险和机会的措施</h2>
+<blockquote>
 <p><strong>6.1.1 总则</strong></p>
-<p>当规划信息安全管理体系时，组织应考虑4.1中提到的事项和4.2中提到的要求，并确定需要应对的风险和机会，以：<br>a)确保信息安全管理体系可达到预期结果；<br>b)预防或减少不良影响；<br>c)达到持续改进。<br>组织应规划：<br>d)应对这些风险和机会的措施；<br>e)如何：<br>1)将这些措施整合到信息安全管理体系过程中，并予以实现；<br>2)评价这些措施的有效性。</p>
-<p><strong>6.1.2 信息安全风险评估</strong><br>组织应定义并应用信息安全风险评估过程，以：<br>a) 建立并维护信息安全风险准则，包括：<br>    1）风险接受准则；<br>    2）信息安全管理体系评估实施准则。<br>b)确保反复的信息安全风险评估产生一致的，有效的和可比较的结果。<br>c)识别信息安全风险：<br>    1）应用信息安全风险评估过程，以识别信息安全管理体系范围内与信息保密性，完整性和可用性损失有关的风险；<br>    2）识别风险责任人。<br>d)分析信息安全风险：<br>    1）评估6.1.2c)中所识别的风险发生后，可能导致的潜在后果；<br>    2）评估6.1.2c)中所识别的风险实际发生的可能性;</p>
-<pre><code>3)  确定风险级别。
-</code></pre><p>e) 评价信息安全风险：<br>        1）将风险分析结果与6.1.2a)中建立的风险准则进行比较；<br>        2）为风险处置排序已分析风险的优先级。<br>组织应保留有关信息安全风险评估过程的文件化信息。</p>
-<p><strong>6.1.3 信息安全风险处置</strong><br>组织应定义并应用信息安全风险处置过程，以：<br>a)在考虑风险评估结果的基础上，选择适合的信息安全风险处置选项；<br>b)确定实现已选的信息安全风险处置选项所必需的所有控制；<br>注1:当需要时，组织可设计控制，或识别来自任何来源的控制。<br>c)将6.1.3b)确定的控制与附录A中的控制进行比较，并验证没有忽略必要的控制；<br>注2:附录A包含了控制目标和控制的结合列表。本标准用户可在附录A的指导下，确保没有遗漏必要的控制。<br>注3:控制目标隐含在所选择的控制内。附录A所列的控制目标和控制并不是完备的，可能需要额外的控制目标和控制。<br>d)制定一个==适用性声明(SoA Statement of Applicablity)==，包含必要的控制[见6.1.3b)和c]及其选择的合理性说明（无论该控制是否已实现），以及对附录A控制删减的合理性说明；<br>e)制定正式的信息安全风险处置计划；<br>f)获得风险责任人对信息安全风险处置过程的文件化信息。<br>注4:本标准中的信息安全风险评估和处置过程与ISO 31000中给出的原则和通用指南相匹配。</p>
+<p>当规划信息安全管理体系时，组织应考虑4.1中提到的事项和4.2中提到的要求，并确定需要应对的风险和机会，以：
+a)确保信息安全管理体系可达到预期结果； b)预防或减少不良影响；
+c)达到持续改进。 组织应规划： d)应对这些风险和机会的措施； e)如何：
+1)将这些措施整合到信息安全管理体系过程中，并予以实现；
+2)评价这些措施的有效性。</p>
+<p><strong>6.1.2 信息安全风险评估</strong>
+组织应定义并应用信息安全风险评估过程，以： a)
+建立并维护信息安全风险准则，包括： 1）风险接受准则；
+2）信息安全管理体系评估实施准则。
+b)确保反复的信息安全风险评估产生一致的，有效的和可比较的结果。
+c)识别信息安全风险：
+1）应用信息安全风险评估过程，以识别信息安全管理体系范围内与信息保密性，完整性和可用性损失有关的风险；
+2）识别风险责任人。 d)分析信息安全风险：
+1）评估6.1.2c)中所识别的风险发生后，可能导致的潜在后果；
+2）评估6.1.2c)中所识别的风险实际发生的可能性;</p>
+<pre><code>3)  确定风险级别。</code></pre>
+<ol start="5" type="a">
+<li>评价信息安全风险：
+1）将风险分析结果与6.1.2a)中建立的风险准则进行比较；
+2）为风险处置排序已分析风险的优先级。
+组织应保留有关信息安全风险评估过程的文件化信息。</li>
+</ol>
+<p><strong>6.1.3 信息安全风险处置</strong>
+组织应定义并应用信息安全风险处置过程，以：
+a)在考虑风险评估结果的基础上，选择适合的信息安全风险处置选项；
+b)确定实现已选的信息安全风险处置选项所必需的所有控制；
+注1:当需要时，组织可设计控制，或识别来自任何来源的控制。
+c)将6.1.3b)确定的控制与附录A中的控制进行比较，并验证没有忽略必要的控制；
+注2:附录A包含了控制目标和控制的结合列表。本标准用户可在附录A的指导下，确保没有遗漏必要的控制。
+注3:控制目标隐含在所选择的控制内。附录A所列的控制目标和控制并不是完备的，可能需要额外的控制目标和控制。
+d)制定一个==适用性声明(SoA Statement of
+Applicablity)==，包含必要的控制[见6.1.3b)和c]及其选择的合理性说明（无论该控制是否已实现），以及对附录A控制删减的合理性说明；
+e)制定正式的信息安全风险处置计划；
+f)获得风险责任人对信息安全风险处置过程的文件化信息。
+注4:本标准中的信息安全风险评估和处置过程与ISO
+31000中给出的原则和通用指南相匹配。</p>
 </blockquote>
 <p>解读：</p>
 <p>这里的适应性声明类似于制造业中的FMEA，包含了生产工业流程中的各个控制点和控制参数等。</p>
-<h2 id="6-2-信息安全目标及其实现规划"><a href="#6-2-信息安全目标及其实现规划" class="headerlink" title="6.2 信息安全目标及其实现规划"></a>6.2 信息安全目标及其实现规划</h2><blockquote>
-<p>组织应在相关职能和层级上建立信息安全目标。<br>信息安全应：<br>a）与信息安全方针一致；<br>b) 可测量（如可行）；<br>c) 考虑适用的信息安全要求，以及风险评估和风险处置的结果；<br>d) 得到沟通；<br>e) 适当时更新；<br>组织应保留有关信息安全目标的文件化信息。在规则如何达到信息安全目标时，组织应确定：<br>f) 要做什么；<br>g) 需要什么资源；<br>h) 由谁负责；<br>i) 什么时候完成；<br>j) 如何评价结果。</p>
+<h2 id="信息安全目标及其实现规划">6.2 信息安全目标及其实现规划</h2>
+<blockquote>
+<p>组织应在相关职能和层级上建立信息安全目标。 信息安全应：
+a）与信息安全方针一致； b) 可测量（如可行）； c)
+考虑适用的信息安全要求，以及风险评估和风险处置的结果； d) 得到沟通； e)
+适当时更新；
+组织应保留有关信息安全目标的文件化信息。在规则如何达到信息安全目标时，组织应确定：
+f) 要做什么； g) 需要什么资源； h) 由谁负责； i) 什么时候完成； j)
+如何评价结果。</p>
 </blockquote>
-<h1 id="7-支持"><a href="#7-支持" class="headerlink" title="7 支持"></a>7 支持</h1><h2 id="7-1-资源"><a href="#7-1-资源" class="headerlink" title="7.1 资源"></a>7.1 资源</h2><blockquote>
+<h1 id="支持">7 支持</h1>
+<h2 id="资源">7.1 资源</h2>
+<blockquote>
 <p>组织应确定并提供建立，实现，维护和持续改进信息安全管理体系所需的资源。</p>
 </blockquote>
-<h2 id="7-2-能力"><a href="#7-2-能力" class="headerlink" title="7.2 能力"></a>7.2 能力</h2><blockquote>
-<p>组织应：<br>a) 确定在组织控制下人事会影响组织信息安全绩效的工作人员的必要能力；<br>b) 确保上述人员在适当的教育，培训或经验的基础上能够胜任其工作；<br>c) 适用时，采取措施以获得必要的能力，并评估所采取措施的有效性；<br>d) 保留适当的文件化信息作为能力的证据。<br>注：适用的措施可包括，例如针对现有雇员提供培训，指导或重新分配；雇佣或签约有能力的人员。</p>
+<h2 id="能力">7.2 能力</h2>
+<blockquote>
+<p>组织应： a)
+确定在组织控制下人事会影响组织信息安全绩效的工作人员的必要能力； b)
+确保上述人员在适当的教育，培训或经验的基础上能够胜任其工作； c)
+适用时，采取措施以获得必要的能力，并评估所采取措施的有效性； d)
+保留适当的文件化信息作为能力的证据。
+注：适用的措施可包括，例如针对现有雇员提供培训，指导或重新分配；雇佣或签约有能力的人员。</p>
 </blockquote>
-<h2 id="7-3-意识"><a href="#7-3-意识" class="headerlink" title="7.3 意识"></a>7.3 意识</h2><blockquote>
-<p>在组织控制下工作的人员应了解；<br>a) 信息安全方针；<br>b) 其对信息安全管理体系有效性的贡献，包括改进信息安全绩效带来的益处；<br>c) 不符合信息安全管理体系要求带来的影响。</p>
+<h2 id="意识">7.3 意识</h2>
+<blockquote>
+<p>在组织控制下工作的人员应了解； a) 信息安全方针； b)
+其对信息安全管理体系有效性的贡献，包括改进信息安全绩效带来的益处； c)
+不符合信息安全管理体系要求带来的影响。</p>
 </blockquote>
-<h2 id="7-4-沟通"><a href="#7-4-沟通" class="headerlink" title="7.4 沟通"></a>7.4 沟通</h2><blockquote>
-<p>组织应确定与信息安全管理体系相关的内部和外部的沟通要求，包括：<br>a) 沟通什么；<br>b) 何时沟通；<br>c) 与谁沟通；<br>d) 谁来沟通；<br>e) 影响沟通的过程。</p>
+<h2 id="沟通">7.4 沟通</h2>
+<blockquote>
+<p>组织应确定与信息安全管理体系相关的内部和外部的沟通要求，包括： a)
+沟通什么； b) 何时沟通； c) 与谁沟通； d) 谁来沟通； e)
+影响沟通的过程。</p>
 </blockquote>
-<h2 id="7-5-文件化信息"><a href="#7-5-文件化信息" class="headerlink" title="7.5 文件化信息"></a>7.5 文件化信息</h2><blockquote>
-<p><strong>7.5.1 总则</strong><br>组织的信息安全管理体系应包括：<br>a) 本标准要求的文件化信息；<br>b) 为信息安全管理体系的有效性，组织所确定的必要的文件化信息。<br>注：不同组织有关信息安全管理体系文件化信息的详略程序可以是不同的，这是由于：<br>1)组织的规模及其活动，过程，产品和服务的类型；</p>
+<h2 id="文件化信息">7.5 文件化信息</h2>
+<blockquote>
+<p><strong>7.5.1 总则</strong> 组织的信息安全管理体系应包括： a)
+本标准要求的文件化信息； b)
+为信息安全管理体系的有效性，组织所确定的必要的文件化信息。
+注：不同组织有关信息安全管理体系文件化信息的详略程序可以是不同的，这是由于：
+1)组织的规模及其活动，过程，产品和服务的类型；</p>
 <p>2)过程及其相互作用的复杂性；</p>
 <p>3)人员的能力。</p>
-<p><strong>7.5.2 创建和更新</strong><br>创建和更新文件化信息时，组织应确保适当的：<br>a) 标准和描述（例如标题，日期，作者或引用编号）；<br>b) 格式（例如语言，软件版本，图表）和介质（例如纸质的，电子的）；<br>c) 对适宜性和充分性的评审和批准。</p>
-<p><strong>7.5.3 文件化信息的控制</strong><br>信息安全管理体系及本标准所要求的文件化信息应得到控制，以确保：<br>a) 在需要的地点和时间，是可用的适宜使用的；<br>b) 得到充分的保护（如避免保密性损失，不恰当使用，完整性损失等)。<br>为控制文件化信息，适用时，组织应强调以下活动：<br>c) 分发，访问，检索和使用；<br>d) 存储和保护，包括保持可持续性；<br>e) 控制变更（例如版本控制）；<br>f) 保留和处理。<br>组织确定的为规划和运行信息安全管理体系所必需的外来的文件化信息，应得到适当的识别，并予以控制。<br>注：访问隐含着仅允许浏览文件化信息，或允许和授权浏览及更改文件化信息等决定。</p>
+<p><strong>7.5.2 创建和更新</strong>
+创建和更新文件化信息时，组织应确保适当的： a)
+标准和描述（例如标题，日期，作者或引用编号）； b)
+格式（例如语言，软件版本，图表）和介质（例如纸质的，电子的）； c)
+对适宜性和充分性的评审和批准。</p>
+<p><strong>7.5.3 文件化信息的控制</strong>
+信息安全管理体系及本标准所要求的文件化信息应得到控制，以确保： a)
+在需要的地点和时间，是可用的适宜使用的； b)
+得到充分的保护（如避免保密性损失，不恰当使用，完整性损失等)。
+为控制文件化信息，适用时，组织应强调以下活动： c)
+分发，访问，检索和使用； d) 存储和保护，包括保持可持续性； e)
+控制变更（例如版本控制）； f) 保留和处理。
+组织确定的为规划和运行信息安全管理体系所必需的外来的文件化信息，应得到适当的识别，并予以控制。
+注：访问隐含着仅允许浏览文件化信息，或允许和授权浏览及更改文件化信息等决定。</p>
 </blockquote>
-<h1 id="8-运行"><a href="#8-运行" class="headerlink" title="8 运行"></a>8 运行</h1><h2 id="8-1-运行规划和控制"><a href="#8-1-运行规划和控制" class="headerlink" title="8.1 运行规划和控制"></a>8.1 运行规划和控制</h2><blockquote>
-<p>为了满足信息安全要求以及实现6.1中确定的措施，组织应规划，实现和控制所需要的过程。组织还应实现为达到6.2中确定的信息安全目标一系列计划。<br>组织应保持文件化信息达到必要的程度，以确信这些过程按计划得到执行。<br>组织应控制计划内的变更并评审非预期变更的后果，必要时采取措施减轻任何负责影响。<br>组织应确保外包过程是确定的和受控的。</p>
+<h1 id="运行">8 运行</h1>
+<h2 id="运行规划和控制">8.1 运行规划和控制</h2>
+<blockquote>
+<p>为了满足信息安全要求以及实现6.1中确定的措施，组织应规划，实现和控制所需要的过程。组织还应实现为达到6.2中确定的信息安全目标一系列计划。
+组织应保持文件化信息达到必要的程度，以确信这些过程按计划得到执行。
+组织应控制计划内的变更并评审非预期变更的后果，必要时采取措施减轻任何负责影响。
+组织应确保外包过程是确定的和受控的。</p>
 </blockquote>
-<h2 id="8-2-信息安全风险控制"><a href="#8-2-信息安全风险控制" class="headerlink" title="8.2 信息安全风险控制"></a>8.2 信息安全风险控制</h2><blockquote>
-<p>组织应考虑6.1.2a)所建立的准则，按计划的时间间隔，或当重要变更提出或发生时，执行信息安全风险评估。<br>组织应保留信息安全风险评估结果的文件化信息。</p>
+<h2 id="信息安全风险控制">8.2 信息安全风险控制</h2>
+<blockquote>
+<p>组织应考虑6.1.2a)所建立的准则，按计划的时间间隔，或当重要变更提出或发生时，执行信息安全风险评估。
+组织应保留信息安全风险评估结果的文件化信息。</p>
 </blockquote>
-<h2 id="8-3-信息安全风险处置"><a href="#8-3-信息安全风险处置" class="headerlink" title="8.3 信息安全风险处置"></a>8.3 信息安全风险处置</h2><blockquote>
-<p>组织应实现信息安全风险处置计划。<br>组织应保留信息安全风险处置结果的文件化信息。</p>
+<h2 id="信息安全风险处置">8.3 信息安全风险处置</h2>
+<blockquote>
+<p>组织应实现信息安全风险处置计划。
+组织应保留信息安全风险处置结果的文件化信息。</p>
 </blockquote>
-<h1 id="9-绩效评价"><a href="#9-绩效评价" class="headerlink" title="9 绩效评价"></a>9 绩效评价</h1><h2 id="9-1-监视，测量，分析和评价"><a href="#9-1-监视，测量，分析和评价" class="headerlink" title="9.1 监视，测量，分析和评价"></a>9.1 监视，测量，分析和评价</h2><blockquote>
-<p>组织应评价信息安全绩效以及信息安全管理体系的有效性。<br>组织应确定：<br>a) 需要被监视和测量的内容，包括信息安全过程和控制；<br>b) 适用的监视，测量，分析和评价的方法，以确保得到有效的结果；<br>注：所选的方法宜产生可比较和可再现的有效结果。<br>c) 何时应执行监视和测量；<br>d) 谁应监视和测量；<br>e) 何时应分析和评价监视和测量的结果；<br>f) 谁应分析和评价这些结果。<br>组织应保留适当的文件化信息作为监视和测量结果的证据。</p>
+<h1 id="绩效评价">9 绩效评价</h1>
+<h2 id="监视测量分析和评价">9.1 监视，测量，分析和评价</h2>
+<blockquote>
+<p>组织应评价信息安全绩效以及信息安全管理体系的有效性。 组织应确定： a)
+需要被监视和测量的内容，包括信息安全过程和控制； b)
+适用的监视，测量，分析和评价的方法，以确保得到有效的结果；
+注：所选的方法宜产生可比较和可再现的有效结果。 c) 何时应执行监视和测量；
+d) 谁应监视和测量； e) 何时应分析和评价监视和测量的结果； f)
+谁应分析和评价这些结果。
+组织应保留适当的文件化信息作为监视和测量结果的证据。</p>
 </blockquote>
-<h2 id="9-2-内部审核"><a href="#9-2-内部审核" class="headerlink" title="9.2 内部审核"></a>9.2 内部审核</h2><blockquote>
-<p>组织应按计划的时间间隔进行内部审核，以提供信息，确定信息安全管理体系：<br>a)是否符合：<br>    1）组织自身对信息安全管理体系的要求；<br>    2）本标准的要求。<br>b) 是否得到有效实现和维护。<br>组织应：<br>c) 规划，建立，实现和维护审核方案（一个或多个），包括审核频次，方法，责任，规划要求和报告。审核方案应考虑相关过程的重要性和以往审核的结果。<br>d) 定义每次审核的审核准则和范围。<br>e) 选择审核员并实施审核，确保审核过程的客观性和公正性。<br>f) 确保将审核结果报告至相关管理层。<br>g) 保留文件化信息作为审核方案和审核结果的证据。</p>
+<h2 id="内部审核">9.2 内部审核</h2>
+<blockquote>
+<p>组织应按计划的时间间隔进行内部审核，以提供信息，确定信息安全管理体系：
+a)是否符合： 1）组织自身对信息安全管理体系的要求； 2）本标准的要求。 b)
+是否得到有效实现和维护。 组织应： c)
+规划，建立，实现和维护审核方案（一个或多个），包括审核频次，方法，责任，规划要求和报告。审核方案应考虑相关过程的重要性和以往审核的结果。
+d) 定义每次审核的审核准则和范围。 e)
+选择审核员并实施审核，确保审核过程的客观性和公正性。 f)
+确保将审核结果报告至相关管理层。 g)
+保留文件化信息作为审核方案和审核结果的证据。</p>
 </blockquote>
-<h2 id="9-3-管理评审"><a href="#9-3-管理评审" class="headerlink" title="9.3 管理评审"></a>9.3 管理评审</h2><blockquote>
-<p>最高管理层应按计划的时间间隔评审组织的信息安全管理体系，以确保其持续的适宜性，充分性和有效性。<br>管理评审应考虑：<br>a) 以往管理评审提出的措施的状态；<br>b) 与信息安全管理体系相关的外部和内部事项的变化；<br>c) 有关信息安全绩效的反馈，包括以下方面的趋势：<br>    1) 不符合和纠正措施；<br>        2）监视和测量结果；<br>        3）审核结果；<br>        4）信息安全目标完成情况。<br>        d) 相关方反馈；<br>        e) 风险评估结果及风险处置计划的状态；<br>        f) 持续改进的机会。<br>        管理评审的输出应包括与持续改进机会相关的决定以及变更信息安全管理体系的任何要求。组织应保留文件化信息作为管理评审结果的证据。</p>
+<h2 id="管理评审">9.3 管理评审</h2>
+<blockquote>
+<p>最高管理层应按计划的时间间隔评审组织的信息安全管理体系，以确保其持续的适宜性，充分性和有效性。
+管理评审应考虑： a) 以往管理评审提出的措施的状态； b)
+与信息安全管理体系相关的外部和内部事项的变化； c)
+有关信息安全绩效的反馈，包括以下方面的趋势： 1) 不符合和纠正措施；
+2）监视和测量结果； 3）审核结果； 4）信息安全目标完成情况。 d)
+相关方反馈； e) 风险评估结果及风险处置计划的状态； f) 持续改进的机会。
+管理评审的输出应包括与持续改进机会相关的决定以及变更信息安全管理体系的任何要求。组织应保留文件化信息作为管理评审结果的证据。</p>
 </blockquote>
-<h1 id="10-改进"><a href="#10-改进" class="headerlink" title="10 改进"></a>10 改进</h1><h2 id="10-1-不符合及纠正措施"><a href="#10-1-不符合及纠正措施" class="headerlink" title="10.1 不符合及纠正措施"></a>10.1 不符合及纠正措施</h2><blockquote>
-<p>当发生不符合时，组织应：<br>a) 对不符合做出反应，适用时：<br>    1）采取措施，以控制并予以纠正；<br>    2）处理后果；<br>b) 通过以下活动，评价采取消除不符合原因的措施的需求，以防止不符合再发生， 或在其他地方发生：<br>    1） 评审不符合；<br>    2） 确定不符合的原因；<br>    3） 确定类似的不符合是否存在，或可能发生；<br>c) 实现任何需要的措施；<br>d) 评审任何所采取的纠正措施的有效性；<br>e）必要时，对信息安全管理体系进行变更。<br>纠正措施应与所遇到的不符合的影响相适合。<br>组织应保留文件化信息作为以下方面的证据；<br>f) 不符合的性质及所采取的任何后续措施；<br>g) 任何纠正措施的结果。</p>
+<h1 id="改进">10 改进</h1>
+<h2 id="不符合及纠正措施">10.1 不符合及纠正措施</h2>
+<blockquote>
+<p>当发生不符合时，组织应： a) 对不符合做出反应，适用时：
+1）采取措施，以控制并予以纠正； 2）处理后果； b)
+通过以下活动，评价采取消除不符合原因的措施的需求，以防止不符合再发生，
+或在其他地方发生： 1） 评审不符合； 2） 确定不符合的原因； 3）
+确定类似的不符合是否存在，或可能发生； c) 实现任何需要的措施； d)
+评审任何所采取的纠正措施的有效性；
+e）必要时，对信息安全管理体系进行变更。
+纠正措施应与所遇到的不符合的影响相适合。
+组织应保留文件化信息作为以下方面的证据； f)
+不符合的性质及所采取的任何后续措施； g) 任何纠正措施的结果。</p>
 </blockquote>
-<h2 id="10-2-持续改进"><a href="#10-2-持续改进" class="headerlink" title="10.2 持续改进"></a>10.2 持续改进</h2><blockquote>
+<h2 id="持续改进">10.2 持续改进</h2>
+<blockquote>
 <p>组织应持续改进信息安全管理体系的适宜性，充分性和有效性。</p>
 </blockquote>
 ]]></content>
@@ -907,10 +349,17 @@
     <content><![CDATA[<p>版本变动：2023.2.12 初稿</p>
 <p>工作中经常会处理一些用户的钓鱼邮件报告，除了SOP（标准作业指导书）中的内容外，这种邮件看得多了，也就能发现一些端倪。</p>
 <p>常见的钓鱼邮件主要目的是欺骗用户点击事先准备好的链接，为了达到这个目的，他们会从几方面来包装邮件。</p>
-<h2 id="类别分析"><a href="#类别分析" class="headerlink" title="类别分析"></a>类别分析</h2><p>看邮件标题<br>1.冒充管理员的，比如IT部门，财务部门，人事部门等<br>2.冒充领导或同事的，冒充领导的一般不会用领导的公司邮箱，而是他的个人邮箱，原因有二：公司邮箱没那么容易冒充，而个人邮箱相对简单，容易模仿，特别是一些高层大佬的邮箱，一般SNS上能查得到。<br>3.冒充部门或机构，比如协会面向会员的密码修改通知，银行，中介公司面向客户的通知等。<br>4.跟进热点，诱导点击，比如说最近比较热门的话题chatGPT,弄一些教程来骗你注册，分享链接之类的。</p>
+<h2 id="类别分析">类别分析</h2>
+<p>看邮件标题 1.冒充管理员的，比如IT部门，财务部门，人事部门等
+2.冒充领导或同事的，冒充领导的一般不会用领导的公司邮箱，而是他的个人邮箱，原因有二：公司邮箱没那么容易冒充，而个人邮箱相对简单，容易模仿，特别是一些高层大佬的邮箱，一般SNS上能查得到。
+3.冒充部门或机构，比如协会面向会员的密码修改通知，银行，中介公司面向客户的通知等。
+4.跟进热点，诱导点击，比如说最近比较热门的话题chatGPT,弄一些教程来骗你注册，分享链接之类的。</p>
 <span id="more"></span>
-<p>看邮件内容<br>1）称呼上是非具体对象的，一般来说，能准确叫出目标对象名字的，可疑性较小。<br>2）制造紧急对应氛围的，一般会有要求目标对象24小时之内对应，或是不对应将停止服务之类的恐吓言论。<br>3）小心退订按钮，一些订阅邮件，许多用户可能也记不清自己到底有没有订阅过，这时退订按钮可能也是一个坑。</p>
-<p>看URL<br>1）确认链接跳转地址</p>
+<p>看邮件内容
+1）称呼上是非具体对象的，一般来说，能准确叫出目标对象名字的，可疑性较小。
+2）制造紧急对应氛围的，一般会有要求目标对象24小时之内对应，或是不对应将停止服务之类的恐吓言论。
+3）小心退订按钮，一些订阅邮件，许多用户可能也记不清自己到底有没有订阅过，这时退订按钮可能也是一个坑。</p>
+<p>看URL 1）确认链接跳转地址</p>
 <p>一般这是很容易辨别的，因为超链接的特性，显示的链接名称和实际跳转的链接可能是完全不同的。复制为纯文本格式就能发现问题。</p>
 ]]></content>
       <categories>
@@ -918,245 +367,1278 @@
       </categories>
   </entry>
   <entry>
-    <title>【斜杠笔记】大学院信号处理科目要点</title>
-    <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E7%A7%91%E7%9B%AE%E8%A6%81%E7%82%B9/</url>
-    <content><![CDATA[<p>修改记录：<br>2023.2.15 初稿，大学院备考时的知识点整理</p>
-<p>信号$\cdot$解析</p>
-<h3 id="时域-rightarrow-频域（傅里叶变换）"><a href="#时域-rightarrow-频域（傅里叶变换）" class="headerlink" title="时域$\rightarrow $频域（傅里叶变换）"></a>时域$\rightarrow $频域（傅里叶变换）</h3><p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
-<p>$X(w)=\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty$</p>
-<p>$x(t)=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)e^{jwt}dw$</p>
-<h3 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h3><p>$x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infty}a_i\cos(2\pi i\dfrac{t}{T})+\sum_{i=1}^{\infty}b_i\sin(2\pi i\dfrac{t}{T})$</p>
-<p>意义：</p>
-<p>複雑な周期関数は単純な波動の数学的な表現である正弦や余弦の和として表される。</p>
-<p>$\dfrac{a_0}{2}$は波形に含まれる直流成分の振幅</p>
-<p>フーリエ級数展開：周期関数をさまざまな正弦波の重ね合わせとして表すこと。</p>
-<p>フーリエ変換：無限に長い周期をもつ関数を連続スペクトル（Spectre）に変換すること。</p>
-<span id="more"></span>
-<h3 id="離散"><a href="#離散" class="headerlink" title="離散"></a>離散</h3><p>波形$x(t)$を一定時間間隔$T_s$でサンプリングして得られる。</p>
-<p>いわれる離散波形$x(n/s)$を用いて周波数スペクトルを求める操作が、離散のフーリエ変換（DFT）である。</p>
-<p>DFT:</p>
-<script type="math/tex; mode=display">
-X(i)=\sum_{n=0}^{N-1}X(n)\cdot e^{-j\frac{2\pi iT_s}{NT_s}}=\sum_{n=0}^{N-1}X(n)e^{-j\frac{2\pi}{N}in}</script><p>令$w=e^{-j\frac{2\pi}{N}}$</p>
-<p>则上式化简为</p>
-<script type="math/tex; mode=display">
-X(i)=\sum_{n=0}^{N-1}X(n)w^{in}</script><p>IDFT:</p>
-<script type="math/tex; mode=display">
-x(k)=\dfrac{1}{N}\sum_{i=0}^{N-1}X(i)w^{-ik}</script><h3 id="連続"><a href="#連続" class="headerlink" title="連続"></a>連続</h3><p>常用傅里叶变换对</p>
-<div class="table-container">
-<table>
+    <title>【安全框架】MITRE ATT&amp;CK</title>
+    <url>/2023/02/12/%E3%80%90%E5%AE%89%E5%85%A8%E6%A1%86%E6%9E%B6%E3%80%91MITRE-ATT-CK/</url>
+    <content><![CDATA[<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 6%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 5%" />
+</colgroup>
 <thead>
-<tr>
-<th>时域</th>
-<th>频域</th>
+<tr class="header">
+<th>Reconnaissance<br />侦察</th>
+<th>Resource Development<br />资源扩展</th>
+<th>Initial Access<br />最初入口</th>
+<th>Execution<br />执行攻击</th>
+<th>Persistence<br />持续性控制</th>
+<th>Privilege Escalation<br />权限提升</th>
+<th>Defense Evasion<br />躲避防御机制</th>
+<th>Credential Access<br />获取合法凭证访问</th>
+<th>Discovery<br />查看信息</th>
+<th>Lateral Movement<br />横向权限扩展</th>
+<th>Collection<br />收集信息</th>
+<th>Command and Control<br />命令控制</th>
+<th>Exfiltration<br />信息窃取</th>
+<th>Impact</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>$\delta(t)$冲激函数</td>
-<td>1</td>
+<tr class="odd">
+<td>Active Scanning</td>
+<td>Acquire Infrastructure</td>
+<td>Drive-by Infrastructure</td>
+<td>Command and Scripting Interpreter</td>
+<td>Account Manipulation</td>
+<td>Abuse Elevation Control Mechanism</td>
+<td>Abuse Elevation Control Mechanism</td>
+<td>Adversary-in-the-Middle</td>
+<td>Account Discovery</td>
+<td>Exploitation of Remote Services</td>
+<td>Adversary-in-the-Middle</td>
+<td>Application Layer Protocol</td>
+<td>Automated Exfiltration</td>
+<td>Account Access Removal</td>
 </tr>
-<tr>
-<td>$u(t)$阶跃函数</td>
-<td>$\dfrac{1}{jw}+\pi \delta(w)$</td>
+<tr class="even">
+<td>Gather Victim Host Information</td>
+<td>Compromise Accounts</td>
+<td>Exploit Public-Facing Application</td>
+<td>Container Administration Command</td>
+<td>BITS Jobs</td>
+<td>Access Token Manipulation</td>
+<td>Access Token Manipulation</td>
+<td>Brute Force</td>
+<td>Application Windows Discovery</td>
+<td>Internal Spearphishing</td>
+<td>Archive Collected Data</td>
+<td>Communication Through Removable Media</td>
+<td>Data Transfer Size Limits</td>
+<td>Data Destruction</td>
 </tr>
-<tr>
-<td>$\delta(t-t_0)$</td>
-<td>$e^{-jwt_0}$</td>
+<tr class="odd">
+<td>Gather Victim Identity Information</td>
+<td>Compromise Infrastructure</td>
+<td>External Remote Services</td>
+<td>Deploy Container</td>
+<td>Boot or Logon Autostart Execution</td>
+<td>Boot or Logon Autostart Execution</td>
+<td>BITS Jobs</td>
+<td>Credentials from Password Stores</td>
+<td>Browser Bookmark Discovery</td>
+<td>Lateral Tool Transfer</td>
+<td>Audio Capture</td>
+<td>Data Encoding</td>
+<td>Exfiltration Over Alternative Protocol</td>
+<td>Data Encrypted for Impact</td>
 </tr>
-<tr>
-<td>$e^{-at}u(t)$</td>
-<td>$\dfrac{1}{a+jw}$</td>
+<tr class="even">
+<td>Gather Victim Network Information</td>
+<td>Develop Capabilities</td>
+<td>Hardware Additions</td>
+<td>Exploitation for Client Execution</td>
+<td>Boot or Logon Initialization Scripts</td>
+<td>Boot or Logon Initialization Scripts</td>
+<td>Build Image on Host</td>
+<td>Exploitation for Credential Access</td>
+<td>Cloud Service Dashboard</td>
+<td>Remote Service Session Hijacking</td>
+<td>Automated Collection</td>
+<td>Data Obfuscation</td>
+<td>Exfiltration Over C2 Channel</td>
+<td>Data Manipulation</td>
 </tr>
-<tr>
-<td>$te^{-at}u(t)$</td>
-<td>$\dfrac{1}{(a+jw)^2}$</td>
+<tr class="odd">
+<td>Gather Victim Org Information</td>
+<td>Eastablish Accounts</td>
+<td>Phishing</td>
+<td>Inter-Process Communication</td>
+<td>Browser Extensions</td>
+<td>Create or Modify System Process</td>
+<td>Debugger Evasion</td>
+<td>Forced Authentication</td>
+<td>Cloud Service Discovery</td>
+<td>Remote Services</td>
+<td>Browser Session Hijacking</td>
+<td>Dynamic Resolution</td>
+<td>Exfiltration Over Other Network Medium</td>
+<td>Defacement</td>
 </tr>
-<tr>
-<td>$x(t)=1$</td>
-<td>$2\pi \delta(w)$</td>
+<tr class="even">
+<td>Phishing for Information</td>
+<td>Obtain Capabilities</td>
+<td>Replication Through Removable Media</td>
+<td>Native API</td>
+<td>Compromise Client Software Binary</td>
+<td>Domain Policy Modification</td>
+<td>Deobfuscate/Decode Files or Information</td>
+<td>Forge Web Credentials</td>
+<td>Cloud Storage Object Discovery</td>
+<td>Replication Through Removable Media</td>
+<td>Clipboard Data</td>
+<td>Encrypted Channel</td>
+<td>Exfiltration Over Physical Medium</td>
+<td>Disk Wipe</td>
 </tr>
-<tr>
-<td>$\cos w_0t$</td>
-<td>$\pi[\delta(w-w_0)+\delta(w+w_0)]$</td>
+<tr class="odd">
+<td>Search Closed Sources</td>
+<td>Stage Capabilities</td>
+<td>Supply Chain Compromise</td>
+<td>Scheduled Task/Job</td>
+<td>Create Account</td>
+<td>Escape to Host</td>
+<td>Deploy Container</td>
+<td>Input Capture</td>
+<td>Container and Resource Discovery</td>
+<td>Software Deployment Tools</td>
+<td>Data from Cloud Storage</td>
+<td>Fallback Channels</td>
+<td>Exfiltration Over Web Service</td>
+<td>Endpoint Denial of Service</td>
 </tr>
-<tr>
-<td>$\sin w_0t$</td>
-<td>$\dfrac{\pi}{j}[\delta(w-w_0)-\delta(w+w_0)]$</td>
+<tr class="even">
+<td>Search Open Technical Databases</td>
+<td></td>
+<td>Trusted Relationship</td>
+<td>Serverless Execution</td>
+<td>Create or Modify System Process</td>
+<td>Event Triggered Execution</td>
+<td>Direct Volume Access</td>
+<td>Modify Authentication Process</td>
+<td>Debugger Evasion</td>
+<td>Taint Shared Content</td>
+<td>Data from Configuration Repository</td>
+<td>Ingress Tool Transfer</td>
+<td>Scheduled Transfer</td>
+<td>Firmware Corruption</td>
+</tr>
+<tr class="odd">
+<td>Search Open Websites/Domains</td>
+<td></td>
+<td>Valid Accounts</td>
+<td>Shared Modules</td>
+<td>Event Triggered Execution</td>
+<td>Exploitation for Privilege Escalation</td>
+<td>Domain Policy Modification</td>
+<td>Multi-Factor Authentication Interception</td>
+<td>Domain Trust Discovery</td>
+<td>Use Alternate Authentication Material</td>
+<td>Data from Informatoin Repositories</td>
+<td>Multi-Stage Channels</td>
+<td>Transfer Data to Cloud Account</td>
+<td>Inhibit System Recovery</td>
+</tr>
+<tr class="even">
+<td>Search Victim-Owned Websites</td>
+<td></td>
+<td></td>
+<td>Software Deployment Tools</td>
+<td>External Remote Services</td>
+<td>Hijack Execution Flow</td>
+<td>Execution Guardrails</td>
+<td>Multi-Factor Authentication Request Generation</td>
+<td>File and Directory Discovery</td>
+<td></td>
+<td>Data from Information Repositories</td>
+<td>Non-Application Layer Protocol</td>
+<td></td>
+<td>Network Denial of Service</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>System Services</td>
+<td>Hijack Execution Flow</td>
+<td>Process Injection</td>
+<td>Exploitation for Defense Evasion</td>
+<td>Network Sniffing</td>
+<td>Group Policy Discovery</td>
+<td></td>
+<td>Data from Local System</td>
+<td>Non-Standard Port</td>
+<td></td>
+<td>Resource Hijacking</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>User Execution</td>
+<td>Implant Internal Image</td>
+<td>Scheduled Task/Job</td>
+<td>File and Directory Permissions Modification</td>
+<td>OS Credential Dumping</td>
+<td>Network Service Discovery</td>
+<td></td>
+<td>Data from Network Shared Drive</td>
+<td>Protocol Tunneling</td>
+<td></td>
+<td>Service Stop</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>Windows Management Instrumentation</td>
+<td>Modify Authentication Process</td>
+<td>Valid Accounts</td>
+<td>Hide Artifacts</td>
+<td>Steal Application Access Token</td>
+<td>Network Share Discovery</td>
+<td></td>
+<td>Data from Removable Media</td>
+<td>Proxy</td>
+<td></td>
+<td>System Shutdown/Reboot</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Modify Cloud Compute Infrastructure</td>
+<td></td>
+<td>Hijack Execution Flow</td>
+<td>Steal or Forge Authentication Certificates</td>
+<td>Network Sniffing</td>
+<td></td>
+<td>Data Staged</td>
+<td>Remote Access Software</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Modify Registry</td>
+<td></td>
+<td>Impair Defenses</td>
+<td>Steal or Forge Kerberos Tickets</td>
+<td>Password Policy</td>
+<td></td>
+<td>Email Collection</td>
+<td>Traffic Signaling</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Modify System Image</td>
+<td></td>
+<td>Indicator Removal</td>
+<td>Steal web Session Cookie</td>
+<td>Peripheral Device Discovery</td>
+<td></td>
+<td>Input Capture</td>
+<td>Web Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Network Boundary Bridging</td>
+<td></td>
+<td>Indirect Command Execution</td>
+<td>Unsecured Credentials</td>
+<td>Permission Groups Discovery</td>
+<td></td>
+<td>Screen Capture</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Obfuscated Files or Information</td>
+<td></td>
+<td>Masquerading</td>
+<td></td>
+<td>Process Discovery</td>
+<td></td>
+<td>Video Capture</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Plist File Modification</td>
+<td></td>
+<td>Modify Authentication Process</td>
+<td></td>
+<td>Query Registry</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Pre-OS Boot</td>
+<td></td>
+<td>Modify Cloud Compute Infrastructure</td>
+<td></td>
+<td>Remote System Discovery</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Process Injection</td>
+<td></td>
+<td>Modify Registry</td>
+<td></td>
+<td>Software Discovery</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Modify System Image</td>
+<td></td>
+<td>System Information Discovery</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Network Boundary Bridging</td>
+<td></td>
+<td>System Network Configuration Discovery</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Obfuscated Files or Information</td>
+<td></td>
+<td>System Network Connections Discovery</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Plist File Modification</td>
+<td></td>
+<td>System Owner/User Discovery</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Pre-OS Boot</td>
+<td></td>
+<td>System Service Discovery</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Process Injection</td>
+<td></td>
+<td>System Time Discovery</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Reflective Code Loading</td>
+<td></td>
+<td>Virtualization/Sandbox Evasion</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Rogue Domain Controller</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Rootkit</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Subvert Trust Controls</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>System Binary Proxy Execution</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>System Script Proxy Execution</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Template Injection</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Traffice Signaling</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Trusted Developer Utilities Proxy Execution</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Unused/Unsupported Cloud Regions</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Use Alternate Authentication Material</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Valid Accounts</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Virtualization/Sandbox Evasion</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Weaken Encryption</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>XLS Script Processing</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-</div>
-<h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h3><ol>
-<li><p>線形性</p>
-</li>
-<li><p>対称性　　$x(t)\leftrightarrow X(w)\Rightarrow X(t)\leftrightarrow 2\pi X(-w)$</p>
-</li>
-<li><p>時間伸縮性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(at)e^{-jwt}dt=\dfrac{1}{a}\int_{-\infin}^{\infin}x(t')e^{-\frac{jwt'}{a}}dt'=\dfrac{1}{a}X(\frac{w}{a})
-\\注：at=t',t=\dfrac{1}{a}t',dt=\dfrac{1}{a}dt'</script></li>
-</ol>
-<p>​    4.時間推移性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(t-t_0)e^{-jwt}dt=\int_{-\infin}^{\infin}x(t')e^{-jw(t'+t_0)}dt=e^{-jwt_0}\int_{-\infin}^{\infin}x(t')e^{-jwt}dt=e^{-jwt_0}X(w)\\注：t-t_0=t',t=t'+t_0,dt=dt'</script><p>​    5.周波数推移性</p>
-<script type="math/tex; mode=display">
-\dfrac{1}{2\pi}\int_{-\infin}^{\infin}x(w-w_0)e^{jwt}dw=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(u)e^{j(w_0+u)t}du=\dfrac{e^{jw_0t}}{2\pi}\int_{-\infin}^{\infin}X(u)e^{jut}=e^{jw_0t}x(t)\\注：w-w_0=u,w=u+w_0,dw=du</script><p>​    6.時間微分性</p>
-<script type="math/tex; mode=display">
-\dfrac{x(t)}{dt}=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(w)jwe^{jwt}=jwX(w)\rightarrow \dfrac{d^nX(t)}{dt^n}\Longleftrightarrow (jw)^nX(w)</script><p>​    7.時間積分性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^t x(t')dt'\longleftrightarrow \dfrac{X(w))}{jw}+\pi X(0)\delta(w)\\F[\int_{-\infin}^t [x(t)dt]]=\int_{-\infin}^{\infin}[\int_{-\infin}^t X(t)dt]e^{-jw\tau }d\tau</script><p>​    8.畳み込み</p>
-<script type="math/tex; mode=display">
-y(t)=x_1(t)x_2(t)
-\\Y(w)=\dfrac{1}{2\pi}X_1(w)X_2(w)</script><h3 id="Z変換"><a href="#Z変換" class="headerlink" title="Z変換"></a>Z変換</h3><p>$X(z)=\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$</p>
-<p>入力信号が離散値、伝送システムのインパルス応答も同じサンプリング間隔での離散値で与えてよいことになる。</p>
-<p>$x[n]=z^{-1}\{X(z)\}=\dfrac{1}{2\pi j}\oint_C X(z)z^{n-1}dz$</p>
-<p><strong>伝達関数</strong></p>
-<p>$\dfrac{Y(z)}{X(z)}$</p>
-<p>常用Z变换</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>$x[n]$</th>
-<th>$X(z)$</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$\delta[n]$冲激序列</td>
-<td>1</td>
-</tr>
-<tr>
-<td>$u[n]$阶跃序列</td>
-<td>$\dfrac{1}{1-z^{-1}}$</td>
-</tr>
-<tr>
-<td>$\delta[n-n_0]$</td>
-<td>$z^{-n_0}$</td>
-</tr>
-<tr>
-<td>$e^{-\alpha u[n]}$</td>
-<td>$\dfrac{1}{1-e^{-\alpha z^{-1}}}$</td>
-</tr>
-<tr>
-<td>$-u[-n-1]$</td>
-<td>$\dfrac{1}{1-z^{-1}}$</td>
-</tr>
-<tr>
-<td>$nu[n]$</td>
-<td>$\dfrac{z^{-1}}{(1-z^{-1})^2}$</td>
-</tr>
-<tr>
-<td>$-nu[-n-1]$</td>
-<td>$\dfrac{z^{-1}}{(1-z^{-1})^2}$</td>
-</tr>
-<tr>
-<td>$\cos (w_0n)u[n]$</td>
-<td>$\dfrac{1-z^{-1}\cos(w_0)}{1-2z^{-1}\cos(w_0)+z^{-2}}$</td>
-</tr>
-<tr>
-<td>$\sin(w_0n)u[n]$</td>
-<td>$\dfrac{z^{-1}\sin (w_0)}{1-2z^{-1}\cos (w_0)+z^{-2}}$</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>三大变换的关系</strong></p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(t)e^{-jwt}dt\\\downarrow 乘以e^{-at}\\\Downarrow \\|\int_{-\infin}^{\infin}x(t)e^{-at}|<\infin \therefore 绝对可积\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-(\sigma+jw)t}dt \quad 令s=\sigma+jw\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-st}dt \quad 从实数推广为复数</script><p>FFT: 函数要满足狄利克雷条件，信号要绝对可积/绝对可和</p>
-<p>为使不符合此条件的信号也能使用，故有了拉普拉斯和Z变换</p>
-<p>$\left\{\begin{array}{ll}CTFT: 连续时间FT\xrightarrow{扩充} &amp; Laplace\\DFTF: 离散时间FT\xrightarrow{扩充}&amp;Z\end{array}\right.$</p>
-<p>$\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}$绝对可和 $\sum_{-\infty}^{\infty}|x[n]|&lt;\infty$</p>
-<p>$x[n]$乘以$a^{-n}$</p>
-<script type="math/tex; mode=display">
-\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}\\\Rightarrow \sum_{n=-\infty}^{\infty}x[n](ae^{jw})^{-n}</script><p>将极坐标形式的复数$a\cdot e^{jw}$记为$z$</p>
-<p>$\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$就得到了Z变换</p>
+<p>因为攻击手法千奇百怪，所以暂时先从常见的入手：</p>
+<p>Non-Standard Port</p>
+<p><a href="https://attack.mitre.org/techniques/T1571/">Non-Standard
+Port, Technique T1571 - Enterprise | MITRE ATT&amp;CK®</a></p>
+<p>Adversaries may communicate using a protocol and port paring that are
+typically not associated. For example, HTTPS over port 8088[1] or port
+587[2] as opposed to the traditional port 443. Adversaries may make
+changes to the standard port used by a protocol to bypass filtering or
+muddle analysis/parsing of network data.</p>
 ]]></content>
+      <categories>
+        <category>安全框架</category>
+      </categories>
   </entry>
   <entry>
     <title>【斜杠笔记】大学院数学之向量解析</title>
     <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/</url>
-    <content><![CDATA[<h1 id="常用向量"><a href="#常用向量" class="headerlink" title="常用向量"></a>常用向量</h1><p>1.单位向量 </p>
+    <content><![CDATA[<h1 id="常用向量">常用向量</h1>
+<p>1.单位向量</p>
 <p>2.基底</p>
-<h1 id="向量运算"><a href="#向量运算" class="headerlink" title="向量运算"></a>向量运算</h1><h2 id="内积"><a href="#内积" class="headerlink" title="内积"></a>内积</h2><p>$\vec{a}\cdot \vec{b} =x_1x_2+y_1y_2+z_1z_2$</p>
-<p><a,b>=|a| |b|$ \cos \theta$</p>
+<h1 id="向量运算">向量运算</h1>
+<h2 id="内积">内积</h2>
+<p><span class="math inline">\(\vec{a}\cdot \vec{b}
+=x_1x_2+y_1y_2+z_1z_2\)</span></p>
+<p>&lt;a,b&gt;=|a| |b|$ $</p>
 <p>几何意义： 向量a在向量b上的投影，再乘以向量b的长度</p>
 <p>物理意义：力的分量所作的功</p>
 <p>用于判断两个向量的方向及角度：</p>
 <p>1）内积&gt;0,夹角小于90度</p>
 <p>2）内积=0，垂直</p>
 <p>3）内积&lt;0,夹角大于90度</p>
-<h2 id="外积"><a href="#外积" class="headerlink" title="外积"></a>外积</h2><p>$\vec{a}\times \vec{b} =det \begin{bmatrix} \vec{i} &amp; \vec{j} &amp; \vec{k} \\x_1 &amp; y_1 &amp; z_1 \\ x_2 &amp; y_2 &amp; z_2 \end{bmatrix} $</p>
+<h2 id="外积">外积</h2>
+$ =det
+<span class="math display">\[\begin{bmatrix} \vec{i} &amp; \vec{j} &amp;
+\vec{k} \\x_1 &amp; y_1 &amp; z_1 \\ x_2 &amp; y_2 &amp; z_2
+\end{bmatrix}\]</span>
+<p>$</p>
 <p>几何意义：</p>
-<p>外积的长度$a\times b =|a||b|\cos \theta$是两向量围成的平行四边形的面积</p>
+<p>外积的长度<span class="math inline">\(a\times b =|a||b|\cos
+\theta\)</span>是两向量围成的平行四边形的面积</p>
 <p>物理意义：力矩，如旋转螺丝钉，螺丝钉前进方向垂直于刀口和扭力方向</p>
 <p>外积的方向与两向量均垂直，适合求法向量</p>
 <span id="more"></span>
-<h2 id="三重积"><a href="#三重积" class="headerlink" title="三重积"></a>三重积</h2><h3 id="1）标量积"><a href="#1）标量积" class="headerlink" title="1）标量积"></a>1）标量积</h3><p>$[\vec{a},\vec{b},\vec{c}]=det \begin{bmatrix} x_1 &amp; y_1 &amp;z_1 \\ x_2 &amp; y_2 &amp;z_2 \\x_3 &amp; y_3 &amp;z_3 \end{bmatrix}$</p>
+<h2 id="三重积">三重积</h2>
+<h3 id="标量积">1）标量积</h3>
+<p><span class="math inline">\([\vec{a},\vec{b},\vec{c}]=det
+\begin{bmatrix} x_1 &amp; y_1 &amp;z_1 \\ x_2 &amp; y_2 &amp;z_2 \\x_3
+&amp; y_3 &amp;z_3 \end{bmatrix}\)</span></p>
 <p>等于三个列向量组成的行列式的值</p>
 <p>几何意义：以三个向量为棱的空间平行六面体的体积</p>
 <p>恒等式：</p>
-<p>$a\cdot (b\times c)=b\cdot (c\times a)-c\dot (b\times a )$</p>
+<p><span class="math inline">\(a\cdot (b\times c)=b\cdot (c\times
+a)-c\dot (b\times a )\)</span></p>
 <p>值不变是因为交换了行列式两次，不变号$</p>
-<h3 id="2）向量积"><a href="#2）向量积" class="headerlink" title="2）向量积"></a>2）向量积</h3><p>$\vec{a}\times (\vec{b}\times \vec{c} )=b(a\cdot c)-c(a\cdot b)$</p>
+<h3 id="向量积">2）向量积</h3>
+<p><span class="math inline">\(\vec{a}\times (\vec{b}\times \vec{c}
+)=b(a\cdot c)-c(a\cdot b)\)</span></p>
 <p>方便记忆小技巧，BAC-CAB,后面有出租车</p>
 <p>记忆：三重积一定是两个叉积向量的线性组合</p>
-<h1 id="解析几何"><a href="#解析几何" class="headerlink" title="解析几何"></a>解析几何</h1><h2 id="基本公式"><a href="#基本公式" class="headerlink" title="基本公式"></a>基本公式</h2><h3 id="1-向量微分"><a href="#1-向量微分" class="headerlink" title="1)向量微分"></a>1)向量微分</h3><p>$\dfrac{dA}{dt}=\dfrac{dA_x}{dt}i+\dfrac{dA_y}{dt}j+\dfrac{A_z}{dt}k$</p>
+<h1 id="解析几何">解析几何</h1>
+<h2 id="基本公式">基本公式</h2>
+<h3 id="向量微分">1)向量微分</h3>
+<p><span
+class="math inline">\(\dfrac{dA}{dt}=\dfrac{dA_x}{dt}i+\dfrac{dA_y}{dt}j+\dfrac{A_z}{dt}k\)</span></p>
 <p>微分满足分配律和乘积</p>
-<p>$\dfrac{d}{dt}(A+B)=\dfrac{dA}{dt}+\dfrac{dB}{dt}$</p>
-<p>$\dfrac{d}{dt}(A\cdot B)=\dfrac{dA}{dt}\cdot B+A\cdot \dfrac{dB}{dt}$</p>
-<p>$\dfrac{d}{dt}(A\times B)=\dfrac{dA}{dt}\times B+A\times \dfrac{dB}{dt}$</p>
-<h3 id="2-向量积分"><a href="#2-向量积分" class="headerlink" title="2)向量积分"></a>2)向量积分</h3><p>$\int Adt =\int A_x dt i+\int A_y dt j+\int A_z dt k$</p>
-<h4 id="直线方程式"><a href="#直线方程式" class="headerlink" title="直线方程式"></a>直线方程式</h4><h3 id="点和直线向量"><a href="#点和直线向量" class="headerlink" title="点和直线向量"></a>点和直线向量</h3><p>$x=x_0+k(x_1-x_0)$</p>
-<p>$y=y_0+k(y_1-y_0)$</p>
-<p>$z=z_0-k(z_1-z_0)$</p>
-<p>$\dfrac{x-x_0}{x_1-x_0}=\dfrac{y-y_0}{y_1-y_0}=\dfrac{z-z_0}{z_1-z_0}=t$</p>
-<p>直线向量$\vec{l}=(x_1,y_1,z_1)$</p>
-<h3 id="平面方程式"><a href="#平面方程式" class="headerlink" title="平面方程式"></a>平面方程式</h3><p>平面法向量 $\vec{n}=(F_x,F_y,F_z)$</p>
-<h3 id="微元3种"><a href="#微元3种" class="headerlink" title="微元3种"></a>微元3种</h3><p>1） 线素</p>
-<p>沿曲线的向量场和线积分<br><img src="https://s2.loli.net/2023/02/12/LXEJYwW2ypUVzCn.png" alt="image-20230212212151588"></p>
-<p>$s=\int ds =\int |dr| =\int_{t_0}^t |\dfrac{dr}{dr}| dt =\int_{t_0}^t \sqrt{(\dfrac{dx}{dt})^2 +(\dfrac{dy}{dt})^2 +(\dfrac{dz}{dt})^2}$</p>
-<p>线素向量： 空间2点$\vec{r}$和$\vec{r}+d\vec{r}$之间的微波变化$d\vec{r}$</p>
-<p>表示曲线上极近的两点$t_0,t$之间的一小段弧长</p>
+<p><span
+class="math inline">\(\dfrac{d}{dt}(A+B)=\dfrac{dA}{dt}+\dfrac{dB}{dt}\)</span></p>
+<p><span class="math inline">\(\dfrac{d}{dt}(A\cdot
+B)=\dfrac{dA}{dt}\cdot B+A\cdot \dfrac{dB}{dt}\)</span></p>
+<p><span class="math inline">\(\dfrac{d}{dt}(A\times
+B)=\dfrac{dA}{dt}\times B+A\times \dfrac{dB}{dt}\)</span></p>
+<h3 id="向量积分">2)向量积分</h3>
+<p><span class="math inline">\(\int Adt =\int A_x dt i+\int A_y dt
+j+\int A_z dt k\)</span></p>
+<h4 id="直线方程式">直线方程式</h4>
+<h3 id="点和直线向量">点和直线向量</h3>
+<p><span class="math inline">\(x=x_0+k(x_1-x_0)\)</span></p>
+<p><span class="math inline">\(y=y_0+k(y_1-y_0)\)</span></p>
+<p><span class="math inline">\(z=z_0-k(z_1-z_0)\)</span></p>
+<p><span
+class="math inline">\(\dfrac{x-x_0}{x_1-x_0}=\dfrac{y-y_0}{y_1-y_0}=\dfrac{z-z_0}{z_1-z_0}=t\)</span></p>
+<p>直线向量<span
+class="math inline">\(\vec{l}=(x_1,y_1,z_1)\)</span></p>
+<h3 id="平面方程式">平面方程式</h3>
+<p>平面法向量 <span
+class="math inline">\(\vec{n}=(F_x,F_y,F_z)\)</span></p>
+<h3 id="微元3种">微元3种</h3>
+<p>1） 线素</p>
+<p>沿曲线的向量场和线积分 <img
+src="https://s2.loli.net/2023/02/12/LXEJYwW2ypUVzCn.png"
+alt="image-20230212212151588" /></p>
+<p><span class="math inline">\(s=\int ds =\int |dr| =\int_{t_0}^t
+|\dfrac{dr}{dr}| dt =\int_{t_0}^t \sqrt{(\dfrac{dx}{dt})^2
++(\dfrac{dy}{dt})^2 +(\dfrac{dz}{dt})^2}\)</span></p>
+<p>线素向量： 空间2点<span class="math inline">\(\vec{r}\)</span>和<span
+class="math inline">\(\vec{r}+d\vec{r}\)</span>之间的微波变化<span
+class="math inline">\(d\vec{r}\)</span></p>
+<p>表示曲线上极近的两点<span
+class="math inline">\(t_0,t\)</span>之间的一小段弧长</p>
 <p>与正常含参曲线的弧长公式一致</p>
 <p>单位接线向量：</p>
-<p>$\vec{t}=\dfrac{\vec{dr}}{ds}=\dfrac{\vec{dr}}{dt}\cdot \dfrac{1}{\dfrac{ds}{dt}}\cdot t\cdot t =1$</p>
+<p><span
+class="math inline">\(\vec{t}=\dfrac{\vec{dr}}{ds}=\dfrac{\vec{dr}}{dt}\cdot
+\dfrac{1}{\dfrac{ds}{dt}}\cdot t\cdot t =1\)</span></p>
 <p>ds为曲线微元的长度，当曲线长度无限趋近于某点时，其余斜率等于该点的微分值</p>
 <p>2） 面素</p>
-<p><img src="https://s2.loli.net/2023/02/12/R3TNLHhfaY7oDzG.png" alt="image-20230212212214774"></p>
+<figure>
+<img src="https://s2.loli.net/2023/02/12/R3TNLHhfaY7oDzG.png"
+alt="image-20230212212214774" />
+<figcaption aria-hidden="true">image-20230212212214774</figcaption>
+</figure>
 <p>面素：曲面上的向量场的面积分</p>
-<p>$d\vec{S}=\vec{dr_1}\times \vec{dr_2}$</p>
-<p>面素向量的大小用dS表示，二者关系为$\vec{dS}=\vec{n}dS$</p>
+<p><span class="math inline">\(d\vec{S}=\vec{dr_1}\times
+\vec{dr_2}\)</span></p>
+<p>面素向量的大小用dS表示，二者关系为<span
+class="math inline">\(\vec{dS}=\vec{n}dS\)</span></p>
 <p>3）体积要素</p>
-<p><img src="https://s2.loli.net/2023/02/12/GyDtrBhVEFcgLUM.png" alt="image-20230212212314201"></p>
-<p>$dV=\vec{dr_1}\cdot (\vec{dr_2}\times \vec{dr_3})$</p>
-<p>$\vec{dr_1},\vec{dr_2}, \vec{dr_3}张成的微小平行六面体的体积，所以用混合积表示。$</p>
-<h1 id="线素，面素，体积要素计算"><a href="#线素，面素，体积要素计算" class="headerlink" title="线素，面素，体积要素计算"></a>线素，面素，体积要素计算</h1><h2 id="简化运算"><a href="#简化运算" class="headerlink" title="简化运算"></a>简化运算</h2><h3 id="闭合曲线积分-格林公式"><a href="#闭合曲线积分-格林公式" class="headerlink" title="闭合曲线积分 - 格林公式"></a>闭合曲线积分 - 格林公式</h3><p>1）针对闭合曲线的积分，可以尝试使用Green公式</p>
-<p>若曲线积分$\int_c P(x,y)dx +Q(x,y)dy $满足以下条件：</p>
+<figure>
+<img src="https://s2.loli.net/2023/02/12/GyDtrBhVEFcgLUM.png"
+alt="image-20230212212314201" />
+<figcaption aria-hidden="true">image-20230212212314201</figcaption>
+</figure>
+<p><span class="math inline">\(dV=\vec{dr_1}\cdot (\vec{dr_2}\times
+\vec{dr_3})\)</span></p>
+<p><span class="math inline">\(\vec{dr_1},\vec{dr_2},
+\vec{dr_3}张成的微小平行六面体的体积，所以用混合积表示。\)</span></p>
+<h1 id="线素面素体积要素计算">线素，面素，体积要素计算</h1>
+<h2 id="简化运算">简化运算</h2>
+<h3 id="闭合曲线积分---格林公式">闭合曲线积分 - 格林公式</h3>
+<p>1）针对闭合曲线的积分，可以尝试使用Green公式</p>
+<p>若曲线积分$_c P(x,y)dx +Q(x,y)dy $满足以下条件：</p>
 <p>1.C是闭合曲线，（D是C围成的密闭领域）</p>
 <p>2.C是左向正向（即沿曲线运动，密闭领域在左手边）</p>
 <p>3.P(x,y)和Q(x,y)在D内连续可导</p>
-<p>则$\oint_c P(x,y) dx+Q(x,y)dy =\iint_D (\dfrac{\partial Q}{\partial x} -\dfrac{\partial P}{\partial y})$</p>
-<h3 id="闭合曲线积分-高斯发散定理"><a href="#闭合曲线积分-高斯发散定理" class="headerlink" title="闭合曲线积分 - 高斯发散定理"></a>闭合曲线积分 - 高斯发散定理</h3><p>$\vec{A}是向量场， V是闭曲面S的内部，\vec{n}是S由内向外的单位法向量$</p>
-<p>$\iint_S \vec{A}\cdot \vec{n} dS =\iiint_V div \vec{A} dV$</p>
+<p>则<span class="math inline">\(\oint_c P(x,y) dx+Q(x,y)dy =\iint_D
+(\dfrac{\partial Q}{\partial x} -\dfrac{\partial P}{\partial
+y})\)</span></p>
+<h3 id="闭合曲线积分---高斯发散定理">闭合曲线积分 - 高斯发散定理</h3>
+<p><span class="math inline">\(\vec{A}是向量场，
+V是闭曲面S的内部，\vec{n}是S由内向外的单位法向量\)</span></p>
+<p><span class="math inline">\(\iint_S \vec{A}\cdot \vec{n} dS =\iiint_V
+div \vec{A} dV\)</span></p>
 <p>将闭合曲面积分转为三重积分</p>
-<h3 id="闭合曲线内的曲面积分-斯托克斯定理"><a href="#闭合曲线内的曲面积分-斯托克斯定理" class="headerlink" title="闭合曲线内的曲面积分 - 斯托克斯定理"></a>闭合曲线内的曲面积分 - 斯托克斯定理</h3><p>$\vec{A}是向量场，S是闭合曲线C的内部，S是左向正向$</p>
-<p>$\int_C \vec{A}\cdot \vec{t} dS=\iint_s rot\vec{A} \cdot \vec{n} dS$</p>
+<h3 id="闭合曲线内的曲面积分---斯托克斯定理">闭合曲线内的曲面积分 -
+斯托克斯定理</h3>
+<p><span
+class="math inline">\(\vec{A}是向量场，S是闭合曲线C的内部，S是左向正向\)</span></p>
+<p><span class="math inline">\(\int_C \vec{A}\cdot \vec{t} dS=\iint_s
+rot\vec{A} \cdot \vec{n} dS\)</span></p>
 <p>rot 旋度</p>
-<p>$rot \vec{F}=det \begin{bmatrix} \vec{i} &amp; \vec{j} &amp; \vec{k} \\ \dfrac{\partial}{\partial x} &amp; \dfrac{\partial }{\partial y} &amp; \dfrac{\partial }{\partial z} \\ F_1 &amp; F_2 &amp; F_3 \end{bmatrix}$</p>
-<h1 id="向量和线性相关"><a href="#向量和线性相关" class="headerlink" title="向量和线性相关"></a>向量和线性相关</h1><h2 id="1-n维向量"><a href="#1-n维向量" class="headerlink" title="1.n维向量"></a>1.n维向量</h2><p>$\alpha=[a_1,a_2,\dots, a_n] \quad n个数构成有序数组$</p>
+<p><span class="math inline">\(rot \vec{F}=det \begin{bmatrix} \vec{i}
+&amp; \vec{j} &amp; \vec{k} \\ \dfrac{\partial}{\partial x} &amp;
+\dfrac{\partial }{\partial y} &amp; \dfrac{\partial }{\partial z} \\ F_1
+&amp; F_2 &amp; F_3 \end{bmatrix}\)</span></p>
+<h1 id="向量和线性相关">向量和线性相关</h1>
+<h2 id="n维向量">1.n维向量</h2>
+<p><span class="math inline">\(\alpha=[a_1,a_2,\dots, a_n] \quad
+n个数构成有序数组\)</span></p>
 <p>n维向量</p>
-<p>$\vec{\alpha}^T =[a_1,a_2,\dots,a_n]^T \quad n维列向量$</p>
-<p>加法： </p>
-<p>$\vec{\alpha}+\vec{\beta}=[a_1+b_1,a_2+b_2,\dots,a_n+b_n]$</p>
+<p><span class="math inline">\(\vec{\alpha}^T =[a_1,a_2,\dots,a_n]^T
+\quad n维列向量\)</span></p>
+<p>加法：</p>
+<p><span
+class="math inline">\(\vec{\alpha}+\vec{\beta}=[a_1+b_1,a_2+b_2,\dots,a_n+b_n]\)</span></p>
 <p>数乘：</p>
-<p>$k\vec{\alpha}=[ka_1,ka_2,\dots, ka_n]$</p>
-<h2 id="2-向量线性相关性的概念"><a href="#2-向量线性相关性的概念" class="headerlink" title="2.向量线性相关性的概念"></a>2.向量线性相关性的概念</h2><p>线性组合</p>
+<p><span class="math inline">\(k\vec{\alpha}=[ka_1,ka_2,\dots,
+ka_n]\)</span></p>
+<h2 id="向量线性相关性的概念">2.向量线性相关性的概念</h2>
+<p>线性组合</p>
 <p>k个向量</p>
-<p>$\vec{x_1} \sim \vec{x_k}, k个数c_1 \sim c_k 的线性组合$</p>
+<p><span class="math inline">\(\vec{x_1} \sim \vec{x_k}, k个数c_1 \sim
+c_k 的线性组合\)</span></p>
 <p>线性结合：</p>
-<p>$\sum_{i=1}^k c_i \vec{x_i} $</p>
-<p>$\vec{x_1},\vec{x_2},\dots, \vec{x_k} 的线性结合（1次结合）$</p>
+<p>$_{i=1}^k c_i $</p>
+<p><span class="math inline">\(\vec{x_1},\vec{x_2},\dots, \vec{x_k}
+的线性结合（1次结合）\)</span></p>
+]]></content>
+      <categories>
+        <category>斜杠笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>【斜杠笔记】大学院信号处理科目要点</title>
+    <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E7%A7%91%E7%9B%AE%E8%A6%81%E7%82%B9/</url>
+    <content><![CDATA[<p>修改记录： 2023.2.15 初稿，大学院备考时的知识点整理</p>
+<p>信号<span class="math inline">\(\cdot\)</span>解析</p>
+<h3 id="时域频域傅里叶变换">时域$$频域（傅里叶变换）</h3>
+<p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
+<p><span
+class="math inline">\(X(w)=\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad
+t\rightarrow \infty\)</span></p>
+<p><span
+class="math inline">\(x(t)=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)e^{jwt}dw\)</span></p>
+<h3 id="傅里叶级数">傅里叶级数</h3>
+<p><span
+class="math inline">\(x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infty}a_i\cos(2\pi
+i\dfrac{t}{T})+\sum_{i=1}^{\infty}b_i\sin(2\pi
+i\dfrac{t}{T})\)</span></p>
+<p>意义：</p>
+<p>複雑な周期関数は単純な波動の数学的な表現である正弦や余弦の和として表される。</p>
+<p><span
+class="math inline">\(\dfrac{a_0}{2}\)</span>は波形に含まれる直流成分の振幅</p>
+<p>フーリエ級数展開：周期関数をさまざまな正弦波の重ね合わせとして表すこと。</p>
+<p>フーリエ変換：無限に長い周期をもつ関数を連続スペクトル（Spectre）に変換すること。</p>
+<span id="more"></span>
+<h3 id="離散">離散</h3>
+<p>波形<span class="math inline">\(x(t)\)</span>を一定時間間隔<span
+class="math inline">\(T_s\)</span>でサンプリングして得られる。</p>
+<p>いわれる離散波形<span
+class="math inline">\(x(n/s)\)</span>を用いて周波数スペクトルを求める操作が、離散のフーリエ変換（DFT）である。</p>
+<p>DFT: <span class="math display">\[
+X(i)=\sum_{n=0}^{N-1}X(n)\cdot e^{-j\frac{2\pi
+iT_s}{NT_s}}=\sum_{n=0}^{N-1}X(n)e^{-j\frac{2\pi}{N}in}
+\]</span> 令<span
+class="math inline">\(w=e^{-j\frac{2\pi}{N}}\)</span></p>
+<p>则上式化简为 <span class="math display">\[
+X(i)=\sum_{n=0}^{N-1}X(n)w^{in}
+\]</span> IDFT: <span class="math display">\[
+x(k)=\dfrac{1}{N}\sum_{i=0}^{N-1}X(i)w^{-ik}
+\]</span></p>
+<h3 id="連続">連続</h3>
+<p>常用傅里叶变换对</p>
+<table>
+<thead>
+<tr class="header">
+<th>时域</th>
+<th>频域</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\delta(t)\)</span>冲激函数</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(u(t)\)</span>阶跃函数</td>
+<td><span class="math inline">\(\dfrac{1}{jw}+\pi
+\delta(w)\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\delta(t-t_0)\)</span></td>
+<td><span class="math inline">\(e^{-jwt_0}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(e^{-at}u(t)\)</span></td>
+<td><span class="math inline">\(\dfrac{1}{a+jw}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(te^{-at}u(t)\)</span></td>
+<td><span class="math inline">\(\dfrac{1}{(a+jw)^2}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(x(t)=1\)</span></td>
+<td><span class="math inline">\(2\pi \delta(w)\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\cos w_0t\)</span></td>
+<td><span
+class="math inline">\(\pi[\delta(w-w_0)+\delta(w+w_0)]\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\sin w_0t\)</span></td>
+<td><span
+class="math inline">\(\dfrac{\pi}{j}[\delta(w-w_0)-\delta(w+w_0)]\)</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="性质">性质</h3>
+<ol type="1">
+<li><p>線形性</p></li>
+<li><p>対称性　　<span class="math inline">\(x(t)\leftrightarrow
+X(w)\Rightarrow X(t)\leftrightarrow 2\pi X(-w)\)</span></p></li>
+<li><p>時間伸縮性 <span class="math display">\[
+\int_{-\infin}^{\infin}x(at)e^{-jwt}dt=\dfrac{1}{a}\int_{-\infin}^{\infin}x(t&#39;)e^{-\frac{jwt&#39;}{a}}dt&#39;=\dfrac{1}{a}X(\frac{w}{a})
+\\注：at=t&#39;,t=\dfrac{1}{a}t&#39;,dt=\dfrac{1}{a}dt&#39;
+\]</span></p></li>
+</ol>
+<p>​ 4.時間推移性 <span class="math display">\[
+\int_{-\infin}^{\infin}x(t-t_0)e^{-jwt}dt=\int_{-\infin}^{\infin}x(t&#39;)e^{-jw(t&#39;+t_0)}dt=e^{-jwt_0}\int_{-\infin}^{\infin}x(t&#39;)e^{-jwt}dt=e^{-jwt_0}X(w)\\注：t-t_0=t&#39;,t=t&#39;+t_0,dt=dt&#39;
+\]</span> ​ 5.周波数推移性 <span class="math display">\[
+\dfrac{1}{2\pi}\int_{-\infin}^{\infin}x(w-w_0)e^{jwt}dw=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(u)e^{j(w_0+u)t}du=\dfrac{e^{jw_0t}}{2\pi}\int_{-\infin}^{\infin}X(u)e^{jut}=e^{jw_0t}x(t)\\注：w-w_0=u,w=u+w_0,dw=du
+\]</span> ​ 6.時間微分性 <span class="math display">\[
+\dfrac{x(t)}{dt}=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(w)jwe^{jwt}=jwX(w)\rightarrow
+\dfrac{d^nX(t)}{dt^n}\Longleftrightarrow (jw)^nX(w)
+\]</span> ​ 7.時間積分性 <span class="math display">\[
+\int_{-\infin}^t x(t&#39;)dt&#39;\longleftrightarrow
+\dfrac{X(w))}{jw}+\pi X(0)\delta(w)\\F[\int_{-\infin}^t
+[x(t)dt]]=\int_{-\infin}^{\infin}[\int_{-\infin}^t X(t)dt]e^{-jw\tau
+}d\tau
+\]</span> ​ 8.畳み込み <span class="math display">\[
+y(t)=x_1(t)x_2(t)
+\\Y(w)=\dfrac{1}{2\pi}X_1(w)X_2(w)
+\]</span></p>
+<h3 id="z変換">Z変換</h3>
+<p><span class="math inline">\(X(z)=\sum_{n=-\infty}^{\infty}x[n]\cdot
+z^{-n}\)</span></p>
+<p>入力信号が離散値、伝送システムのインパルス応答も同じサンプリング間隔での離散値で与えてよいことになる。</p>
+<p><span class="math inline">\(x[n]=z^{-1}\{X(z)\}=\dfrac{1}{2\pi
+j}\oint_C X(z)z^{n-1}dz\)</span></p>
+<p><strong>伝達関数</strong></p>
+<p><span class="math inline">\(\dfrac{Y(z)}{X(z)}\)</span></p>
+<p>常用Z变换</p>
+<table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 73%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span class="math inline">\(x[n]\)</span></th>
+<th><span class="math inline">\(X(z)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\delta[n]\)</span>冲激序列</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(u[n]\)</span>阶跃序列</td>
+<td><span class="math inline">\(\dfrac{1}{1-z^{-1}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\delta[n-n_0]\)</span></td>
+<td><span class="math inline">\(z^{-n_0}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(e^{-\alpha u[n]}\)</span></td>
+<td><span class="math inline">\(\dfrac{1}{1-e^{-\alpha
+z^{-1}}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(-u[-n-1]\)</span></td>
+<td><span class="math inline">\(\dfrac{1}{1-z^{-1}}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(nu[n]\)</span></td>
+<td><span
+class="math inline">\(\dfrac{z^{-1}}{(1-z^{-1})^2}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(-nu[-n-1]\)</span></td>
+<td><span
+class="math inline">\(\dfrac{z^{-1}}{(1-z^{-1})^2}\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\cos (w_0n)u[n]\)</span></td>
+<td><span
+class="math inline">\(\dfrac{1-z^{-1}\cos(w_0)}{1-2z^{-1}\cos(w_0)+z^{-2}}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\sin(w_0n)u[n]\)</span></td>
+<td><span class="math inline">\(\dfrac{z^{-1}\sin (w_0)}{1-2z^{-1}\cos
+(w_0)+z^{-2}}\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><strong>三大变换的关系</strong> <span class="math display">\[
+\int_{-\infin}^{\infin}x(t)e^{-jwt}dt\\\downarrow
+乘以e^{-at}\\\Downarrow \\|\int_{-\infin}^{\infin}x(t)e^{-at}|&lt;\infin
+\therefore
+绝对可积\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-(\sigma+jw)t}dt
+\quad 令s=\sigma+jw\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-st}dt
+\quad 从实数推广为复数
+\]</span></p>
+<p>FFT: 函数要满足狄利克雷条件，信号要绝对可积/绝对可和</p>
+<p>为使不符合此条件的信号也能使用，故有了拉普拉斯和Z变换</p>
+<p><span class="math inline">\(\left\{\begin{array}{ll}CTFT:
+连续时间FT\xrightarrow{扩充} &amp; Laplace\\DFTF:
+离散时间FT\xrightarrow{扩充}&amp;Z\end{array}\right.\)</span></p>
+<p><span
+class="math inline">\(\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}\)</span>绝对可和
+<span
+class="math inline">\(\sum_{-\infty}^{\infty}|x[n]|&lt;\infty\)</span></p>
+<p><span class="math inline">\(x[n]\)</span>乘以<span
+class="math inline">\(a^{-n}\)</span></p>
+<p><span class="math display">\[
+\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}\\\Rightarrow
+\sum_{n=-\infty}^{\infty}x[n](ae^{jw})^{-n}
+\]</span> 将极坐标形式的复数<span class="math inline">\(a\cdot
+e^{jw}\)</span>记为<span class="math inline">\(z\)</span></p>
+<p><span class="math inline">\(\sum_{n=-\infty}^{\infty}x[n]\cdot
+z^{-n}\)</span>就得到了Z变换</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>【斜杠笔记】大学院数学之概率与统计</title>
+    <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1/</url>
+    <content><![CDATA[<p>修改记录：</p>
+<p>2023.2.13 整理了常见的离散和连续概率变量的概率密度函数</p>
+<p>2023.2.15 补充了大学院备考时自己整理的相关考点</p>
+<p>待补充：矩母函数和用它来求期望，方差的方法</p>
+<p>参考资料：</p>
+<p>常用概率分布的矩母函数、特征函数以及期望、方差的推导</p>
+<p>https://blog.csdn.net/STcyclone/article/details/84310450</p>
+<h1 id="离散型随机变量">离散型随机变量</h1>
+<h2 id="两点分布伯努利分布">1.两点分布（伯努利分布）</h2>
+<p><span class="math inline">\(P(X=1)=p,P(X=0)=1-p\)</span></p>
+<h2 id="均匀分布">2.均匀分布</h2>
+<p><span
+class="math inline">\(P(X=a_k)=\dfrac{1}{n},k=1,2,\dots,n\)</span></p>
+<h2 id="二项分布">3.二项分布</h2>
+<p><span class="math inline">\(P(X=k)=C_n^k
+p^k(1-p)^{n-k},k=0,1,\dots,n\)</span></p>
+<h2 id="几何分布">4.几何分布</h2>
+<p><span
+class="math inline">\(P(X=k)=(1-p)^{k-1}p,k=1,2,\dots\)</span></p>
+<h2 id="泊松分布">5.泊松分布</h2>
+<p><span
+class="math inline">\(P(X=k)=\dfrac{\lambda^k}{k!}e^{-\lambda},k=0,1,2,\dots,\lambda&gt;0\)</span></p>
+<h1 id="连续型随机变量">连续型随机变量</h1>
+<h2 id="均匀分布-1">1.均匀分布</h2>
+<p><span class="math inline">\(f(x)=\left
+\{\begin{array}{ll}\dfrac{1}{b-a},&amp;a&lt;x&lt;b\\0,&amp;x\leq a \quad
+or \quad x\geq b\end{array}\right.\)</span></p>
+<h2 id="指数分布">2.指数分布</h2>
+<p><span class="math inline">\(f(x)=\lambda e^{-\lambda x} \quad,
+\lambda&gt;0\)</span></p>
+<h2 id="正态分布">3.正态分布</h2>
+<p><span class="math display">\[
+f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+\]</span></p>
+<span id="more"></span>
+<h3 id="基本概念">基本概念</h3>
+<p>確率：偶然起こる現象の現象全てに対する割合のことである。
+統計：現象を調査することによって数量で把握すること。</p>
+<p>事件 <span class="math inline">\(\rightarrow\)</span> 割合 $$计数
+（加，乘） １）順列 ２）組み合わせ工具</p>
+<h3 id="順列">順列</h3>
+<p>1）n个球不重复取r个排列 <span class="math inline">\(A_n^r\)</span>,
+特别当取n个球时，排列方式有<span class="math inline">\(n!\)</span>个
+2）n个球有放回取r个 <span class="math inline">\(n^r\)</span></p>
+<p>3）n个球有同色球，a有<span
+class="math inline">\(n_1\)</span>个，b有<span
+class="math inline">\(n_2\)</span>个 <span
+class="math inline">\(\dfrac{n!}{n_1!n_2!\dots }\)</span> 4）圆排列
+<span class="math inline">\((n-1)!\)</span></p>
+<h3 id="組み合わせ">組み合わせ</h3>
+<p>从n中取r个，组合方式有<span class="math inline">\(C_n^r\)</span>
+可重复取时，有<span class="math inline">\(C_{n+r-1}^{n-1}\)</span></p>
+<h3 id="事件">事件</h3>
+<p><span class="math inline">\(\Omega\)</span>全事象</p>
+<p><span class="math inline">\(A_1 \cap A_2\)</span> 積事象　</p>
+<p><span class="math inline">\(A_1 \cup A_2\)</span> 和事象</p>
+<p><span class="math inline">\(A_1 \cap A_2\)</span> 排反</p>
+<p><span class="math inline">\(0\leq P(A) \leq 1\)</span></p>
+<p>$P(A_1 A_2)=P(A_1) +P(A_2) - P(A_1A_2) $</p>
+<p>加法定理　<span class="math inline">\(P(A_1 \cup A_2 \dots A_k)=
+P(A_1)+P(A_2)+\dots P(A_k)\)</span></p>
+<p>乘法定理 <span class="math inline">\(P(A_1 \cap A_2 \dots \cap A_k)
+=P(A_1)P(A_2|A_1)P(A_3|A_1\cap A_2)\dots P(A_k|A_1\cap A_2\cap \dots
+A_{k-1})\)</span></p>
+<p>全確率　<span class="math inline">\(P(B)=\sum_{i=1}^n P(A_i)
+P(B|A_i)\)</span></p>
+<p>贝叶斯 <span
+class="math inline">\(P(A_j|B)=\dfrac{P(B|A_j)P(A_j)}{P(B)}\)</span></p>
+<figure>
+<img src="https://s2.loli.net/2023/02/15/YyAv38sGWB7JUwb.png"
+alt="马尔可夫不等式" />
+<figcaption aria-hidden="true">马尔可夫不等式</figcaption>
+</figure>
+<h3 id="马尔可夫不等式">马尔可夫不等式</h3>
+<p>$P(Xa) $</p>
+<h3 id="切比雪夫不等式">切比雪夫不等式</h3>
+<p><span class="math inline">\(P\{|X-EX|\geq \epsilon \} \leq
+\dfrac{Var(X)}{\epsilon^2}\)</span>
+偏离中心的概率，越远离平均值，概率越低</p>
+<p>证明： <span class="math inline">\(P(X\geq a )=\int_0^{+ \infty}
+f(x)dx \leq \int_a^{+ \infty} f(x)dx\)</span></p>
+<p><span class="math inline">\(E(\dfrac{x}{a})=\int_{- \infty}^a
+\dfrac{x}{a} f(x)dx +\int_a^{+ \infty} \dfrac{x}{a}f(x)dx\)</span></p>
+<p>显然 <span class="math inline">\(\int_{- \infty}^a \dfrac{x}{a}f(x)dx
+\geq 0\)</span></p>
+<p><span class="math inline">\(\therefore\)</span> <span
+class="math inline">\(P(x\geq a)\leq \int_a^{+ \infty} \dfrac{x}{a}
+f(x)dx \leq E(\dfrac{x}{a})\)</span></p>
+<p><span class="math inline">\(\therefore\)</span> <span
+class="math inline">\(P(x\geq a)\leq
+E(\dfrac{x}{a})=\dfrac{E(X)}{a}\)</span></p>
+<p>将<span class="math inline">\(|x-\mu|\)</span>代入 <span
+class="math inline">\(P(|x-\mu|&gt;a)\leq
+\dfrac{E(|x-\mu|}{a}\)</span></p>
+<p><span class="math inline">\(\rightarrow P((x-\mu)^2 \leq a^2)\leq
+\dfrac{E[(x-\mu)^2]}{a^2} =\dfrac{\sigma^2}{a^2}\)</span></p>
+<p>令 <span class="math inline">\(k=\dfrac{a}{\sigma}\)</span> 则<span
+class="math inline">\(k\leq 0, a^2=k^2\sigma^2\)</span></p>
+<p><span class="math inline">\(P(|x-\mu|)\leq k\sigma)\leq
+\dfrac{1}{k^2}\)</span></p>
+<h3 id="大数法则"><strong>大数法则</strong></h3>
+<p><span class="math inline">\(x_1,x_2,\dots ,x_n\)</span>独立，<span
+class="math inline">\(E(x_i)=\mu, V(x_i)=\sigma^2\)</span></p>
+<p><span class="math inline">\(\bar{X}=\sum_{i=1} ^n X_i/n,
+\xi&gt;0\)</span></p>
+<p><span class="math inline">\(\lim_{n\to \infty} P(|\bar{x}-\mu|)\geq
+\xi)=0\)</span> n次实验抛硬币 正面概率趋近于0.5</p>
+<h3 id="概率模型"><strong>概率模型</strong></h3>
+<h4 id="蒲丰投针">蒲丰投针</h4>
+<p><span class="math inline">\(\dfrac{2l}{\pi a}\)</span></p>
+<h4 id="取帽子">取帽子</h4>
+<p>n个帽子错排号（所有元素都不在原位） 客斥原理</p>
+<p>1）k=1,错排数 <span class="math inline">\(D_1=0\)</span></p>
+<p>2）k=2, <span class="math inline">\(D_2=1\)</span></p>
+<p>3）<span class="math inline">\(k\neq n\)</span>, n排在第k位， <span
+class="math inline">\(1\leq k\leq n-1\)</span>,那
+k在n上，除了n和k还有n-2个数 <span class="math inline">\(D_{n-2}\)</span>
+k不在n上，将第n位当作新的第k位，含k的n-1个数的第一种 错排部等价于
+n-1个数的错排</p>
+<p><span class="math inline">\(D_n=(n-1)(D_{n-1}+D_{n-2}\)</span></p>
+<p>问题也类似于 N封信，前N-1封可以有N-1或N-2封错装 从N-1取1封与第N封错装
+<span class="math inline">\((N-1)D_{n-1}\)</span>
+有一封，第N-1封是对的，将其与N封错装 <span
+class="math inline">\((N-1)D_{n-2}\)</span></p>
+<p>推导过程 <span class="math inline">\(M_1=0,
+M_2=\frac{1}{2!}\)</span></p>
+<p><span class="math inline">\(D_n=(n-1)(D_{n_1}+D_{n-2})\)</span></p>
+<p>记<span class="math inline">\(D_n=n!M_n\)</span></p>
+<p><span class="math inline">\(D_{n-1}=(n-1)!M_{n-1}\)</span>, <span
+class="math inline">\(D_{n-2}=(n-2)!M_{n-2}\)</span></p>
+<p><span
+class="math inline">\(n!M_n=(n-1)(n-1)!M_{n-1}+(n-1)(n-2)!M_{n-1}\)</span></p>
+<p><span
+class="math inline">\(=n!M_{n-1}-(n-1)!M_{n-1}+(n-1)!M_{n-2}\)</span>
+同时除以(n-1)!</p>
+<p><span
+class="math inline">\(nM_n=nM_{n-1}-M_{n-1}+M_{n-2}\)</span></p>
+<p><span
+class="math inline">\(M_n-M_{n-1}=-\frac{1}{n}(M_{n-1}-M_{n-2})\)</span></p>
+<p><span class="math inline">\(=(-\frac{1}{n})(-\frac{1}{n-1})\dots
+(-\frac{1}{3})(M_2-M_1)\)</span></p>
+<p><span class="math inline">\(=(-1)^{n-2} \cdot
+\frac{1}{(n-2)!}(\frac{1}{2}-0)\)</span></p>
+<p><span class="math inline">\(=(-1)^n\cdot \frac{1}{n!}\)</span></p>
+<p><span class="math inline">\(\therefore M_n-M_{n-1}=(-1)^n
+\frac{1}{n!}\)</span></p>
+<p><span class="math inline">\(M_{n-1}-M_{n-2}=(-1)^{n-1}
+\frac{1}{(n-1)!}\)</span></p>
+<p><span class="math inline">\(\vdots\)</span></p>
+<p><span class="math inline">\(M_2-M_1=(-1)^2 \frac{1}{2!}\)</span></p>
+<p>左右累加</p>
+<p><span
+class="math inline">\(M_n-M_1=M_n=(-1)^2\frac{1}{2!}+(-1)^3\frac{1}{3!}+\dots+(-1)^n\frac{1}{n!}\)</span></p>
+<p><span class="math inline">\(\therefore
+D_n=n!M_n=n!(\frac{1}{2!}-\frac{1}{3!}+\dots
++(-1)^n\frac{1}{n!})\)</span></p>
 ]]></content>
       <categories>
         <category>斜杠笔记</category>
@@ -1165,120 +1647,256 @@ y(t)=x_1(t)x_2(t)
   <entry>
     <title>【斜杠笔记】大学院数学之微积分</title>
     <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%BE%AE%E7%A7%AF%E5%88%86/</url>
-    <content><![CDATA[<h1 id="微分"><a href="#微分" class="headerlink" title="微分"></a>微分</h1><h2 id="导数"><a href="#导数" class="headerlink" title="导数"></a>导数</h2><h3 id="导数的性质"><a href="#导数的性质" class="headerlink" title="导数的性质"></a>导数的性质</h3><p>$(\dfrac{f}{g})’=\dfrac{f’g-fg’}{g^2}$</p>
-<p>$(fg)’=f’g+fg’$</p>
-<p>$\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}$</p>
-<p>$\dfrac{dx}{dy}=\dfrac{1}{\dfrac{dy}{dx}}$</p>
-<h3 id="导数与极限"><a href="#导数与极限" class="headerlink" title="导数与极限"></a>导数与极限</h3><p>$\displaystyle \lim_{\Delta x \to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}$</p>
-<h3 id="重要的极限"><a href="#重要的极限" class="headerlink" title="重要的极限"></a>重要的极限</h3><p>$\displaystyle \lim_{x\to \infty}\frac{\sin x}{x}=1$</p>
-<p>$\displaystyle \lim_{x\to \pm \infty}(1+\frac{1}{x})^x =e$</p>
-<p>$\displaystyle \lim_{x\to \infty}\frac{x^{\alpha}}{e^x}=0 (\alpha &gt;0)$ 洛必达</p>
-<p>$\displaystyle \lim_{x \to \infty} \frac{\log(1+x)}{x}=1$</p>
-<p>$\displaystyle \lim_{x \to +0}x^x=1$</p>
-<p>$\displaystyle x^x=e^{x\ln x}=e^{\frac{\ln x}{x}}\to e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}=e^{-x}\to 0$</p>
-<p>$\displaystyle \lim_{x\to 0}\frac{\arctan x}{x}=1$</p>
-<p>$\displaystyle \lim_{x\to 0}\frac{\sin x^3}{(\sin x)^2}=0$</p>
-<p>$\displaystyle \lim_{x \to \infty}(1+\frac{\alpha}{x})^{\beta}=e^{\alpha \beta}$</p>
-<p>$\displaystyle \lim_{n\to \infty} \frac{n^k}{a^n}=0 (k&gt;0,a&gt;1)$</p>
-<p>$\displaystyle \frac{(n^k)’}{(e^{n\ln a})’}=\frac{kn^{k-1}}{\ln ae^{n\ln a}}=\frac{k!}{(\ln a)^k}\cdot e^{\frac{1}{n\ln a}}=0$</p>
-<p>$\displaystyle \lim_{n\to \infty}\frac{a^n}{n!} (a&gt;1)=0$</p>
-<p>$\displaystyle \frac{a^n}{n!}=\frac{a}{n}\cdot \frac{a}{n-1}\dots \cdot \frac{a}{1}$</p>
-<p>$n&gt;a \Rightarrow 0$</p>
-<p>$\displaystyle \lim_{n\to \infty}\sqrt[n]{n}=\lim_{n\to \infty}n^\frac{1}{n}=e^\frac{1}{n}\ln n=e^0=1$</p>
+    <content><![CDATA[<h1 id="微分">微分</h1>
+<h2 id="导数">导数</h2>
+<h3 id="导数的性质">导数的性质</h3>
+<p><span
+class="math inline">\((\dfrac{f}{g})&#39;=\dfrac{f&#39;g-fg&#39;}{g^2}\)</span></p>
+<p><span class="math inline">\((fg)&#39;=f&#39;g+fg&#39;\)</span></p>
+<p><span class="math inline">\(\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot
+\dfrac{dt}{dx}\)</span></p>
+<p><span
+class="math inline">\(\dfrac{dx}{dy}=\dfrac{1}{\dfrac{dy}{dx}}\)</span></p>
+<h3 id="导数与极限">导数与极限</h3>
+<p><span class="math inline">\(\displaystyle \lim_{\Delta x \to 0}
+\frac{f(x+\Delta x)-f(x)}{\Delta x}\)</span></p>
+<h3 id="重要的极限">重要的极限</h3>
+<p><span class="math inline">\(\displaystyle \lim_{x\to
+\infty}\frac{\sin x}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to \pm
+\infty}(1+\frac{1}{x})^x =e\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to
+\infty}\frac{x^{\alpha}}{e^x}=0 (\alpha &gt;0)\)</span> 洛必达</p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to \infty}
+\frac{\log(1+x)}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to
++0}x^x=1\)</span></p>
+<p><span class="math inline">\(\displaystyle x^x=e^{x\ln x}=e^{\frac{\ln
+x}{x}}\to e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}=e^{-x}\to
+0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to 0}\frac{\arctan
+x}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to 0}\frac{\sin
+x^3}{(\sin x)^2}=0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to
+\infty}(1+\frac{\alpha}{x})^{\beta}=e^{\alpha \beta}\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to \infty}
+\frac{n^k}{a^n}=0 (k&gt;0,a&gt;1)\)</span></p>
+<p><span class="math inline">\(\displaystyle \frac{(n^k)&#39;}{(e^{n\ln
+a})&#39;}=\frac{kn^{k-1}}{\ln ae^{n\ln a}}=\frac{k!}{(\ln a)^k}\cdot
+e^{\frac{1}{n\ln a}}=0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to
+\infty}\frac{a^n}{n!} (a&gt;1)=0\)</span></p>
+<p><span class="math inline">\(\displaystyle
+\frac{a^n}{n!}=\frac{a}{n}\cdot \frac{a}{n-1}\dots \cdot
+\frac{a}{1}\)</span></p>
+<p><span class="math inline">\(n&gt;a \Rightarrow 0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to
+\infty}\sqrt[n]{n}=\lim_{n\to \infty}n^\frac{1}{n}=e^\frac{1}{n}\ln
+n=e^0=1\)</span></p>
 <span id="more"></span>
-<h3 id="常见函数的导数"><a href="#常见函数的导数" class="headerlink" title="常见函数的导数"></a>常见函数的导数</h3><p>$(\alpha^x)’=\alpha^x \log x$</p>
-<p>$(\log |x|)’=\dfrac{1}{x}$</p>
-<p>$(\arctan x)’=\dfrac{1}{1+x^2}$</p>
-<p>$(arccot x)’=-\dfrac{1}{1+x^2}$</p>
-<p>$(x^\alpha)^{(n)}=\alpha (\alpha-1)\dots(\alpha-n+1)x^{\alpha-n}$</p>
-<p>$(\log_a|x|)’=(\dfrac{\log |x|}{\log a})’=\dfrac{1}{\log a}\cdot \dfrac{1}{x}$</p>
-<p>$(\sin x)^{(n)}=\sin(x+\dfrac{n\pi}{2})$</p>
-<p>$(\cos x)^{(n)}=\cos(x+\dfrac{n\pi}{2})$</p>
+<h3 id="常见函数的导数">常见函数的导数</h3>
+<p><span class="math inline">\((\alpha^x)&#39;=\alpha^x \log
+x\)</span></p>
+<p><span class="math inline">\((\log |x|)&#39;=\dfrac{1}{x}\)</span></p>
+<p><span class="math inline">\((\arctan
+x)&#39;=\dfrac{1}{1+x^2}\)</span></p>
+<p><span class="math inline">\((arccot
+x)&#39;=-\dfrac{1}{1+x^2}\)</span></p>
+<p><span class="math inline">\((x^\alpha)^{(n)}=\alpha
+(\alpha-1)\dots(\alpha-n+1)x^{\alpha-n}\)</span></p>
+<p><span class="math inline">\((\log_a|x|)&#39;=(\dfrac{\log |x|}{\log
+a})&#39;=\dfrac{1}{\log a}\cdot \dfrac{1}{x}\)</span></p>
+<p><span class="math inline">\((\sin
+x)^{(n)}=\sin(x+\dfrac{n\pi}{2})\)</span></p>
+<p><span class="math inline">\((\cos
+x)^{(n)}=\cos(x+\dfrac{n\pi}{2})\)</span></p>
 <p>为了便于计算机计算，将函数用多项式逼近</p>
-<h2 id="泰勒级数-テイラー級数"><a href="#泰勒级数-テイラー級数" class="headerlink" title="泰勒级数 テイラー級数"></a>泰勒级数 テイラー級数</h2><p>$\displaystyle f(x)=f(a)+\frac{f’(a)}{1!}(x-a)+\frac{f’’(a)}{2!}(x-a)^2+\dots \frac{f^{(n-1)(a)}}{(n-1)!}(x-a)^{n-1}+R_n $ 极小项</p>
-<p>$\displaystyle =\sum_{k=0}^{n-1} \frac{f^{(k)}(a)}{k!}(x-a)^k+R_n$</p>
+<h2 id="泰勒级数-テイラー級数">泰勒级数 テイラー級数</h2>
+<p>$f(x)=f(a)+(x-a)+(x-a)<sup>2+(x-a)</sup>{n-1}+R_n $ 极小项</p>
+<p><span class="math inline">\(\displaystyle =\sum_{k=0}^{n-1}
+\frac{f^{(k)}(a)}{k!}(x-a)^k+R_n\)</span></p>
 <p>a=0のとき、</p>
-<p>$\displaystyle f(x)=f(0)+\frac{f’(0)}{1!}x+\frac{f’(0)}{2!}x^2+\dots +\frac{f^{(n-1)(0)}}{(n-1)!}x^{n-1}+R_n$</p>
-<p>$\displaystyle e^x=1+x+\frac{x^2}{2!}+\dots +\frac{x^{n-1}}{(n-1)!}+R_n$</p>
-<p>$\displaystyle \sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\dots +(-1)^{n-1}\frac{x^{2n-1}}{(2n-1)!}+R_{2n+1}$</p>
-<p>$\displaystyle \cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\dots +(-1)^n\frac{x^{2n}}{(2n)!}+R_{2n+2}$</p>
-<p>$\displaystyle \log(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\dots +(-1)^n\frac{x^{n-1}}{n-1}+R_n$</p>
-<p>$\displaystyle (1+x)^n=1+C_n^1x+C_n^2x^2+\dots +C_n^{n-1}x^{n-1}+R_n$ 二项式定理</p>
-<p>$\displaystyle \frac{1}{1-x}=1+x+x^2+\dots +x^n+\dots $  等比求和</p>
-<h2 id="由导数判定极值"><a href="#由导数判定极值" class="headerlink" title="由导数判定极值"></a>由导数判定极值</h2><p>$f’(x)=0$ 判定前后f’(x)正负（单调性）<br>$f’’(x)&gt;0 \leftrightarrow y=f(x)$ 下凸 如$y=x^2$<br>$f’’(x)&lt;0 \leftrightarrow y=f(x)$ 上凸 </p>
+<p><span class="math inline">\(\displaystyle
+f(x)=f(0)+\frac{f&#39;(0)}{1!}x+\frac{f&#39;(0)}{2!}x^2+\dots
++\frac{f^{(n-1)(0)}}{(n-1)!}x^{n-1}+R_n\)</span></p>
+<p><span class="math inline">\(\displaystyle
+e^x=1+x+\frac{x^2}{2!}+\dots +\frac{x^{n-1}}{(n-1)!}+R_n\)</span></p>
+<p><span class="math inline">\(\displaystyle \sin
+x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\dots
++(-1)^{n-1}\frac{x^{2n-1}}{(2n-1)!}+R_{2n+1}\)</span></p>
+<p><span class="math inline">\(\displaystyle \cos
+x=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\dots
++(-1)^n\frac{x^{2n}}{(2n)!}+R_{2n+2}\)</span></p>
+<p><span class="math inline">\(\displaystyle
+\log(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\dots
++(-1)^n\frac{x^{n-1}}{n-1}+R_n\)</span></p>
+<p><span class="math inline">\(\displaystyle
+(1+x)^n=1+C_n^1x+C_n^2x^2+\dots +C_n^{n-1}x^{n-1}+R_n\)</span>
+二项式定理</p>
+<p>$=1+x+x<sup>2++x</sup>n+$ 等比求和</p>
+<h2 id="由导数判定极值">由导数判定极值</h2>
+<p><span class="math inline">\(f&#39;(x)=0\)</span>
+判定前后f'(x)正负（单调性） <span
+class="math inline">\(f&#39;&#39;(x)&gt;0 \leftrightarrow
+y=f(x)\)</span> 下凸 如<span class="math inline">\(y=x^2\)</span> <span
+class="math inline">\(f&#39;&#39;(x)&lt;0 \leftrightarrow
+y=f(x)\)</span> 上凸</p>
 <p>多元函数的极值计算</p>
 <p>黑塞矩阵</p>
-<p>对于二元函数$f(x,y)$,若有$f_x(x_0,y_0)=f_y(x_0,y_0)=0$</p>
-<p>如何判定在点$(x_0,y_0)$处取极值呢？</p>
-<p>$H=det\begin{pmatrix}f_{xx}&amp;f_{xy}\\f_{yx}&amp;f_{yy}\end{pmatrix}=f_{xx}f_{yy}-(f_{xy})^2$</p>
+<p>对于二元函数<span class="math inline">\(f(x,y)\)</span>,若有<span
+class="math inline">\(f_x(x_0,y_0)=f_y(x_0,y_0)=0\)</span></p>
+<p>如何判定在点<span
+class="math inline">\((x_0,y_0)\)</span>处取极值呢？</p>
+<p><span
+class="math inline">\(H=det\begin{pmatrix}f_{xx}&amp;f_{xy}\\f_{yx}&amp;f_{yy}\end{pmatrix}=f_{xx}f_{yy}-(f_{xy})^2\)</span></p>
 <ul>
-<li>H&gt;0: 若$f_{xx}&gt;0$,则$(x_0,y_0)$处取极小值，若$f_{xx}&lt;0$,则$(x_0,y_0)$处取极大值 </li>
-<li>H&lt;0:则$(x_0,y_0)$是鞍点，$(x_0,y_0)$处不是极值点</li>
+<li>H&gt;0: 若<span class="math inline">\(f_{xx}&gt;0\)</span>,则<span
+class="math inline">\((x_0,y_0)\)</span>处取极小值，若<span
+class="math inline">\(f_{xx}&lt;0\)</span>,则<span
+class="math inline">\((x_0,y_0)\)</span>处取极大值</li>
+<li>H&lt;0:则<span class="math inline">\((x_0,y_0)\)</span>是鞍点，<span
+class="math inline">\((x_0,y_0)\)</span>处不是极值点</li>
 <li>H=0: 则二阶导数无法判断该临界点的性质，需要考察更高阶的导数。</li>
 </ul>
-<hr>
-<h1 id="积分"><a href="#积分" class="headerlink" title="积分"></a>积分</h1><h3 id="不定积分"><a href="#不定积分" class="headerlink" title="不定积分"></a>不定积分</h3><p>$\int f(x)=F(x)+C$</p>
-<h2 id="定积分"><a href="#定积分" class="headerlink" title="定积分"></a>定积分</h2><p>$\displaystyle \int_a^{a+T}f(x)dx=\int_0^T f(x)dx$</p>
-<p>$\displaystyle \int_a^b f(x)dx=\int_{\alpha}^{\beta}f\{\Phi(t)\}\Phi’(t)dt$</p>
-<h2 id="部分积分"><a href="#部分积分" class="headerlink" title="部分积分"></a>部分积分</h2><p>$\displaystyle \int_a^b f(x)g’(x)dx=[f(x)g(x)]_a^b-\int_a^b f’(x)g(x)dx$</p>
-<h2 id="广义积分"><a href="#广义积分" class="headerlink" title="广义积分"></a>广义积分</h2><p>1) $\displaystyle \int_a^{+\infty}f(x)=\lim_{b\to +\infty}\int_a^b f(x)dx$</p>
-<p>2) $\displaystyle \int_{-\infty}^b f(x)dx=\lim_{a\to -\infty}^b f(x)dx$</p>
-<p>3) $\displaystyle \int_a^b f(x)dx=\lim_{x\to 0+}\int_a^{c-\varepsilon_1}f(x)dx+\lim_{x\to 0+}\int_{c+\varepsilon_2}^b f(x)dx$ c处有断点</p>
-<h2 id="三重积分"><a href="#三重积分" class="headerlink" title="三重积分"></a>三重积分</h2><p>$x=r\sin \theta \cos \phi$</p>
-<p>$y=r\sin \theta \sin \phi$</p>
-<p>$z=r\cos \phi$</p>
-<p>$\int_A \int \int f(x,y,z)dxdydz=\iiint_B f(r\sin\theta\cos \phi, r\sin \theta\sin \phi, r\cos \theta)r^2 \sin \theta drd\theta d \phi$</p>
-<p>$\displaystyle \int f(x)dx=F(x)+C$</p>
-<h2 id="求解方法"><a href="#求解方法" class="headerlink" title="求解方法"></a>求解方法</h2><h3 id="1）基本积分"><a href="#1）基本积分" class="headerlink" title="1）基本积分"></a>1）基本积分</h3><p>$\displaystyle \int \tan(\alpha x)dx=-\frac{1}{\alpha}\log |\cos \alpha x|$</p>
-<p>$\displaystyle \int \cot\alpha x dx=\frac{1}{\alpha}\log |\sin \alpha x|$</p>
-<p>$\displaystyle \int \frac{1}{x}dx=\log |x|$</p>
-<p>$\displaystyle \int \frac{1}{x^2+a^2}dx=\frac{1}{a}\arctan (\frac{x}{a})$</p>
-<p>$\displaystyle \int \frac{1}{x^2-a^2}dx=\frac{1}{2a}\log |\frac{x-a}{x+a}|$</p>
-<p>$\displaystyle \int ax^k dx=a\frac{1}{k+1}x^k+C$</p>
-<p>$\displaystyle \int \frac{1}{\sqrt{a^2-x^2}}dx=\arcsin \frac{x}{a}$</p>
-<h3 id="2-分式积分"><a href="#2-分式积分" class="headerlink" title="2)分式积分"></a>2)分式积分</h3><p><strong>有理函数</strong></p>
+<hr />
+<h1 id="积分">积分</h1>
+<h3 id="不定积分">不定积分</h3>
+<p><span class="math inline">\(\int f(x)=F(x)+C\)</span></p>
+<h2 id="定积分">定积分</h2>
+<p><span class="math inline">\(\displaystyle \int_a^{a+T}f(x)dx=\int_0^T
+f(x)dx\)</span></p>
+<p><span class="math inline">\(\displaystyle \int_a^b
+f(x)dx=\int_{\alpha}^{\beta}f\{\Phi(t)\}\Phi&#39;(t)dt\)</span></p>
+<h2 id="部分积分">部分积分</h2>
+<p><span class="math inline">\(\displaystyle \int_a^b
+f(x)g&#39;(x)dx=[f(x)g(x)]_a^b-\int_a^b f&#39;(x)g(x)dx\)</span></p>
+<h2 id="广义积分">广义积分</h2>
+<ol type="1">
+<li><p><span class="math inline">\(\displaystyle
+\int_a^{+\infty}f(x)=\lim_{b\to +\infty}\int_a^b
+f(x)dx\)</span></p></li>
+<li><p><span class="math inline">\(\displaystyle \int_{-\infty}^b
+f(x)dx=\lim_{a\to -\infty}^b f(x)dx\)</span></p></li>
+<li><p><span class="math inline">\(\displaystyle \int_a^b
+f(x)dx=\lim_{x\to 0+}\int_a^{c-\varepsilon_1}f(x)dx+\lim_{x\to
+0+}\int_{c+\varepsilon_2}^b f(x)dx\)</span> c处有断点</p></li>
+</ol>
+<h2 id="三重积分">三重积分</h2>
+<p><span class="math inline">\(x=r\sin \theta \cos \phi\)</span></p>
+<p><span class="math inline">\(y=r\sin \theta \sin \phi\)</span></p>
+<p><span class="math inline">\(z=r\cos \phi\)</span></p>
+<p><span class="math inline">\(\int_A \int \int f(x,y,z)dxdydz=\iiint_B
+f(r\sin\theta\cos \phi, r\sin \theta\sin \phi, r\cos \theta)r^2 \sin
+\theta drd\theta d \phi\)</span></p>
+<p><span class="math inline">\(\displaystyle \int
+f(x)dx=F(x)+C\)</span></p>
+<h2 id="求解方法">求解方法</h2>
+<h3 id="基本积分">1）基本积分</h3>
+<p><span class="math inline">\(\displaystyle \int \tan(\alpha
+x)dx=-\frac{1}{\alpha}\log |\cos \alpha x|\)</span></p>
+<p><span class="math inline">\(\displaystyle \int \cot\alpha x
+dx=\frac{1}{\alpha}\log |\sin \alpha x|\)</span></p>
+<p><span class="math inline">\(\displaystyle \int \frac{1}{x}dx=\log
+|x|\)</span></p>
+<p><span class="math inline">\(\displaystyle \int
+\frac{1}{x^2+a^2}dx=\frac{1}{a}\arctan (\frac{x}{a})\)</span></p>
+<p><span class="math inline">\(\displaystyle \int
+\frac{1}{x^2-a^2}dx=\frac{1}{2a}\log |\frac{x-a}{x+a}|\)</span></p>
+<p><span class="math inline">\(\displaystyle \int ax^k
+dx=a\frac{1}{k+1}x^k+C\)</span></p>
+<p><span class="math inline">\(\displaystyle \int
+\frac{1}{\sqrt{a^2-x^2}}dx=\arcsin \frac{x}{a}\)</span></p>
+<h3 id="分式积分">2)分式积分</h3>
+<p><strong>有理函数</strong></p>
 <p><strong>1次多项式</strong></p>
-<p>$\displaystyle \frac{A}{(b_kx+C_k)^n}\Rightarrow \int \frac{A}{b_k^n (x+\frac{c_k}{b_k})^n}=\frac{A}{b_k^n}\cdot \frac{1}{n+1}(x+\frac{c_k}{b_k})^{n+1} (n&gt;1)$</p>
-<p>$\displaystyle =\frac{A}{b_k}\log (x+\frac{c_k}{b_k}) (n=1)$</p>
+<p><span class="math inline">\(\displaystyle
+\frac{A}{(b_kx+C_k)^n}\Rightarrow \int \frac{A}{b_k^n
+(x+\frac{c_k}{b_k})^n}=\frac{A}{b_k^n}\cdot
+\frac{1}{n+1}(x+\frac{c_k}{b_k})^{n+1} (n&gt;1)\)</span></p>
+<p><span class="math inline">\(\displaystyle =\frac{A}{b_k}\log
+(x+\frac{c_k}{b_k}) (n=1)\)</span></p>
 <p><strong>2次多项式</strong></p>
 <p>分母凑成平方和</p>
-<p>$\displaystyle \int \frac{x}{(x^2+a^2)^m}dx$</p>
+<p><span class="math inline">\(\displaystyle \int
+\frac{x}{(x^2+a^2)^m}dx\)</span></p>
 <p><strong>大式拆为小式</strong></p>
-<p>$\left \{ \begin{array}{cc} \displaystyle \frac{-1}{2(m-1)(x^2+a^2)^{m-1}} &amp;(m&gt;1)\\\displaystyle \frac{1}{2}\log (x^2+a^2) &amp;(m=1)\end{array}\right.$</p>
+<p><span class="math inline">\(\left \{ \begin{array}{cc} \displaystyle
+\frac{-1}{2(m-1)(x^2+a^2)^{m-1}} &amp;(m&gt;1)\\\displaystyle
+\frac{1}{2}\log (x^2+a^2) &amp;(m=1)\end{array}\right.\)</span></p>
 <p>例：</p>
-<p>$\displaystyle \frac{4x^4+2x^3+10x^2+3x+9}{(x+1)(x^2+2)^2}=\frac{A}{x+1}+\frac{Bx+C}{x^2+2}+\frac{Dx+E}{(x^2+2)^2}$</p>
-<h3 id=""><a href="#" class="headerlink" title=" "></a> </h3><p>$\displaystyle \int \frac{1}{(x^2+a^2)^n}dx=I_n$</p>
-<p>$\displaystyle I_n=\frac{x}{(x^2+a^2)^n}-\int \frac{x(-n)\cdot 2x}{(x^2+a^2)^{n+1}}dx$</p>
-<p>$\displaystyle =\frac{x}{(x^2+a^2)^n}+2n\int \frac{x^2}{(x^2+a^2)^{n+1}}dx$</p>
-<p>$\displaystyle =\frac{x}{(x^2+a^2)^n}+2n\int \frac{x^2+a^2-a^2}{(x^2+a^2)^{n+1}}dx$</p>
-<p>$\displaystyle =\frac{x}{(x^2+a^2)^n+2n\int \frac{1}{(x^2+a^2)^n}}dx-2a^2n\int \frac{1}{(x^2+a^2)^{n+1}}dx$</p>
-<p>$\displaystyle =\frac{x}{(x^2+a^2)^n}+2nI_n-2a^nI_{n+1}$</p>
-<p>$\displaystyle \therefore I_{n+1}=\frac{1}{2a^2}[\frac{x}{(x^2+a^2)^n}+(2n-1)I_n]$</p>
-<h3 id="无理函数"><a href="#无理函数" class="headerlink" title="无理函数"></a>无理函数</h3><p>1） $\sqrt{ax^2+bx+c}$ 配平方式</p>
-<p>2)$\sqrt[n]{ax+b}$ 换元法</p>
-<p>3)$\displaystyle \sqrt[n]{\frac{ax+b}{cx+d}}$ 换元法</p>
-<p>4)$\displaystyle \sqrt{x^2+a^2}$ $x=a\tan \theta$</p>
-<p>5)$\sqrt{a^2-x^2}, x=a\sin \theta$</p>
-<p>6)$\sqrt{x^2-a^2}, x=a\cos \theta$</p>
-<h3 id="三角函数"><a href="#三角函数" class="headerlink" title="三角函数"></a>三角函数</h3><p>1)$\int f(\sin x)\cos x dx$ 把cos x放到dx中</p>
-<p>2)$\int f(\cos x)\sin x dx$把sin x放到dx中</p>
-<p>3)$\int f(\sin^2 x, \cos^2x, \tan x)dx$ 令$t=\tan x$使用万能公式</p>
-<p>4)$\int f(\sin x,\cos x)dx$ 令$t=\tan \frac{x}{2}$</p>
-<h3 id="定积分的应用"><a href="#定积分的应用" class="headerlink" title="定积分的应用"></a>定积分的应用</h3><p>1.求面积</p>
-<p>$S=\int_a^b \{f(x)-g(x)\}dx, r=f(\theta)$</p>
-<p>$S=\dfrac{1}{2}\int_{\alpha}^{\beta}r^2d\theta$</p>
-<p>$=\dfrac{1}{2}\int_{\alpha}^{\beta}f^2(\theta)d\theta$</p>
+<p><span class="math inline">\(\displaystyle
+\frac{4x^4+2x^3+10x^2+3x+9}{(x+1)(x^2+2)^2}=\frac{A}{x+1}+\frac{Bx+C}{x^2+2}+\frac{Dx+E}{(x^2+2)^2}\)</span></p>
+<h3 id="section"></h3>
+<p><span class="math inline">\(\displaystyle \int
+\frac{1}{(x^2+a^2)^n}dx=I_n\)</span></p>
+<p><span class="math inline">\(\displaystyle
+I_n=\frac{x}{(x^2+a^2)^n}-\int \frac{x(-n)\cdot
+2x}{(x^2+a^2)^{n+1}}dx\)</span></p>
+<p><span class="math inline">\(\displaystyle
+=\frac{x}{(x^2+a^2)^n}+2n\int \frac{x^2}{(x^2+a^2)^{n+1}}dx\)</span></p>
+<p><span class="math inline">\(\displaystyle
+=\frac{x}{(x^2+a^2)^n}+2n\int
+\frac{x^2+a^2-a^2}{(x^2+a^2)^{n+1}}dx\)</span></p>
+<p><span class="math inline">\(\displaystyle
+=\frac{x}{(x^2+a^2)^n+2n\int \frac{1}{(x^2+a^2)^n}}dx-2a^2n\int
+\frac{1}{(x^2+a^2)^{n+1}}dx\)</span></p>
+<p><span class="math inline">\(\displaystyle
+=\frac{x}{(x^2+a^2)^n}+2nI_n-2a^nI_{n+1}\)</span></p>
+<p><span class="math inline">\(\displaystyle \therefore
+I_{n+1}=\frac{1}{2a^2}[\frac{x}{(x^2+a^2)^n}+(2n-1)I_n]\)</span></p>
+<h3 id="无理函数">无理函数</h3>
+<p>1） <span class="math inline">\(\sqrt{ax^2+bx+c}\)</span>
+配平方式</p>
+<p>2)<span class="math inline">\(\sqrt[n]{ax+b}\)</span> 换元法</p>
+<p>3)<span class="math inline">\(\displaystyle
+\sqrt[n]{\frac{ax+b}{cx+d}}\)</span> 换元法</p>
+<p>4)<span class="math inline">\(\displaystyle \sqrt{x^2+a^2}\)</span>
+<span class="math inline">\(x=a\tan \theta\)</span></p>
+<p>5)<span class="math inline">\(\sqrt{a^2-x^2}, x=a\sin
+\theta\)</span></p>
+<p>6)<span class="math inline">\(\sqrt{x^2-a^2}, x=a\cos
+\theta\)</span></p>
+<h3 id="三角函数">三角函数</h3>
+<p>1)<span class="math inline">\(\int f(\sin x)\cos x dx\)</span> 把cos
+x放到dx中</p>
+<p>2)<span class="math inline">\(\int f(\cos x)\sin x dx\)</span>把sin
+x放到dx中</p>
+<p>3)<span class="math inline">\(\int f(\sin^2 x, \cos^2x, \tan
+x)dx\)</span> 令<span class="math inline">\(t=\tan
+x\)</span>使用万能公式</p>
+<p>4)<span class="math inline">\(\int f(\sin x,\cos x)dx\)</span>
+令<span class="math inline">\(t=\tan \frac{x}{2}\)</span></p>
+<h3 id="定积分的应用">定积分的应用</h3>
+<p>1.求面积</p>
+<p><span class="math inline">\(S=\int_a^b \{f(x)-g(x)\}dx,
+r=f(\theta)\)</span></p>
+<p><span
+class="math inline">\(S=\dfrac{1}{2}\int_{\alpha}^{\beta}r^2d\theta\)</span></p>
+<p><span
+class="math inline">\(=\dfrac{1}{2}\int_{\alpha}^{\beta}f^2(\theta)d\theta\)</span></p>
 <p>2.回转体的表面积</p>
-<p>$y=f(x)$绕X轴旋转</p>
-<p>$S=2\pi \int_a^b y\cdot \sqrt{(dx)^2+(dy)^2}$</p>
-<p>$=2\pi \int_a^b f(x)\sqrt{1+f’^2(x)}dx$</p>
-<p>周长$2\pi r(y) \times 高 \rightarrow 弧长$</p>
-<p>$V=\pi \int_a^b f^2(x)dx$</p>
+<p><span class="math inline">\(y=f(x)\)</span>绕X轴旋转</p>
+<p><span class="math inline">\(S=2\pi \int_a^b y\cdot
+\sqrt{(dx)^2+(dy)^2}\)</span></p>
+<p><span class="math inline">\(=2\pi \int_a^b
+f(x)\sqrt{1+f&#39;^2(x)}dx\)</span></p>
+<p>周长<span class="math inline">\(2\pi r(y) \times 高 \rightarrow
+弧长\)</span></p>
+<p><span class="math inline">\(V=\pi \int_a^b f^2(x)dx\)</span></p>
 <p>圆盘法向量垂直于旋转轴，切成一个个圆盘，a,b是高度方向上的上下限。</p>
-<p>$\pi f^2(x)=\pi r^2$</p>
+<p><span class="math inline">\(\pi f^2(x)=\pi r^2\)</span></p>
 <p>3.弧长</p>
-<p>$l=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt$</p>
-<p>$=\sqrt{r^2+(\frac{dr}{d\theta})^2}d\theta$</p>
+<p><span
+class="math inline">\(l=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}dt\)</span></p>
+<p><span
+class="math inline">\(=\sqrt{r^2+(\frac{dr}{d\theta})^2}d\theta\)</span></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>【斜杠笔记】大学院数学之线性代数</title>
+    <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
+    <content><![CDATA[
 ]]></content>
   </entry>
   <entry>
@@ -1291,97 +1909,15 @@ y(t)=x_1(t)x_2(t)
       </categories>
   </entry>
   <entry>
-    <title>【斜杠笔记】大学院数学之概率与统计</title>
-    <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1/</url>
-    <content><![CDATA[<p>修改记录：</p>
-<p>2023.2.13 整理了常见的离散和连续概率变量的概率密度函数</p>
-<p>2023.2.15 补充了大学院备考时自己整理的相关考点</p>
-<p>待补充：矩母函数和用它来求期望，方差的方法</p>
-<p>参考资料：</p>
-<p>常用概率分布的矩母函数、特征函数以及期望、方差的推导</p>
-<p><a href="https://blog.csdn.net/STcyclone/article/details/84310450">https://blog.csdn.net/STcyclone/article/details/84310450</a></p>
-<h1 id="离散型随机变量"><a href="#离散型随机变量" class="headerlink" title="离散型随机变量"></a>离散型随机变量</h1><h2 id="1-两点分布（伯努利分布）"><a href="#1-两点分布（伯努利分布）" class="headerlink" title="1.两点分布（伯努利分布）"></a>1.两点分布（伯努利分布）</h2><p>$P(X=1)=p,P(X=0)=1-p$</p>
-<h2 id="2-均匀分布"><a href="#2-均匀分布" class="headerlink" title="2.均匀分布"></a>2.均匀分布</h2><p>$P(X=a_k)=\dfrac{1}{n},k=1,2,\dots,n$</p>
-<h2 id="3-二项分布"><a href="#3-二项分布" class="headerlink" title="3.二项分布"></a>3.二项分布</h2><p>$P(X=k)=C_n^k p^k(1-p)^{n-k},k=0,1,\dots,n$</p>
-<h2 id="4-几何分布"><a href="#4-几何分布" class="headerlink" title="4.几何分布"></a>4.几何分布</h2><p>$P(X=k)=(1-p)^{k-1}p,k=1,2,\dots$</p>
-<h2 id="5-泊松分布"><a href="#5-泊松分布" class="headerlink" title="5.泊松分布"></a>5.泊松分布</h2><p>$P(X=k)=\dfrac{\lambda^k}{k!}e^{-\lambda},k=0,1,2,\dots,\lambda&gt;0$</p>
-<h1 id="连续型随机变量"><a href="#连续型随机变量" class="headerlink" title="连续型随机变量"></a>连续型随机变量</h1><h2 id="1-均匀分布"><a href="#1-均匀分布" class="headerlink" title="1.均匀分布"></a>1.均匀分布</h2><p>$f(x)=\left \{\begin{array}{ll}\dfrac{1}{b-a},&amp;a&lt;x&lt;b\\0,&amp;x\leq a \quad or \quad x\geq b\end{array}\right.$</p>
-<h2 id="2-指数分布"><a href="#2-指数分布" class="headerlink" title="2.指数分布"></a>2.指数分布</h2><p>$f(x)=\lambda e^{-\lambda x} \quad, \lambda&gt;0$</p>
-<h2 id="3-正态分布"><a href="#3-正态分布" class="headerlink" title="3.正态分布"></a>3.正态分布</h2><script type="math/tex; mode=display">
-f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script><span id="more"></span>
-<h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p>確率：偶然起こる現象の現象全てに対する割合のことである。<br>統計：現象を調査することによって数量で把握すること。</p>
-<p>事件 $\rightarrow$ 割合 $\rightarrow $计数 （加，乘）<br>１）順列<br>２）組み合わせ工具</p>
-<h3 id="順列"><a href="#順列" class="headerlink" title="順列"></a>順列</h3><p>1）n个球不重复取r个排列 $A_n^r$, 特别当取n个球时，排列方式有$n!$个<br>2）n个球有放回取r个 $n^r$</p>
-<p>3）n个球有同色球，a有$n_1$个，b有$n_2$个  $\dfrac{n!}{n_1!n_2!\dots }$<br>4）圆排列 $(n-1)!$</p>
-<h3 id="組み合わせ"><a href="#組み合わせ" class="headerlink" title="組み合わせ"></a>組み合わせ</h3><p>从n中取r个，组合方式有$C_n^r$<br>可重复取时，有$C_{n+r-1}^{n-1}$</p>
-<h3 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h3><p>$\Omega$全事象</p>
-<p>$A_1 \cap A_2$ 積事象　</p>
-<p>$A_1 \cup A_2$ 和事象</p>
-<p>$A_1 \cap A_2$ 排反</p>
-<p>$0\leq P(A) \leq 1$</p>
-<p>$P(A_1 \cup A_2)=P(A_1) +P(A_2) - P(A_1\cap A_2) $</p>
-<p>加法定理　$P(A_1 \cup A_2 \dots A_k)= P(A_1)+P(A_2)+\dots P(A_k)$</p>
-<p>乘法定理 $P(A_1 \cap A_2 \dots \cap A_k) =P(A_1)P(A_2|A_1)P(A_3|A_1\cap A_2)\dots P(A_k|A_1\cap A_2\cap \dots A_{k-1})$</p>
-<p>全確率　$P(B)=\sum_{i=1}^n P(A_i) P(B|A_i)$</p>
-<p>贝叶斯 $P(A_j|B)=\dfrac{P(B|A_j)P(A_j)}{P(B)}$</p>
-<p><img src="https://s2.loli.net/2023/02/15/YyAv38sGWB7JUwb.png" alt="马尔可夫不等式"></p>
-<h3 id="马尔可夫不等式"><a href="#马尔可夫不等式" class="headerlink" title="马尔可夫不等式"></a>马尔可夫不等式</h3><p>$P(X\geq a) \leq \dfrac{E(X)}{a} $ </p>
-<h3 id="切比雪夫不等式"><a href="#切比雪夫不等式" class="headerlink" title="切比雪夫不等式"></a>切比雪夫不等式</h3><p>$P\{|X-EX|\geq \epsilon \} \leq \dfrac{Var(X)}{\epsilon^2}$<br>偏离中心的概率，越远离平均值，概率越低</p>
-<p>证明：<br>$P(X\geq a )=\int_0^{+ \infty} f(x)dx \leq \int_a^{+ \infty} f(x)dx$</p>
-<p>$E(\dfrac{x}{a})=\int_{- \infty}^a \dfrac{x}{a} f(x)dx +\int_a^{+ \infty} \dfrac{x}{a}f(x)dx$</p>
-<p>显然 $\int_{- \infty}^a \dfrac{x}{a}f(x)dx \geq 0$</p>
-<p>$\therefore$ $P(x\geq a)\leq \int_a^{+ \infty} \dfrac{x}{a} f(x)dx \leq E(\dfrac{x}{a})$</p>
-<p>$\therefore$ $P(x\geq a)\leq E(\dfrac{x}{a})=\dfrac{E(X)}{a}$</p>
-<p>将$|x-\mu|$代入<br>$P(|x-\mu|&gt;a)\leq \dfrac{E(|x-\mu|}{a}$</p>
-<p>$\rightarrow P((x-\mu)^2 \leq a^2)\leq \dfrac{E[(x-\mu)^2]}{a^2} =\dfrac{\sigma^2}{a^2}$</p>
-<p>令 $k=\dfrac{a}{\sigma}$ 则$k\leq 0, a^2=k^2\sigma^2$</p>
-<p>$P(|x-\mu|)\leq k\sigma)\leq \dfrac{1}{k^2}$</p>
-<h3 id="大数法则"><a href="#大数法则" class="headerlink" title="大数法则"></a><strong>大数法则</strong></h3><p>$x_1,x_2,\dots ,x_n$独立，$E(x_i)=\mu, V(x_i)=\sigma^2$</p>
-<p>$\bar{X}=\sum_{i=1} ^n X_i/n, \xi&gt;0$</p>
-<p>$\lim_{n\to \infty} P(|\bar{x}-\mu|)\geq \xi)=0$ n次实验抛硬币<br>正面概率趋近于0.5</p>
-<h3 id="概率模型"><a href="#概率模型" class="headerlink" title="概率模型"></a><strong>概率模型</strong></h3><h4 id="蒲丰投针"><a href="#蒲丰投针" class="headerlink" title="蒲丰投针"></a>蒲丰投针</h4><p>$\dfrac{2l}{\pi a}$</p>
-<h4 id="取帽子"><a href="#取帽子" class="headerlink" title="取帽子"></a>取帽子</h4><p>n个帽子错排号（所有元素都不在原位） 客斥原理</p>
-<p>1）k=1,错排数 $D_1=0$</p>
-<p>2）k=2, $D_2=1$</p>
-<p>3）$k\neq n$, n排在第k位， $1\leq k\leq n-1$,那<br>    k在n上，除了n和k还有n-2个数 $D_{n-2}$<br>    k不在n上，将第n位当作新的第k位，含k的n-1个数的第一种<br>    错排部等价于 n-1个数的错排</p>
-<p>$D_n=(n-1)(D_{n-1}+D_{n-2}$</p>
-<p>问题也类似于<br>N封信，前N-1封可以有N-1或N-2封错装<br>从N-1取1封与第N封错装<br>$(N-1)D_{n-1}$<br>有一封，第N-1封是对的，将其与N封错装 $(N-1)D_{n-2}$</p>
-<p>推导过程<br>$M_1=0, M_2=\frac{1}{2!}$</p>
-<p>$D_n=(n-1)(D_{n_1}+D_{n-2})$</p>
-<p>记$D_n=n!M_n$</p>
-<p>$D_{n-1}=(n-1)!M_{n-1}$, $D_{n-2}=(n-2)!M_{n-2}$</p>
-<p>$n!M_n=(n-1)(n-1)!M_{n-1}+(n-1)(n-2)!M_{n-1}$</p>
-<p>$=n!M_{n-1}-(n-1)!M_{n-1}+(n-1)!M_{n-2}$ 同时除以(n-1)!</p>
-<p>$nM_n=nM_{n-1}-M_{n-1}+M_{n-2}$</p>
-<p>$M_n-M_{n-1}=-\frac{1}{n}(M_{n-1}-M_{n-2})$</p>
-<p>$=(-\frac{1}{n})(-\frac{1}{n-1})\dots (-\frac{1}{3})(M_2-M_1)$</p>
-<p>$=(-1)^{n-2} \cdot \frac{1}{(n-2)!}(\frac{1}{2}-0)$</p>
-<p>$=(-1)^n\cdot \frac{1}{n!}$</p>
-<p>$\therefore M_n-M_{n-1}=(-1)^n \frac{1}{n!}$</p>
-<p>$M_{n-1}-M_{n-2}=(-1)^{n-1} \frac{1}{(n-1)!}$</p>
-<p>$\vdots$</p>
-<p>$M_2-M_1=(-1)^2 \frac{1}{2!}$</p>
-<p>左右累加</p>
-<p>$M_n-M_1=M_n=(-1)^2\frac{1}{2!}+(-1)^3\frac{1}{3!}+\dots+(-1)^n\frac{1}{n!}$</p>
-<p>$\therefore D_n=n!M_n=n!(\frac{1}{2!}-\frac{1}{3!}+\dots +(-1)^n\frac{1}{n!})$</p>
-]]></content>
-      <categories>
-        <category>斜杠笔记</category>
-      </categories>
-  </entry>
-  <entry>
     <title>【读书笔记】 TCP/IP详解</title>
     <url>/2023/02/14/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91-TCP-IP%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[<p>简介：<br>TCP/IP详解这本书一共分为3卷。原作者为Kevin R. Fall和W. Richard Steven，我是看的机械工业出版社的中文译本。3卷分别为700多页，900多页和200多页，也算是大部头了。<br>为什么要读这本书，因为我知道，TCP/IP是计算机网络事实上的标准，所以要做网络安全，理论基础一定要扎实，这本书当然是必读书目，而且它对协议的介绍非常详细，并且会给出协议相关的安全问题，这对从业者来说是一个很好的参考。</p>
+    <content><![CDATA[<p>简介： TCP/IP详解这本书一共分为3卷。原作者为Kevin R. Fall和W. Richard
+Steven，我是看的机械工业出版社的中文译本。3卷分别为700多页，900多页和200多页，也算是大部头了。
+为什么要读这本书，因为我知道，TCP/IP是计算机网络事实上的标准，所以要做网络安全，理论基础一定要扎实，这本书当然是必读书目，而且它对协议的介绍非常详细，并且会给出协议相关的安全问题，这对从业者来说是一个很好的参考。</p>
 ]]></content>
       <categories>
         <category>读书笔记</category>
       </categories>
-  </entry>
-  <entry>
-    <title>【斜杠笔记】大学院数学之线性代数</title>
-    <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>【读书笔记】Windows Internals</title>
@@ -1393,8 +1929,8 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script><span 
       </categories>
   </entry>
   <entry>
-    <title>【读书笔记】网络安全应急响应技术实战指南</title>
-    <url>/2023/02/12/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/</url>
+    <title>【读书笔记】日志管理与分析权威指南</title>
+    <url>/2023/02/12/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86%E4%B8%8E%E5%88%86%E6%9E%90%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<p>占位</p>
 ]]></content>
       <categories>
@@ -1402,8 +1938,8 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script><span 
       </categories>
   </entry>
   <entry>
-    <title>【读书笔记】日志管理与分析权威指南</title>
-    <url>/2023/02/12/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86%E4%B8%8E%E5%88%86%E6%9E%90%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97/</url>
+    <title>【读书笔记】网络安全应急响应技术实战指南</title>
+    <url>/2023/02/12/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94%E6%8A%80%E6%9C%AF%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/</url>
     <content><![CDATA[<p>占位</p>
 ]]></content>
       <categories>
@@ -1462,21 +1998,21 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script><span 
 <ul>
 <li>加州大学伯克利分校计算机安全课程</li>
 </ul>
-<p>​    <a href="https://inst.eecs.berkeley.edu//~cs161/archives.html">https://inst.eecs.berkeley.edu//~cs161/archives.html</a></p>
+<p>​ https://inst.eecs.berkeley.edu//~cs161/archives.html</p>
 <ul>
 <li>MIT麻省理工计算机安全课程</li>
 </ul>
-<p>​    <a href="http://css.csail.mit.edu/6.858/2022/">http://css.csail.mit.edu/6.858/2022/</a></p>
-<p>​    <a href="http://courses.csail.mit.edu/6.857/2020/handouts">http://courses.csail.mit.edu/6.857/2020/handouts</a></p>
+<p>​ http://css.csail.mit.edu/6.858/2022/</p>
+<p>​ http://courses.csail.mit.edu/6.857/2020/handouts</p>
 <ul>
 <li>SANS免费网络安全课程，直达Youtube</li>
 </ul>
-<p>​    <a href="https://www.sans.org/cyberaces/">https://www.sans.org/cyberaces/</a> </p>
+<p>​ https://www.sans.org/cyberaces/</p>
 <ul>
 <li>B站大学</li>
 </ul>
-<p>​    <a href="https://www.bilibili.com/video/BV1xN4y177gN/">https://www.bilibili.com/video/BV1xN4y177gN/</a></p>
-<hr>
+<p>​ https://www.bilibili.com/video/BV1xN4y177gN/</p>
+<hr />
 ]]></content>
       <categories>
         <category>课程笔记</category>

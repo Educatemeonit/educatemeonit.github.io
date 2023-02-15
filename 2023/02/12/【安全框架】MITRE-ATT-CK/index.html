@@ -19,12 +19,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"educatemeonit.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default","show_result":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideDownBigOut"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Reconnaissance侦察 Resource Development资源扩展 Initial Access最初入口 Execution执行攻击 Persistence持续性控制 Privilege Escalation权限提升 Defense Evasion躲避防御机制 Credential Access获取合法凭证访问 Discovery查看信息 Lateral Movement横">
+    <meta name="description" content="Reconnaissance侦察 Resource Development资源扩展 Initial Access最初入口 Execution执行攻击 Persistence持续性控制 Privilege Escalation权限提升 Defense Evasion躲避防御机制 Credential Acces">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【安全框架】MITRE ATT&amp;CK">
 <meta property="og:url" content="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E5%AE%89%E5%85%A8%E6%A1%86%E6%9E%B6%E3%80%91MITRE-ATT-CK/index.html">
 <meta property="og:site_name" content="东京打工人Jackie">
-<meta property="og:description" content="Reconnaissance侦察 Resource Development资源扩展 Initial Access最初入口 Execution执行攻击 Persistence持续性控制 Privilege Escalation权限提升 Defense Evasion躲避防御机制 Credential Access获取合法凭证访问 Discovery查看信息 Lateral Movement横">
+<meta property="og:description" content="Reconnaissance侦察 Resource Development资源扩展 Initial Access最初入口 Execution执行攻击 Persistence持续性控制 Privilege Escalation权限提升 Defense Evasion躲避防御机制 Credential Acces">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-02-12T06:14:54.000Z">
 <meta property="article:modified_time" content="2023-02-14T06:55:46.566Z">
@@ -272,7 +272,7 @@
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>3 分钟</span>
     </span>
 </div>
 
@@ -283,10 +283,25 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <div class="table-container">
-<table>
+        <table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 6%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 5%" />
+</colgroup>
 <thead>
-<tr>
+<tr class="header">
 <th>Reconnaissance<br />侦察</th>
 <th>Resource Development<br />资源扩展</th>
 <th>Initial Access<br />最初入口</th>
@@ -304,7 +319,7 @@
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>Active Scanning</td>
 <td>Acquire Infrastructure</td>
 <td>Drive-by Infrastructure</td>
@@ -320,7 +335,7 @@
 <td>Automated Exfiltration</td>
 <td>Account Access Removal</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Gather Victim Host Information</td>
 <td>Compromise Accounts</td>
 <td>Exploit Public-Facing Application</td>
@@ -336,7 +351,7 @@
 <td>Data Transfer Size Limits</td>
 <td>Data Destruction</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Gather Victim Identity Information</td>
 <td>Compromise Infrastructure</td>
 <td>External Remote Services</td>
@@ -352,7 +367,7 @@
 <td>Exfiltration Over Alternative Protocol</td>
 <td>Data Encrypted for Impact</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Gather Victim Network Information</td>
 <td>Develop Capabilities</td>
 <td>Hardware Additions</td>
@@ -368,7 +383,7 @@
 <td>Exfiltration Over C2 Channel</td>
 <td>Data Manipulation</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Gather Victim Org Information</td>
 <td>Eastablish Accounts</td>
 <td>Phishing</td>
@@ -384,7 +399,7 @@
 <td>Exfiltration Over Other Network Medium</td>
 <td>Defacement</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Phishing for Information</td>
 <td>Obtain Capabilities</td>
 <td>Replication Through Removable Media</td>
@@ -400,7 +415,7 @@
 <td>Exfiltration Over Physical Medium</td>
 <td>Disk Wipe</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Search Closed Sources</td>
 <td>Stage Capabilities</td>
 <td>Supply Chain Compromise</td>
@@ -416,7 +431,7 @@
 <td>Exfiltration Over Web Service</td>
 <td>Endpoint Denial of Service</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Search Open Technical Databases</td>
 <td></td>
 <td>Trusted Relationship</td>
@@ -432,7 +447,7 @@
 <td>Scheduled Transfer</td>
 <td>Firmware Corruption</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Search Open Websites/Domains</td>
 <td></td>
 <td>Valid Accounts</td>
@@ -448,7 +463,7 @@
 <td>Transfer Data to Cloud Account</td>
 <td>Inhibit System Recovery</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Search Victim-Owned Websites</td>
 <td></td>
 <td></td>
@@ -464,7 +479,7 @@
 <td></td>
 <td>Network Denial of Service</td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -480,7 +495,7 @@
 <td></td>
 <td>Resource Hijacking</td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -496,7 +511,7 @@
 <td></td>
 <td>Service Stop</td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -512,7 +527,7 @@
 <td></td>
 <td>System Shutdown/Reboot</td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -528,7 +543,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -544,7 +559,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -560,7 +575,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -576,7 +591,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -592,7 +607,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -608,7 +623,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -624,7 +639,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -640,7 +655,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -656,7 +671,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -672,7 +687,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -688,7 +703,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -704,7 +719,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -720,7 +735,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -736,7 +751,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -752,7 +767,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -768,7 +783,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -784,7 +799,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -800,7 +815,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -816,7 +831,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -832,7 +847,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -848,7 +863,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -864,7 +879,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -880,7 +895,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -896,7 +911,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -912,7 +927,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -928,7 +943,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -944,7 +959,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
 <td></td>
 <td></td>
 <td></td>
@@ -960,7 +975,7 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="even">
 <td></td>
 <td></td>
 <td></td>
@@ -976,7 +991,8 @@
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr class="odd">
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -993,11 +1009,15 @@
 </tr>
 </tbody>
 </table>
-</div>
 <p>因为攻击手法千奇百怪，所以暂时先从常见的入手：</p>
 <p>Non-Standard Port</p>
-<p><a target="_blank" rel="noopener" href="https://attack.mitre.org/techniques/T1571/">Non-Standard Port, Technique T1571 - Enterprise | MITRE ATT&amp;CK®</a></p>
-<p>Adversaries may communicate using a protocol and port paring that are typically not associated. For example, HTTPS over port 8088[1] or port 587[2] as opposed to the traditional port 443. Adversaries may make changes to the standard port used by a protocol to bypass filtering or muddle analysis/parsing of network data.</p>
+<p><a target="_blank" rel="noopener" href="https://attack.mitre.org/techniques/T1571/">Non-Standard
+Port, Technique T1571 - Enterprise | MITRE ATT&amp;CK®</a></p>
+<p>Adversaries may communicate using a protocol and port paring that are
+typically not associated. For example, HTTPS over port 8088[1] or port
+587[2] as opposed to the traditional port 443. Adversaries may make
+changes to the standard port used by a protocol to bypass filtering or
+muddle analysis/parsing of network data.</p>
 
     </div>
 
@@ -1056,14 +1076,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">12k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">12 分钟</span>
+    <span title="站点阅读时长">44 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">

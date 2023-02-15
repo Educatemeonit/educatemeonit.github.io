@@ -19,12 +19,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"educatemeonit.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default","show_result":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideDownBigOut"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="修改记录：2023.2.15 初稿，大学院备考时的知识点整理 信号$\cdot$解析 时域$\rightarrow $频域（傅里叶变换）繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。 $X(w)&#x3D;\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty$ $x(t)&#x3D;\dfrac{1}{2\pi">
+    <meta name="description" content="修改记录： 2023.2.15 初稿，大学院备考时的知识点整理 信号\(\cdot\)解析 时域$$频域（傅里叶变换） 繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。 \(X(w)&#x3D;\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty\) \(x(t)&#x3D;\dfrac{1}{2\p">
 <meta property="og:type" content="article">
 <meta property="og:title" content="【斜杠笔记】大学院信号处理科目要点">
 <meta property="og:url" content="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E7%A7%91%E7%9B%AE%E8%A6%81%E7%82%B9/index.html">
 <meta property="og:site_name" content="东京打工人Jackie">
-<meta property="og:description" content="修改记录：2023.2.15 初稿，大学院备考时的知识点整理 信号$\cdot$解析 时域$\rightarrow $频域（傅里叶变换）繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。 $X(w)&#x3D;\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty$ $x(t)&#x3D;\dfrac{1}{2\pi">
+<meta property="og:description" content="修改记录： 2023.2.15 初稿，大学院备考时的知识点整理 信号\(\cdot\)解析 时域$$频域（傅里叶变换） 繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。 \(X(w)&#x3D;\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty\) \(x(t)&#x3D;\dfrac{1}{2\p">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-02-12T12:19:50.000Z">
 <meta property="article:modified_time" content="2023-02-15T13:40:42.680Z">
@@ -139,7 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%B6%E5%9F%9F-rightarrow-%E9%A2%91%E5%9F%9F%EF%BC%88%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">时域$\rightarrow $频域（傅里叶变换）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%82%85%E9%87%8C%E5%8F%B6%E7%BA%A7%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text">傅里叶级数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%A2%E6%95%A3"><span class="nav-number">3.</span> <span class="nav-text">離散</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%A3%E7%B6%9A"><span class="nav-number">4.</span> <span class="nav-text">連続</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%A7%E8%B4%A8"><span class="nav-number">5.</span> <span class="nav-text">性质</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Z%E5%A4%89%E6%8F%9B"><span class="nav-number">6.</span> <span class="nav-text">Z変換</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%B6%E5%9F%9F%E9%A2%91%E5%9F%9F%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2"><span class="nav-number">1.</span> <span class="nav-text">时域$$频域（傅里叶变换）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%82%85%E9%87%8C%E5%8F%B6%E7%BA%A7%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text">傅里叶级数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%A2%E6%95%A3"><span class="nav-number">3.</span> <span class="nav-text">離散</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%A3%E7%B6%9A"><span class="nav-number">4.</span> <span class="nav-text">連続</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%A7%E8%B4%A8"><span class="nav-number">5.</span> <span class="nav-text">性质</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#z%E5%A4%89%E6%8F%9B"><span class="nav-number">6.</span> <span class="nav-text">Z変換</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -257,14 +257,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.8k</span>
+      <span>1.1k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>4 分钟</span>
     </span>
 </div>
 
@@ -275,157 +275,205 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>修改记录：<br>2023.2.15 初稿，大学院备考时的知识点整理</p>
-<p>信号$\cdot$解析</p>
-<h3 id="时域-rightarrow-频域（傅里叶变换）"><a href="#时域-rightarrow-频域（傅里叶变换）" class="headerlink" title="时域$\rightarrow $频域（傅里叶变换）"></a>时域$\rightarrow $频域（傅里叶变换）</h3><p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
-<p>$X(w)=\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty$</p>
-<p>$x(t)=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)e^{jwt}dw$</p>
-<h3 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h3><p>$x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infty}a_i\cos(2\pi i\dfrac{t}{T})+\sum_{i=1}^{\infty}b_i\sin(2\pi i\dfrac{t}{T})$</p>
+        <p>修改记录： 2023.2.15 初稿，大学院备考时的知识点整理</p>
+<p>信号<span class="math inline">\(\cdot\)</span>解析</p>
+<h3 id="时域频域傅里叶变换">时域$$频域（傅里叶变换）</h3>
+<p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
+<p><span
+class="math inline">\(X(w)=\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad
+t\rightarrow \infty\)</span></p>
+<p><span
+class="math inline">\(x(t)=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)e^{jwt}dw\)</span></p>
+<h3 id="傅里叶级数">傅里叶级数</h3>
+<p><span
+class="math inline">\(x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infty}a_i\cos(2\pi
+i\dfrac{t}{T})+\sum_{i=1}^{\infty}b_i\sin(2\pi
+i\dfrac{t}{T})\)</span></p>
 <p>意义：</p>
 <p>複雑な周期関数は単純な波動の数学的な表現である正弦や余弦の和として表される。</p>
-<p>$\dfrac{a_0}{2}$は波形に含まれる直流成分の振幅</p>
+<p><span
+class="math inline">\(\dfrac{a_0}{2}\)</span>は波形に含まれる直流成分の振幅</p>
 <p>フーリエ級数展開：周期関数をさまざまな正弦波の重ね合わせとして表すこと。</p>
 <p>フーリエ変換：無限に長い周期をもつ関数を連続スペクトル（Spectre）に変換すること。</p>
 <span id="more"></span>
-<h3 id="離散"><a href="#離散" class="headerlink" title="離散"></a>離散</h3><p>波形$x(t)$を一定時間間隔$T_s$でサンプリングして得られる。</p>
-<p>いわれる離散波形$x(n/s)$を用いて周波数スペクトルを求める操作が、離散のフーリエ変換（DFT）である。</p>
-<p>DFT:</p>
-<script type="math/tex; mode=display">
-X(i)=\sum_{n=0}^{N-1}X(n)\cdot e^{-j\frac{2\pi iT_s}{NT_s}}=\sum_{n=0}^{N-1}X(n)e^{-j\frac{2\pi}{N}in}</script><p>令$w=e^{-j\frac{2\pi}{N}}$</p>
-<p>则上式化简为</p>
-<script type="math/tex; mode=display">
-X(i)=\sum_{n=0}^{N-1}X(n)w^{in}</script><p>IDFT:</p>
-<script type="math/tex; mode=display">
-x(k)=\dfrac{1}{N}\sum_{i=0}^{N-1}X(i)w^{-ik}</script><h3 id="連続"><a href="#連続" class="headerlink" title="連続"></a>連続</h3><p>常用傅里叶变换对</p>
-<div class="table-container">
+<h3 id="離散">離散</h3>
+<p>波形<span class="math inline">\(x(t)\)</span>を一定時間間隔<span
+class="math inline">\(T_s\)</span>でサンプリングして得られる。</p>
+<p>いわれる離散波形<span
+class="math inline">\(x(n/s)\)</span>を用いて周波数スペクトルを求める操作が、離散のフーリエ変換（DFT）である。</p>
+<p>DFT: <span class="math display">\[
+X(i)=\sum_{n=0}^{N-1}X(n)\cdot e^{-j\frac{2\pi
+iT_s}{NT_s}}=\sum_{n=0}^{N-1}X(n)e^{-j\frac{2\pi}{N}in}
+\]</span> 令<span
+class="math inline">\(w=e^{-j\frac{2\pi}{N}}\)</span></p>
+<p>则上式化简为 <span class="math display">\[
+X(i)=\sum_{n=0}^{N-1}X(n)w^{in}
+\]</span> IDFT: <span class="math display">\[
+x(k)=\dfrac{1}{N}\sum_{i=0}^{N-1}X(i)w^{-ik}
+\]</span></p>
+<h3 id="連続">連続</h3>
+<p>常用傅里叶变换对</p>
 <table>
 <thead>
-<tr>
+<tr class="header">
 <th>时域</th>
 <th>频域</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>$\delta(t)$冲激函数</td>
+<tr class="odd">
+<td><span class="math inline">\(\delta(t)\)</span>冲激函数</td>
 <td>1</td>
 </tr>
-<tr>
-<td>$u(t)$阶跃函数</td>
-<td>$\dfrac{1}{jw}+\pi \delta(w)$</td>
+<tr class="even">
+<td><span class="math inline">\(u(t)\)</span>阶跃函数</td>
+<td><span class="math inline">\(\dfrac{1}{jw}+\pi
+\delta(w)\)</span></td>
 </tr>
-<tr>
-<td>$\delta(t-t_0)$</td>
-<td>$e^{-jwt_0}$</td>
+<tr class="odd">
+<td><span class="math inline">\(\delta(t-t_0)\)</span></td>
+<td><span class="math inline">\(e^{-jwt_0}\)</span></td>
 </tr>
-<tr>
-<td>$e^{-at}u(t)$</td>
-<td>$\dfrac{1}{a+jw}$</td>
+<tr class="even">
+<td><span class="math inline">\(e^{-at}u(t)\)</span></td>
+<td><span class="math inline">\(\dfrac{1}{a+jw}\)</span></td>
 </tr>
-<tr>
-<td>$te^{-at}u(t)$</td>
-<td>$\dfrac{1}{(a+jw)^2}$</td>
+<tr class="odd">
+<td><span class="math inline">\(te^{-at}u(t)\)</span></td>
+<td><span class="math inline">\(\dfrac{1}{(a+jw)^2}\)</span></td>
 </tr>
-<tr>
-<td>$x(t)=1$</td>
-<td>$2\pi \delta(w)$</td>
+<tr class="even">
+<td><span class="math inline">\(x(t)=1\)</span></td>
+<td><span class="math inline">\(2\pi \delta(w)\)</span></td>
 </tr>
-<tr>
-<td>$\cos w_0t$</td>
-<td>$\pi[\delta(w-w_0)+\delta(w+w_0)]$</td>
+<tr class="odd">
+<td><span class="math inline">\(\cos w_0t\)</span></td>
+<td><span
+class="math inline">\(\pi[\delta(w-w_0)+\delta(w+w_0)]\)</span></td>
 </tr>
-<tr>
-<td>$\sin w_0t$</td>
-<td>$\dfrac{\pi}{j}[\delta(w-w_0)-\delta(w+w_0)]$</td>
+<tr class="even">
+<td><span class="math inline">\(\sin w_0t\)</span></td>
+<td><span
+class="math inline">\(\dfrac{\pi}{j}[\delta(w-w_0)-\delta(w+w_0)]\)</span></td>
 </tr>
 </tbody>
 </table>
-</div>
-<h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h3><ol>
-<li><p>線形性</p>
-</li>
-<li><p>対称性　　$x(t)\leftrightarrow X(w)\Rightarrow X(t)\leftrightarrow 2\pi X(-w)$</p>
-</li>
-<li><p>時間伸縮性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(at)e^{-jwt}dt=\dfrac{1}{a}\int_{-\infin}^{\infin}x(t')e^{-\frac{jwt'}{a}}dt'=\dfrac{1}{a}X(\frac{w}{a})
-\\注：at=t',t=\dfrac{1}{a}t',dt=\dfrac{1}{a}dt'</script></li>
+<h3 id="性质">性质</h3>
+<ol type="1">
+<li><p>線形性</p></li>
+<li><p>対称性　　<span class="math inline">\(x(t)\leftrightarrow
+X(w)\Rightarrow X(t)\leftrightarrow 2\pi X(-w)\)</span></p></li>
+<li><p>時間伸縮性 <span class="math display">\[
+\int_{-\infin}^{\infin}x(at)e^{-jwt}dt=\dfrac{1}{a}\int_{-\infin}^{\infin}x(t&#39;)e^{-\frac{jwt&#39;}{a}}dt&#39;=\dfrac{1}{a}X(\frac{w}{a})
+\\注：at=t&#39;,t=\dfrac{1}{a}t&#39;,dt=\dfrac{1}{a}dt&#39;
+\]</span></p></li>
 </ol>
-<p>​    4.時間推移性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(t-t_0)e^{-jwt}dt=\int_{-\infin}^{\infin}x(t')e^{-jw(t'+t_0)}dt=e^{-jwt_0}\int_{-\infin}^{\infin}x(t')e^{-jwt}dt=e^{-jwt_0}X(w)\\注：t-t_0=t',t=t'+t_0,dt=dt'</script><p>​    5.周波数推移性</p>
-<script type="math/tex; mode=display">
-\dfrac{1}{2\pi}\int_{-\infin}^{\infin}x(w-w_0)e^{jwt}dw=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(u)e^{j(w_0+u)t}du=\dfrac{e^{jw_0t}}{2\pi}\int_{-\infin}^{\infin}X(u)e^{jut}=e^{jw_0t}x(t)\\注：w-w_0=u,w=u+w_0,dw=du</script><p>​    6.時間微分性</p>
-<script type="math/tex; mode=display">
-\dfrac{x(t)}{dt}=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(w)jwe^{jwt}=jwX(w)\rightarrow \dfrac{d^nX(t)}{dt^n}\Longleftrightarrow (jw)^nX(w)</script><p>​    7.時間積分性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^t x(t')dt'\longleftrightarrow \dfrac{X(w))}{jw}+\pi X(0)\delta(w)\\F[\int_{-\infin}^t [x(t)dt]]=\int_{-\infin}^{\infin}[\int_{-\infin}^t X(t)dt]e^{-jw\tau }d\tau</script><p>​    8.畳み込み</p>
-<script type="math/tex; mode=display">
+<p>​ 4.時間推移性 <span class="math display">\[
+\int_{-\infin}^{\infin}x(t-t_0)e^{-jwt}dt=\int_{-\infin}^{\infin}x(t&#39;)e^{-jw(t&#39;+t_0)}dt=e^{-jwt_0}\int_{-\infin}^{\infin}x(t&#39;)e^{-jwt}dt=e^{-jwt_0}X(w)\\注：t-t_0=t&#39;,t=t&#39;+t_0,dt=dt&#39;
+\]</span> ​ 5.周波数推移性 <span class="math display">\[
+\dfrac{1}{2\pi}\int_{-\infin}^{\infin}x(w-w_0)e^{jwt}dw=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(u)e^{j(w_0+u)t}du=\dfrac{e^{jw_0t}}{2\pi}\int_{-\infin}^{\infin}X(u)e^{jut}=e^{jw_0t}x(t)\\注：w-w_0=u,w=u+w_0,dw=du
+\]</span> ​ 6.時間微分性 <span class="math display">\[
+\dfrac{x(t)}{dt}=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(w)jwe^{jwt}=jwX(w)\rightarrow
+\dfrac{d^nX(t)}{dt^n}\Longleftrightarrow (jw)^nX(w)
+\]</span> ​ 7.時間積分性 <span class="math display">\[
+\int_{-\infin}^t x(t&#39;)dt&#39;\longleftrightarrow
+\dfrac{X(w))}{jw}+\pi X(0)\delta(w)\\F[\int_{-\infin}^t
+[x(t)dt]]=\int_{-\infin}^{\infin}[\int_{-\infin}^t X(t)dt]e^{-jw\tau
+}d\tau
+\]</span> ​ 8.畳み込み <span class="math display">\[
 y(t)=x_1(t)x_2(t)
-\\Y(w)=\dfrac{1}{2\pi}X_1(w)X_2(w)</script><h3 id="Z変換"><a href="#Z変換" class="headerlink" title="Z変換"></a>Z変換</h3><p>$X(z)=\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$</p>
+\\Y(w)=\dfrac{1}{2\pi}X_1(w)X_2(w)
+\]</span></p>
+<h3 id="z変換">Z変換</h3>
+<p><span class="math inline">\(X(z)=\sum_{n=-\infty}^{\infty}x[n]\cdot
+z^{-n}\)</span></p>
 <p>入力信号が離散値、伝送システムのインパルス応答も同じサンプリング間隔での離散値で与えてよいことになる。</p>
-<p>$x[n]=z^{-1}\{X(z)\}=\dfrac{1}{2\pi j}\oint_C X(z)z^{n-1}dz$</p>
+<p><span class="math inline">\(x[n]=z^{-1}\{X(z)\}=\dfrac{1}{2\pi
+j}\oint_C X(z)z^{n-1}dz\)</span></p>
 <p><strong>伝達関数</strong></p>
-<p>$\dfrac{Y(z)}{X(z)}$</p>
+<p><span class="math inline">\(\dfrac{Y(z)}{X(z)}\)</span></p>
 <p>常用Z变换</p>
-<div class="table-container">
 <table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 73%" />
+</colgroup>
 <thead>
-<tr>
-<th>$x[n]$</th>
-<th>$X(z)$</th>
+<tr class="header">
+<th><span class="math inline">\(x[n]\)</span></th>
+<th><span class="math inline">\(X(z)\)</span></th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>$\delta[n]$冲激序列</td>
+<tr class="odd">
+<td><span class="math inline">\(\delta[n]\)</span>冲激序列</td>
 <td>1</td>
 </tr>
-<tr>
-<td>$u[n]$阶跃序列</td>
-<td>$\dfrac{1}{1-z^{-1}}$</td>
+<tr class="even">
+<td><span class="math inline">\(u[n]\)</span>阶跃序列</td>
+<td><span class="math inline">\(\dfrac{1}{1-z^{-1}}\)</span></td>
 </tr>
-<tr>
-<td>$\delta[n-n_0]$</td>
-<td>$z^{-n_0}$</td>
+<tr class="odd">
+<td><span class="math inline">\(\delta[n-n_0]\)</span></td>
+<td><span class="math inline">\(z^{-n_0}\)</span></td>
 </tr>
-<tr>
-<td>$e^{-\alpha u[n]}$</td>
-<td>$\dfrac{1}{1-e^{-\alpha z^{-1}}}$</td>
+<tr class="even">
+<td><span class="math inline">\(e^{-\alpha u[n]}\)</span></td>
+<td><span class="math inline">\(\dfrac{1}{1-e^{-\alpha
+z^{-1}}}\)</span></td>
 </tr>
-<tr>
-<td>$-u[-n-1]$</td>
-<td>$\dfrac{1}{1-z^{-1}}$</td>
+<tr class="odd">
+<td><span class="math inline">\(-u[-n-1]\)</span></td>
+<td><span class="math inline">\(\dfrac{1}{1-z^{-1}}\)</span></td>
 </tr>
-<tr>
-<td>$nu[n]$</td>
-<td>$\dfrac{z^{-1}}{(1-z^{-1})^2}$</td>
+<tr class="even">
+<td><span class="math inline">\(nu[n]\)</span></td>
+<td><span
+class="math inline">\(\dfrac{z^{-1}}{(1-z^{-1})^2}\)</span></td>
 </tr>
-<tr>
-<td>$-nu[-n-1]$</td>
-<td>$\dfrac{z^{-1}}{(1-z^{-1})^2}$</td>
+<tr class="odd">
+<td><span class="math inline">\(-nu[-n-1]\)</span></td>
+<td><span
+class="math inline">\(\dfrac{z^{-1}}{(1-z^{-1})^2}\)</span></td>
 </tr>
-<tr>
-<td>$\cos (w_0n)u[n]$</td>
-<td>$\dfrac{1-z^{-1}\cos(w_0)}{1-2z^{-1}\cos(w_0)+z^{-2}}$</td>
+<tr class="even">
+<td><span class="math inline">\(\cos (w_0n)u[n]\)</span></td>
+<td><span
+class="math inline">\(\dfrac{1-z^{-1}\cos(w_0)}{1-2z^{-1}\cos(w_0)+z^{-2}}\)</span></td>
 </tr>
-<tr>
-<td>$\sin(w_0n)u[n]$</td>
-<td>$\dfrac{z^{-1}\sin (w_0)}{1-2z^{-1}\cos (w_0)+z^{-2}}$</td>
+<tr class="odd">
+<td><span class="math inline">\(\sin(w_0n)u[n]\)</span></td>
+<td><span class="math inline">\(\dfrac{z^{-1}\sin (w_0)}{1-2z^{-1}\cos
+(w_0)+z^{-2}}\)</span></td>
 </tr>
 </tbody>
 </table>
-</div>
-<p><strong>三大变换的关系</strong></p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(t)e^{-jwt}dt\\\downarrow 乘以e^{-at}\\\Downarrow \\|\int_{-\infin}^{\infin}x(t)e^{-at}|<\infin \therefore 绝对可积\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-(\sigma+jw)t}dt \quad 令s=\sigma+jw\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-st}dt \quad 从实数推广为复数</script><p>FFT: 函数要满足狄利克雷条件，信号要绝对可积/绝对可和</p>
+<p><strong>三大变换的关系</strong> <span class="math display">\[
+\int_{-\infin}^{\infin}x(t)e^{-jwt}dt\\\downarrow
+乘以e^{-at}\\\Downarrow \\|\int_{-\infin}^{\infin}x(t)e^{-at}|&lt;\infin
+\therefore
+绝对可积\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-(\sigma+jw)t}dt
+\quad 令s=\sigma+jw\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-st}dt
+\quad 从实数推广为复数
+\]</span></p>
+<p>FFT: 函数要满足狄利克雷条件，信号要绝对可积/绝对可和</p>
 <p>为使不符合此条件的信号也能使用，故有了拉普拉斯和Z变换</p>
-<p>$\left\{\begin{array}{ll}CTFT: 连续时间FT\xrightarrow{扩充} &amp; Laplace\\DFTF: 离散时间FT\xrightarrow{扩充}&amp;Z\end{array}\right.$</p>
-<p>$\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}$绝对可和 $\sum_{-\infty}^{\infty}|x[n]|&lt;\infty$</p>
-<p>$x[n]$乘以$a^{-n}$</p>
-<script type="math/tex; mode=display">
-\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}\\\Rightarrow \sum_{n=-\infty}^{\infty}x[n](ae^{jw})^{-n}</script><p>将极坐标形式的复数$a\cdot e^{jw}$记为$z$</p>
-<p>$\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$就得到了Z变换</p>
+<p><span class="math inline">\(\left\{\begin{array}{ll}CTFT:
+连续时间FT\xrightarrow{扩充} &amp; Laplace\\DFTF:
+离散时间FT\xrightarrow{扩充}&amp;Z\end{array}\right.\)</span></p>
+<p><span
+class="math inline">\(\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}\)</span>绝对可和
+<span
+class="math inline">\(\sum_{-\infty}^{\infty}|x[n]|&lt;\infty\)</span></p>
+<p><span class="math inline">\(x[n]\)</span>乘以<span
+class="math inline">\(a^{-n}\)</span></p>
+<p><span class="math display">\[
+\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}\\\Rightarrow
+\sum_{n=-\infty}^{\infty}x[n](ae^{jw})^{-n}
+\]</span> 将极坐标形式的复数<span class="math inline">\(a\cdot
+e^{jw}\)</span>记为<span class="math inline">\(z\)</span></p>
+<p><span class="math inline">\(\sum_{n=-\infty}^{\infty}x[n]\cdot
+z^{-n}\)</span>就得到了Z变换</p>
 
     </div>
 
@@ -484,14 +532,14 @@ y(t)=x_1(t)x_2(t)
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">12k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">12 分钟</span>
+    <span title="站点阅读时长">44 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">

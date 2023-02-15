@@ -265,7 +265,9 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>简介：<br>TCP/IP详解这本书一共分为3卷。原作者为Kevin R. Fall和W. Richard Steven，我是看的机械工业出版社的中文译本。3卷分别为700多页，900多页和200多页，也算是大部头了。<br>为什么要读这本书，因为我知道，TCP/IP是计算机网络事实上的标准，所以要做网络安全，理论基础一定要扎实，这本书当然是必读书目，而且它对协议的介绍非常详细，并且会给出协议相关的安全问题，这对从业者来说是一个很好的参考。</p>
+          <p>简介： TCP/IP详解这本书一共分为3卷。原作者为Kevin R. Fall和W. Richard
+Steven，我是看的机械工业出版社的中文译本。3卷分别为700多页，900多页和200多页，也算是大部头了。
+为什么要读这本书，因为我知道，TCP/IP是计算机网络事实上的标准，所以要做网络安全，理论基础一定要扎实，这本书当然是必读书目，而且它对协议的介绍非常详细，并且会给出协议相关的安全问题，这对从业者来说是一个很好的参考。</p>
 
       
     </div>
@@ -377,21 +379,21 @@
 <ul>
 <li>加州大学伯克利分校计算机安全课程</li>
 </ul>
-<p>​    <a target="_blank" rel="noopener" href="https://inst.eecs.berkeley.edu//~cs161/archives.html">https://inst.eecs.berkeley.edu//~cs161/archives.html</a></p>
+<p>​ https://inst.eecs.berkeley.edu//~cs161/archives.html</p>
 <ul>
 <li>MIT麻省理工计算机安全课程</li>
 </ul>
-<p>​    <a target="_blank" rel="noopener" href="http://css.csail.mit.edu/6.858/2022/">http://css.csail.mit.edu/6.858/2022/</a></p>
-<p>​    <a target="_blank" rel="noopener" href="http://courses.csail.mit.edu/6.857/2020/handouts">http://courses.csail.mit.edu/6.857/2020/handouts</a></p>
+<p>​ http://css.csail.mit.edu/6.858/2022/</p>
+<p>​ http://courses.csail.mit.edu/6.857/2020/handouts</p>
 <ul>
 <li>SANS免费网络安全课程，直达Youtube</li>
 </ul>
-<p>​    <a target="_blank" rel="noopener" href="https://www.sans.org/cyberaces/">https://www.sans.org/cyberaces/</a> </p>
+<p>​ https://www.sans.org/cyberaces/</p>
 <ul>
 <li>B站大学</li>
 </ul>
-<p>​    <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1xN4y177gN/">https://www.bilibili.com/video/BV1xN4y177gN/</a></p>
-<hr>
+<p>​ https://www.bilibili.com/video/BV1xN4y177gN/</p>
+<hr />
 
       
     </div>
@@ -586,14 +588,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.8k</span>
+      <span>1.1k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>4 分钟</span>
     </span>
 </div>
 
@@ -604,15 +606,24 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>修改记录：<br>2023.2.15 初稿，大学院备考时的知识点整理</p>
-<p>信号$\cdot$解析</p>
-<h3 id="时域-rightarrow-频域（傅里叶变换）"><a href="#时域-rightarrow-频域（傅里叶变换）" class="headerlink" title="时域$\rightarrow $频域（傅里叶变换）"></a>时域$\rightarrow $频域（傅里叶变换）</h3><p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
-<p>$X(w)=\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty$</p>
-<p>$x(t)=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)e^{jwt}dw$</p>
-<h3 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h3><p>$x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infty}a_i\cos(2\pi i\dfrac{t}{T})+\sum_{i=1}^{\infty}b_i\sin(2\pi i\dfrac{t}{T})$</p>
+          <p>修改记录： 2023.2.15 初稿，大学院备考时的知识点整理</p>
+<p>信号<span class="math inline">\(\cdot\)</span>解析</p>
+<h3 id="时域频域傅里叶变换">时域$$频域（傅里叶变换）</h3>
+<p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
+<p><span
+class="math inline">\(X(w)=\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad
+t\rightarrow \infty\)</span></p>
+<p><span
+class="math inline">\(x(t)=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)e^{jwt}dw\)</span></p>
+<h3 id="傅里叶级数">傅里叶级数</h3>
+<p><span
+class="math inline">\(x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infty}a_i\cos(2\pi
+i\dfrac{t}{T})+\sum_{i=1}^{\infty}b_i\sin(2\pi
+i\dfrac{t}{T})\)</span></p>
 <p>意义：</p>
 <p>複雑な周期関数は単純な波動の数学的な表現である正弦や余弦の和として表される。</p>
-<p>$\dfrac{a_0}{2}$は波形に含まれる直流成分の振幅</p>
+<p><span
+class="math inline">\(\dfrac{a_0}{2}\)</span>は波形に含まれる直流成分の振幅</p>
 <p>フーリエ級数展開：周期関数をさまざまな正弦波の重ね合わせとして表すこと。</p>
 <p>フーリエ変換：無限に長い周期をもつ関数を連続スペクトル（Spectre）に変換すること。</p>
           <!--noindex-->
@@ -724,7 +735,7 @@
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>4 分钟</span>
     </span>
 </div>
 
@@ -741,16 +752,34 @@
 <p>待补充：矩母函数和用它来求期望，方差的方法</p>
 <p>参考资料：</p>
 <p>常用概率分布的矩母函数、特征函数以及期望、方差的推导</p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/STcyclone/article/details/84310450">https://blog.csdn.net/STcyclone/article/details/84310450</a></p>
-<h1 id="离散型随机变量"><a href="#离散型随机变量" class="headerlink" title="离散型随机变量"></a>离散型随机变量</h1><h2 id="1-两点分布（伯努利分布）"><a href="#1-两点分布（伯努利分布）" class="headerlink" title="1.两点分布（伯努利分布）"></a>1.两点分布（伯努利分布）</h2><p>$P(X=1)=p,P(X=0)=1-p$</p>
-<h2 id="2-均匀分布"><a href="#2-均匀分布" class="headerlink" title="2.均匀分布"></a>2.均匀分布</h2><p>$P(X=a_k)=\dfrac{1}{n},k=1,2,\dots,n$</p>
-<h2 id="3-二项分布"><a href="#3-二项分布" class="headerlink" title="3.二项分布"></a>3.二项分布</h2><p>$P(X=k)=C_n^k p^k(1-p)^{n-k},k=0,1,\dots,n$</p>
-<h2 id="4-几何分布"><a href="#4-几何分布" class="headerlink" title="4.几何分布"></a>4.几何分布</h2><p>$P(X=k)=(1-p)^{k-1}p,k=1,2,\dots$</p>
-<h2 id="5-泊松分布"><a href="#5-泊松分布" class="headerlink" title="5.泊松分布"></a>5.泊松分布</h2><p>$P(X=k)=\dfrac{\lambda^k}{k!}e^{-\lambda},k=0,1,2,\dots,\lambda&gt;0$</p>
-<h1 id="连续型随机变量"><a href="#连续型随机变量" class="headerlink" title="连续型随机变量"></a>连续型随机变量</h1><h2 id="1-均匀分布"><a href="#1-均匀分布" class="headerlink" title="1.均匀分布"></a>1.均匀分布</h2><p>$f(x)=\left \{\begin{array}{ll}\dfrac{1}{b-a},&amp;a&lt;x&lt;b\\0,&amp;x\leq a \quad or \quad x\geq b\end{array}\right.$</p>
-<h2 id="2-指数分布"><a href="#2-指数分布" class="headerlink" title="2.指数分布"></a>2.指数分布</h2><p>$f(x)=\lambda e^{-\lambda x} \quad, \lambda&gt;0$</p>
-<h2 id="3-正态分布"><a href="#3-正态分布" class="headerlink" title="3.正态分布"></a>3.正态分布</h2><script type="math/tex; mode=display">
-f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
+<p>https://blog.csdn.net/STcyclone/article/details/84310450</p>
+<h1 id="离散型随机变量">离散型随机变量</h1>
+<h2 id="两点分布伯努利分布">1.两点分布（伯努利分布）</h2>
+<p><span class="math inline">\(P(X=1)=p,P(X=0)=1-p\)</span></p>
+<h2 id="均匀分布">2.均匀分布</h2>
+<p><span
+class="math inline">\(P(X=a_k)=\dfrac{1}{n},k=1,2,\dots,n\)</span></p>
+<h2 id="二项分布">3.二项分布</h2>
+<p><span class="math inline">\(P(X=k)=C_n^k
+p^k(1-p)^{n-k},k=0,1,\dots,n\)</span></p>
+<h2 id="几何分布">4.几何分布</h2>
+<p><span
+class="math inline">\(P(X=k)=(1-p)^{k-1}p,k=1,2,\dots\)</span></p>
+<h2 id="泊松分布">5.泊松分布</h2>
+<p><span
+class="math inline">\(P(X=k)=\dfrac{\lambda^k}{k!}e^{-\lambda},k=0,1,2,\dots,\lambda&gt;0\)</span></p>
+<h1 id="连续型随机变量">连续型随机变量</h1>
+<h2 id="均匀分布-1">1.均匀分布</h2>
+<p><span class="math inline">\(f(x)=\left
+\{\begin{array}{ll}\dfrac{1}{b-a},&amp;a&lt;x&lt;b\\0,&amp;x\leq a \quad
+or \quad x\geq b\end{array}\right.\)</span></p>
+<h2 id="指数分布">2.指数分布</h2>
+<p><span class="math inline">\(f(x)=\lambda e^{-\lambda x} \quad,
+\lambda&gt;0\)</span></p>
+<h2 id="正态分布">3.正态分布</h2>
+<p><span class="math display">\[
+f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+\]</span></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1/#more" rel="contents">
@@ -856,6 +885,7 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
     
     <div class="post-body" itemprop="articleBody">
           
+
       
     </div>
 
@@ -948,7 +978,7 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
+      <span>6 分钟</span>
     </span>
 </div>
 
@@ -959,26 +989,53 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="微分"><a href="#微分" class="headerlink" title="微分"></a>微分</h1><h2 id="导数"><a href="#导数" class="headerlink" title="导数"></a>导数</h2><h3 id="导数的性质"><a href="#导数的性质" class="headerlink" title="导数的性质"></a>导数的性质</h3><p>$(\dfrac{f}{g})’=\dfrac{f’g-fg’}{g^2}$</p>
-<p>$(fg)’=f’g+fg’$</p>
-<p>$\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}$</p>
-<p>$\dfrac{dx}{dy}=\dfrac{1}{\dfrac{dy}{dx}}$</p>
-<h3 id="导数与极限"><a href="#导数与极限" class="headerlink" title="导数与极限"></a>导数与极限</h3><p>$\displaystyle \lim_{\Delta x \to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}$</p>
-<h3 id="重要的极限"><a href="#重要的极限" class="headerlink" title="重要的极限"></a>重要的极限</h3><p>$\displaystyle \lim_{x\to \infty}\frac{\sin x}{x}=1$</p>
-<p>$\displaystyle \lim_{x\to \pm \infty}(1+\frac{1}{x})^x =e$</p>
-<p>$\displaystyle \lim_{x\to \infty}\frac{x^{\alpha}}{e^x}=0 (\alpha &gt;0)$ 洛必达</p>
-<p>$\displaystyle \lim_{x \to \infty} \frac{\log(1+x)}{x}=1$</p>
-<p>$\displaystyle \lim_{x \to +0}x^x=1$</p>
-<p>$\displaystyle x^x=e^{x\ln x}=e^{\frac{\ln x}{x}}\to e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}=e^{-x}\to 0$</p>
-<p>$\displaystyle \lim_{x\to 0}\frac{\arctan x}{x}=1$</p>
-<p>$\displaystyle \lim_{x\to 0}\frac{\sin x^3}{(\sin x)^2}=0$</p>
-<p>$\displaystyle \lim_{x \to \infty}(1+\frac{\alpha}{x})^{\beta}=e^{\alpha \beta}$</p>
-<p>$\displaystyle \lim_{n\to \infty} \frac{n^k}{a^n}=0 (k&gt;0,a&gt;1)$</p>
-<p>$\displaystyle \frac{(n^k)’}{(e^{n\ln a})’}=\frac{kn^{k-1}}{\ln ae^{n\ln a}}=\frac{k!}{(\ln a)^k}\cdot e^{\frac{1}{n\ln a}}=0$</p>
-<p>$\displaystyle \lim_{n\to \infty}\frac{a^n}{n!} (a&gt;1)=0$</p>
-<p>$\displaystyle \frac{a^n}{n!}=\frac{a}{n}\cdot \frac{a}{n-1}\dots \cdot \frac{a}{1}$</p>
-<p>$n&gt;a \Rightarrow 0$</p>
-<p>$\displaystyle \lim_{n\to \infty}\sqrt[n]{n}=\lim_{n\to \infty}n^\frac{1}{n}=e^\frac{1}{n}\ln n=e^0=1$</p>
+          <h1 id="微分">微分</h1>
+<h2 id="导数">导数</h2>
+<h3 id="导数的性质">导数的性质</h3>
+<p><span
+class="math inline">\((\dfrac{f}{g})&#39;=\dfrac{f&#39;g-fg&#39;}{g^2}\)</span></p>
+<p><span class="math inline">\((fg)&#39;=f&#39;g+fg&#39;\)</span></p>
+<p><span class="math inline">\(\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot
+\dfrac{dt}{dx}\)</span></p>
+<p><span
+class="math inline">\(\dfrac{dx}{dy}=\dfrac{1}{\dfrac{dy}{dx}}\)</span></p>
+<h3 id="导数与极限">导数与极限</h3>
+<p><span class="math inline">\(\displaystyle \lim_{\Delta x \to 0}
+\frac{f(x+\Delta x)-f(x)}{\Delta x}\)</span></p>
+<h3 id="重要的极限">重要的极限</h3>
+<p><span class="math inline">\(\displaystyle \lim_{x\to
+\infty}\frac{\sin x}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to \pm
+\infty}(1+\frac{1}{x})^x =e\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to
+\infty}\frac{x^{\alpha}}{e^x}=0 (\alpha &gt;0)\)</span> 洛必达</p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to \infty}
+\frac{\log(1+x)}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to
++0}x^x=1\)</span></p>
+<p><span class="math inline">\(\displaystyle x^x=e^{x\ln x}=e^{\frac{\ln
+x}{x}}\to e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}=e^{-x}\to
+0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to 0}\frac{\arctan
+x}{x}=1\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x\to 0}\frac{\sin
+x^3}{(\sin x)^2}=0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{x \to
+\infty}(1+\frac{\alpha}{x})^{\beta}=e^{\alpha \beta}\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to \infty}
+\frac{n^k}{a^n}=0 (k&gt;0,a&gt;1)\)</span></p>
+<p><span class="math inline">\(\displaystyle \frac{(n^k)&#39;}{(e^{n\ln
+a})&#39;}=\frac{kn^{k-1}}{\ln ae^{n\ln a}}=\frac{k!}{(\ln a)^k}\cdot
+e^{\frac{1}{n\ln a}}=0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to
+\infty}\frac{a^n}{n!} (a&gt;1)=0\)</span></p>
+<p><span class="math inline">\(\displaystyle
+\frac{a^n}{n!}=\frac{a}{n}\cdot \frac{a}{n-1}\dots \cdot
+\frac{a}{1}\)</span></p>
+<p><span class="math inline">\(n&gt;a \Rightarrow 0\)</span></p>
+<p><span class="math inline">\(\displaystyle \lim_{n\to
+\infty}\sqrt[n]{n}=\lim_{n\to \infty}n^\frac{1}{n}=e^\frac{1}{n}\ln
+n=e^0=1\)</span></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%BE%AE%E7%A7%AF%E5%88%86/#more" rel="contents">
@@ -1082,7 +1139,7 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>4 分钟</span>
     </span>
 </div>
 
@@ -1093,19 +1150,29 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="常用向量"><a href="#常用向量" class="headerlink" title="常用向量"></a>常用向量</h1><p>1.单位向量 </p>
+          <h1 id="常用向量">常用向量</h1>
+<p>1.单位向量</p>
 <p>2.基底</p>
-<h1 id="向量运算"><a href="#向量运算" class="headerlink" title="向量运算"></a>向量运算</h1><h2 id="内积"><a href="#内积" class="headerlink" title="内积"></a>内积</h2><p>$\vec{a}\cdot \vec{b} =x_1x_2+y_1y_2+z_1z_2$</p>
-<p><a,b>=|a| |b|$ \cos \theta$</p>
+<h1 id="向量运算">向量运算</h1>
+<h2 id="内积">内积</h2>
+<p><span class="math inline">\(\vec{a}\cdot \vec{b}
+=x_1x_2+y_1y_2+z_1z_2\)</span></p>
+<p>&lt;a,b&gt;=|a| |b|$ $</p>
 <p>几何意义： 向量a在向量b上的投影，再乘以向量b的长度</p>
 <p>物理意义：力的分量所作的功</p>
 <p>用于判断两个向量的方向及角度：</p>
 <p>1）内积&gt;0,夹角小于90度</p>
 <p>2）内积=0，垂直</p>
 <p>3）内积&lt;0,夹角大于90度</p>
-<h2 id="外积"><a href="#外积" class="headerlink" title="外积"></a>外积</h2><p>$\vec{a}\times \vec{b} =det \begin{bmatrix} \vec{i} &amp; \vec{j} &amp; \vec{k} \\x_1 &amp; y_1 &amp; z_1 \\ x_2 &amp; y_2 &amp; z_2 \end{bmatrix} $</p>
+<h2 id="外积">外积</h2>
+$ =det
+<span class="math display">\[\begin{bmatrix} \vec{i} &amp; \vec{j} &amp;
+\vec{k} \\x_1 &amp; y_1 &amp; z_1 \\ x_2 &amp; y_2 &amp; z_2
+\end{bmatrix}\]</span>
+<p>$</p>
 <p>几何意义：</p>
-<p>外积的长度$a\times b =|a||b|\cos \theta$是两向量围成的平行四边形的面积</p>
+<p>外积的长度<span class="math inline">\(a\times b =|a||b|\cos
+\theta\)</span>是两向量围成的平行四边形的面积</p>
 <p>物理意义：力矩，如旋转螺丝钉，螺丝钉前进方向垂直于刀口和扭力方向</p>
 <p>外积的方向与两向量均垂直，适合求法向量</p>
           <!--noindex-->
@@ -1374,14 +1441,14 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">12k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">12 分钟</span>
+    <span title="站点阅读时长">44 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
