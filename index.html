@@ -562,7 +562,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-15 22:15:41" itemprop="dateModified" datetime="2023-02-15T22:15:41+09:00">2023-02-15</time>
+      <time title="修改时间：2023-02-15 22:21:58" itemprop="dateModified" datetime="2023-02-15T22:21:58+09:00">2023-02-15</time>
     </span>
 
   
@@ -586,14 +586,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.8k</span>
+      <span>1.1k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>4 分钟</span>
     </span>
 </div>
 
@@ -607,9 +607,9 @@
           <p>修改记录：<br>2023.2.15 初稿，大学院备考时的知识点整理</p>
 <p>信号$\cdot$解析</p>
 <h3 id="Z变换"><a href="#Z变换" class="headerlink" title="Z变换"></a>Z变换</h3><h3 id="时域-rightarrow-频域（傅里叶变换）"><a href="#时域-rightarrow-频域（傅里叶变换）" class="headerlink" title="时域$\rightarrow $频域（傅里叶变换）"></a>时域$\rightarrow $频域（傅里叶变换）</h3><p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
-<p>$X(w)=\int_{-\infin}^{\infin}x(t)e^{-jwt}dt\quad t\rightarrow \infin$</p>
-<p>$x(t)=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(w)e^{jwt}dw$</p>
-<h3 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h3><p>$x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infin}a_i\cos(2\pi i\dfrac{t}{T})+\sum_{i=1}^{\infin}b_i\sin(2\pi i\dfrac{t}{T})$</p>
+<p>$X(w)=\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty$</p>
+<p>$x(t)=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)e^{jwt}dw$</p>
+<h3 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h3><p>$x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infty}a_i\cos(2\pi i\dfrac{t}{T})+\sum_{i=1}^{\infty}b_i\sin(2\pi i\dfrac{t}{T})$</p>
 <p>意义：</p>
 <p>複雑な周期関数は単純な波動の数学的な表現である正弦や余弦の和として表される。</p>
 <p>$\dfrac{a_0}{2}$は波形に含まれる直流成分の振幅</p>
@@ -690,7 +690,7 @@ x(k)=\dfrac{1}{N}\sum_{i=0}^{N-1}X(i)w^{-ik}</script><h3 id="連続"><a href="#�
 \int_{-\infin}^t x(t')dt'\longleftrightarrow \dfrac{X(w))}{jw}+\pi X(0)\delta(w)\\F[\int_{-\infin}^t [x(t)dt]]=\int_{-\infin}^{\infin}[\int_{-\infin}^t X(t)dt]e^{-jw\tau }d\tau</script><p>​    8.畳み込み</p>
 <script type="math/tex; mode=display">
 y(t)=x_1(t)x_2(t)
-\\Y(w)=\dfrac{1}{2\pi}X_1(w)X_2(w)</script><h3 id="Z変換"><a href="#Z変換" class="headerlink" title="Z変換"></a>Z変換</h3><p>$X(z)=\sum_{n=-\infin}^{\infin}x[n]\cdot z^{-n}$</p>
+\\Y(w)=\dfrac{1}{2\pi}X_1(w)X_2(w)</script><h3 id="Z変換"><a href="#Z変換" class="headerlink" title="Z変換"></a>Z変換</h3><p>$X(z)=\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$</p>
 <p>入力信号が離散値、伝送システムのインパルス応答も同じサンプリング間隔での離散値で与えてよいことになる。</p>
 <p>$x[n]=z^{-1}\{X(z)\}=\dfrac{1}{2\pi j}\oint_C X(z)z^{n-1}dz$</p>
 <p><strong>伝達関数</strong></p>
@@ -749,11 +749,11 @@ y(t)=x_1(t)x_2(t)
 \int_{-\infin}^{\infin}x(t)e^{-jwt}dt\\\downarrow 乘以e^{-at}\\\Downarrow \\|\int_{-\infin}^{\infin}x(t)e^{-at}|<\infin \therefore 绝对可积\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-(\sigma+jw)t}dt \quad 令s=\sigma+jw\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-st}dt \quad 从实数推广为复数</script><p>FFT: 函数要满足狄利克雷条件，信号要绝对可积/绝对可和</p>
 <p>为使不符合此条件的信号也能使用，故有了拉普拉斯和Z变换</p>
 <p>$\left\{\begin{array}{ll}CTFT: 连续时间FT\xrightarrow{扩充} &amp; Laplace\\DFTF: 离散时间FT\xrightarrow{扩充}&amp;Z\end{array}\right.$</p>
-<p>$\sum_{n=-\infin}^{\infin}x[n]e^{-jwn}$绝对可和 $\sum_{-\infin}^{\infin}|x[n]|&lt;\infin$</p>
+<p>$\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}$绝对可和 $\sum_{-\infty}^{\infty}|x[n]|&lt;\infty$</p>
 <p>$x[n]$乘以$a^{-n}$</p>
-<p>$\sum_{n=-\infin}^{\infin}x[n]a^{-n}\cdot e^{-jwn}\Rightarrow \sum_{n=-\infin}^{\infin}x<a href="a\cdot e^{jw}">n</a>^{-n}$</p>
+<p>$\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}\Rightarrow \sum_{n=-\infty}^{\infty}x<a href="a\cdot e^{jw}">n</a>^{-n}$</p>
 <p>将极坐标形式的复数$a\cdot e^{jw}$记为$z$</p>
-<p>$\sum_{n=-\infin}^{\infin}x[n]\cdot z^{-n}$就得到了Z变换</p>
+<p>$\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$就得到了Z变换</p>
 
       
     </div>
@@ -816,7 +816,7 @@ y(t)=x_1(t)x_2(t)
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-15 21:08:08" itemprop="dateModified" datetime="2023-02-15T21:08:08+09:00">2023-02-15</time>
+      <time title="修改时间：2023-02-15 22:21:12" itemprop="dateModified" datetime="2023-02-15T22:21:12+09:00">2023-02-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -849,14 +849,14 @@ y(t)=x_1(t)x_2(t)
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>3.1k</span>
+      <span>1.2k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>4 分钟</span>
     </span>
 </div>
 
@@ -1049,7 +1049,7 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-15 20:55:41" itemprop="dateModified" datetime="2023-02-15T20:55:41+09:00">2023-02-15</time>
+      <time title="修改时间：2023-02-15 22:20:27" itemprop="dateModified" datetime="2023-02-15T22:20:27+09:00">2023-02-15</time>
     </span>
 
   
@@ -1073,14 +1073,14 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>5.8k</span>
+      <span>1.7k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>5 分钟</span>
+      <span>6 分钟</span>
     </span>
 </div>
 
@@ -1096,21 +1096,21 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
 <p>$\dfrac{dy}{dx}=\dfrac{dy}{dt}\cdot \dfrac{dt}{dx}$</p>
 <p>$\dfrac{dx}{dy}=\dfrac{1}{\dfrac{dy}{dx}}$</p>
 <h3 id="导数与极限"><a href="#导数与极限" class="headerlink" title="导数与极限"></a>导数与极限</h3><p>$\displaystyle \lim_{\Delta x \to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}$</p>
-<h3 id="重要的极限"><a href="#重要的极限" class="headerlink" title="重要的极限"></a>重要的极限</h3><p>$\displaystyle \lim_{x\to \infin}\frac{\sin x}{x}=1$</p>
-<p>$\displaystyle \lim_{x\to \pm \infin}(1+\frac{1}{x})^x =e$</p>
-<p>$\displaystyle \lim_{x\to \infin}\frac{x^{\alpha}}{e^x}=0 (\alpha &gt;0)$ 洛必达</p>
-<p>$\displaystyle \lim_{x \to \infin} \frac{\log(1+x)}{x}=1$</p>
+<h3 id="重要的极限"><a href="#重要的极限" class="headerlink" title="重要的极限"></a>重要的极限</h3><p>$\displaystyle \lim_{x\to \infty}\frac{\sin x}{x}=1$</p>
+<p>$\displaystyle \lim_{x\to \pm \infty}(1+\frac{1}{x})^x =e$</p>
+<p>$\displaystyle \lim_{x\to \infty}\frac{x^{\alpha}}{e^x}=0 (\alpha &gt;0)$ 洛必达</p>
+<p>$\displaystyle \lim_{x \to \infty} \frac{\log(1+x)}{x}=1$</p>
 <p>$\displaystyle \lim_{x \to +0}x^x=1$</p>
 <p>$\displaystyle x^x=e^{x\ln x}=e^{\frac{\ln x}{x}}\to e^{\frac{\frac{1}{x}}{-\frac{1}{x^2}}}=e^{-x}\to 0$</p>
 <p>$\displaystyle \lim_{x\to 0}\frac{\arctan x}{x}=1$</p>
 <p>$\displaystyle \lim_{x\to 0}\frac{\sin x^3}{(\sin x)^2}=0$</p>
-<p>$\displaystyle \lim_{x \to \infin}(1+\frac{\alpha}{x})^{\beta}=e^{\alpha \beta}$</p>
-<p>$\displaystyle \lim_{n\to \infin} \frac{n^k}{a^n}=0 (k&gt;0,a&gt;1)$</p>
+<p>$\displaystyle \lim_{x \to \infty}(1+\frac{\alpha}{x})^{\beta}=e^{\alpha \beta}$</p>
+<p>$\displaystyle \lim_{n\to \infty} \frac{n^k}{a^n}=0 (k&gt;0,a&gt;1)$</p>
 <p>$\displaystyle \frac{(n^k)’}{(e^{n\ln a})’}=\frac{kn^{k-1}}{\ln ae^{n\ln a}}=\frac{k!}{(\ln a)^k}\cdot e^{\frac{1}{n\ln a}}=0$</p>
-<p>$\displaystyle \lim_{n\to \infin}\frac{a^n}{n!} (a&gt;1)=0$</p>
+<p>$\displaystyle \lim_{n\to \infty}\frac{a^n}{n!} (a&gt;1)=0$</p>
 <p>$\displaystyle \frac{a^n}{n!}=\frac{a}{n}\cdot \frac{a}{n-1}\dots \cdot \frac{a}{1}$</p>
 <p>$n&gt;a \Rightarrow 0$</p>
-<p>$\displaystyle \lim_{n\to \infin}\sqrt[n]{n}=\lim_{n\to \infin}n^\frac{1}{n}=e^\frac{1}{n}\ln n=e^0=1$</p>
+<p>$\displaystyle \lim_{n\to \infty}\sqrt[n]{n}=\lim_{n\to \infty}n^\frac{1}{n}=e^\frac{1}{n}\ln n=e^0=1$</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%BE%AE%E7%A7%AF%E5%88%86/#more" rel="contents">
@@ -1214,7 +1214,7 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>10 分钟</span>
     </span>
 </div>
 
@@ -1506,14 +1506,14 @@ f(x)=\dfrac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</script>
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">27k</span>
+    <span title="站点总字数">20k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">25 分钟</span>
+    <span title="站点阅读时长">1:12</span>
   </span>
 </div>
 <div class="busuanzi-count">
