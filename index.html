@@ -562,7 +562,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-15 22:28:38" itemprop="dateModified" datetime="2023-02-15T22:28:38+09:00">2023-02-15</time>
+      <time title="修改时间：2023-02-15 22:29:52" itemprop="dateModified" datetime="2023-02-15T22:29:52+09:00">2023-02-15</time>
     </span>
 
   
@@ -615,147 +615,14 @@
 <p>$\dfrac{a_0}{2}$は波形に含まれる直流成分の振幅</p>
 <p>フーリエ級数展開：周期関数をさまざまな正弦波の重ね合わせとして表すこと。</p>
 <p>フーリエ変換：無限に長い周期をもつ関数を連続スペクトル（Spectre）に変換すること。</p>
-<h3 id="離散"><a href="#離散" class="headerlink" title="離散"></a>離散</h3><p>波形$x(t)$を一定時間間隔$T_s$でサンプリングして得られる。</p>
-<p>いわれる離散波形$x(n/s)$を用いて周波数スペクトルを求める操作が、離散のフーリエ変換（DFT）である。</p>
-<p>DFT:</p>
-<script type="math/tex; mode=display">
-X(i)=\sum_{n=0}^{N-1}X(n)\cdot e^{-j\frac{2\pi iT_s}{NT_s}}=\sum_{n=0}^{N-1}X(n)e^{-j\frac{2\pi}{N}in}</script><p>令$w=e^{-j\frac{2\pi}{N}}$</p>
-<p>则上式化简为</p>
-<script type="math/tex; mode=display">
-X(i)=\sum_{n=0}^{N-1}X(n)w^{in}</script><p>IDFT:</p>
-<script type="math/tex; mode=display">
-x(k)=\dfrac{1}{N}\sum_{i=0}^{N-1}X(i)w^{-ik}</script><h3 id="連続"><a href="#連続" class="headerlink" title="連続"></a>連続</h3><p>常用傅里叶变换对</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>时域</th>
-<th>频域</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$\delta(t)$冲激函数</td>
-<td>1</td>
-</tr>
-<tr>
-<td>$u(t)$阶跃函数</td>
-<td>$\dfrac{1}{jw}+\pi \delta(w)$</td>
-</tr>
-<tr>
-<td>$\delta(t-t_0)$</td>
-<td>$e^{-jwt_0}$</td>
-</tr>
-<tr>
-<td>$e^{-at}u(t)$</td>
-<td>$\dfrac{1}{a+jw}$</td>
-</tr>
-<tr>
-<td>$te^{-at}u(t)$</td>
-<td>$\dfrac{1}{(a+jw)^2}$</td>
-</tr>
-<tr>
-<td>$x(t)=1$</td>
-<td>$2\pi \delta(w)$</td>
-</tr>
-<tr>
-<td>$\cos w_0t$</td>
-<td>$\pi[\delta(w-w_0)+\delta(w+w_0)]$</td>
-</tr>
-<tr>
-<td>$\sin w_0t$</td>
-<td>$\dfrac{\pi}{j}[\delta(w-w_0)-\delta(w+w_0)]$</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h3><ol>
-<li><p>線形性</p>
-</li>
-<li><p>対称性　　$x(t)\leftrightarrow X(w)\Rightarrow X(t)\leftrightarrow 2\pi X(-w)$</p>
-</li>
-<li><p>時間伸縮性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(at)e^{-jwt}dt=\dfrac{1}{a}\int_{-\infin}^{\infin}x(t')e^{-\frac{jwt'}{a}}dt'=\dfrac{1}{a}X(\frac{w}{a})
-\\注：at=t',t=\dfrac{1}{a}t',dt=\dfrac{1}{a}dt'</script></li>
-</ol>
-<p>​    4.時間推移性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(t-t_0)e^{-jwt}dt=\int_{-\infin}^{\infin}x(t')e^{-jw(t'+t_0)}dt=e^{-jwt_0}\int_{-\infin}^{\infin}x(t')e^{-jwt}dt=e^{-jwt_0}X(w)\\注：t-t_0=t',t=t'+t_0,dt=dt'</script><p>​    5.周波数推移性</p>
-<script type="math/tex; mode=display">
-\dfrac{1}{2\pi}\int_{-\infin}^{\infin}x(w-w_0)e^{jwt}dw=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(u)e^{j(w_0+u)t}du=\dfrac{e^{jw_0t}}{2\pi}\int_{-\infin}^{\infin}X(u)e^{jut}=e^{jw_0t}x(t)\\注：w-w_0=u,w=u+w_0,dw=du</script><p>​    6.時間微分性</p>
-<script type="math/tex; mode=display">
-\dfrac{x(t)}{dt}=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(w)jwe^{jwt}=jwX(w)\rightarrow \dfrac{d^nX(t)}{dt^n}\Longleftrightarrow (jw)^nX(w)</script><p>​    7.時間積分性</p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^t x(t')dt'\longleftrightarrow \dfrac{X(w))}{jw}+\pi X(0)\delta(w)\\F[\int_{-\infin}^t [x(t)dt]]=\int_{-\infin}^{\infin}[\int_{-\infin}^t X(t)dt]e^{-jw\tau }d\tau</script><p>​    8.畳み込み</p>
-<script type="math/tex; mode=display">
-y(t)=x_1(t)x_2(t)
-\\Y(w)=\dfrac{1}{2\pi}X_1(w)X_2(w)</script><h3 id="Z変換"><a href="#Z変換" class="headerlink" title="Z変換"></a>Z変換</h3><p>$X(z)=\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$</p>
-<p>入力信号が離散値、伝送システムのインパルス応答も同じサンプリング間隔での離散値で与えてよいことになる。</p>
-<p>$x[n]=z^{-1}\{X(z)\}=\dfrac{1}{2\pi j}\oint_C X(z)z^{n-1}dz$</p>
-<p><strong>伝達関数</strong></p>
-<p>$\dfrac{Y(z)}{X(z)}$</p>
-<p>常用Z变换</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>$x[n]$</th>
-<th>$X(z)$</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$\delta[n]$冲激序列</td>
-<td>1</td>
-</tr>
-<tr>
-<td>$u[n]$阶跃序列</td>
-<td>$\dfrac{1}{1-z^{-1}}$</td>
-</tr>
-<tr>
-<td>$\delta[n-n_0]$</td>
-<td>$z^{-n_0}$</td>
-</tr>
-<tr>
-<td>$e^{-\alpha u[n]}$</td>
-<td>$\dfrac{1}{1-e^{-\alpha z^{-1}}}$</td>
-</tr>
-<tr>
-<td>$-u[-n-1]$</td>
-<td>$\dfrac{1}{1-z^{-1}}$</td>
-</tr>
-<tr>
-<td>$nu[n]$</td>
-<td>$\dfrac{z^{-1}}{(1-z^{-1})^2}$</td>
-</tr>
-<tr>
-<td>$-nu[-n-1]$</td>
-<td>$\dfrac{z^{-1}}{(1-z^{-1})^2}$</td>
-</tr>
-<tr>
-<td>$\cos (w_0n)u[n]$</td>
-<td>$\dfrac{1-z^{-1}\cos(w_0)}{1-2z^{-1}\cos(w_0)+z^{-2}}$</td>
-</tr>
-<tr>
-<td>$\sin(w_0n)u[n]$</td>
-<td>$\dfrac{z^{-1}\sin (w_0)}{1-2z^{-1}\cos (w_0)+z^{-2}}$</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>三大变换的关系</strong></p>
-<script type="math/tex; mode=display">
-\int_{-\infin}^{\infin}x(t)e^{-jwt}dt\\\downarrow 乘以e^{-at}\\\Downarrow \\|\int_{-\infin}^{\infin}x(t)e^{-at}|<\infin \therefore 绝对可积\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-(\sigma+jw)t}dt \quad 令s=\sigma+jw\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-st}dt \quad 从实数推广为复数</script><p>FFT: 函数要满足狄利克雷条件，信号要绝对可积/绝对可和</p>
-<p>为使不符合此条件的信号也能使用，故有了拉普拉斯和Z变换</p>
-<p>$\left\{\begin{array}{ll}CTFT: 连续时间FT\xrightarrow{扩充} &amp; Laplace\\DFTF: 离散时间FT\xrightarrow{扩充}&amp;Z\end{array}\right.$</p>
-<p>$\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}$绝对可和 $\sum_{-\infty}^{\infty}|x[n]|&lt;\infty$</p>
-<p>$x[n]$乘以$a^{-n}$</p>
-<p>$\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}$</p>
-<p>$\Rightarrow \sum_{n=- \infty}^{\infty}x<a href="a \cdot e^{jw}">n</a>^{-n}$</p>
-<p>将极坐标形式的复数$a\cdot e^{jw}$记为$z$</p>
-<p>$\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$就得到了Z变换</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E7%A7%91%E7%9B%AE%E8%A6%81%E7%82%B9/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 

@@ -931,6 +931,7 @@
 <p>$\dfrac{a_0}{2}$は波形に含まれる直流成分の振幅</p>
 <p>フーリエ級数展開：周期関数をさまざまな正弦波の重ね合わせとして表すこと。</p>
 <p>フーリエ変換：無限に長い周期をもつ関数を連続スペクトル（Spectre）に変換すること。</p>
+<span id="more"></span>
 <h3 id="離散"><a href="#離散" class="headerlink" title="離散"></a>離散</h3><p>波形$x(t)$を一定時間間隔$T_s$でサンプリングして得られる。</p>
 <p>いわれる離散波形$x(n/s)$を用いて周波数スペクトルを求める操作が、離散のフーリエ変換（DFT）である。</p>
 <p>DFT:</p>
@@ -1068,7 +1069,7 @@ y(t)=x_1(t)x_2(t)
 <p>$\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}$绝对可和 $\sum_{-\infty}^{\infty}|x[n]|&lt;\infty$</p>
 <p>$x[n]$乘以$a^{-n}$</p>
 <p>$\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}$</p>
-<p>$\Rightarrow \sum_{n=- \infty}^{\infty}x<a href="a \cdot e^{jw}">n</a>^{-n}$</p>
+<p>$\Rightarrow \sum_{n=- \infty}^{\infty} x<a href="a \cdot e^{jw}">n</a>^{-n}$</p>
 <p>将极坐标形式的复数$a\cdot e^{jw}$记为$z$</p>
 <p>$\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$就得到了Z变换</p>
 ]]></content>
