@@ -1368,21 +1368,21 @@ class="math inline">\(\dfrac{\pi}{j}[\delta(w-w_0)-\delta(w+w_0)]\)</span></td>
 <li><p>対称性　　<span class="math inline">\(x(t)\leftrightarrow
 X(w)\Rightarrow X(t)\leftrightarrow 2\pi X(-w)\)</span></p></li>
 <li><p>時間伸縮性 <span class="math display">\[
-\int_{-\infin}^{\infin}x(at)e^{-jwt}dt=\dfrac{1}{a}\int_{-\infin}^{\infin}x(t&#39;)e^{-\frac{jwt&#39;}{a}}dt&#39;=\dfrac{1}{a}X(\frac{w}{a})
+\int_{-\infty}^{\infty}x(at)e^{-jwt}dt=\dfrac{1}{a}\int_{-\infty}^{\infty}x(t&#39;)e^{-\frac{jwt&#39;}{a}}dt&#39;=\dfrac{1}{a}X(\frac{w}{a})
 \\注：at=t&#39;,t=\dfrac{1}{a}t&#39;,dt=\dfrac{1}{a}dt&#39;
 \]</span></p></li>
 </ol>
 <p>​ 4.時間推移性 <span class="math display">\[
-\int_{-\infin}^{\infin}x(t-t_0)e^{-jwt}dt=\int_{-\infin}^{\infin}x(t&#39;)e^{-jw(t&#39;+t_0)}dt=e^{-jwt_0}\int_{-\infin}^{\infin}x(t&#39;)e^{-jwt}dt=e^{-jwt_0}X(w)\\注：t-t_0=t&#39;,t=t&#39;+t_0,dt=dt&#39;
+\int_{-\infty}^{\infty}x(t-t_0)e^{-jwt}dt=\int_{-\infty}^{\infty}x(t&#39;)e^{-jw(t&#39;+t_0)}dt=e^{-jwt_0}\int_{-\infty}^{\infty}x(t&#39;)e^{-jwt}dt=e^{-jwt_0}X(w)\\注：t-t_0=t&#39;,t=t&#39;+t_0,dt=dt&#39;
 \]</span> ​ 5.周波数推移性 <span class="math display">\[
-\dfrac{1}{2\pi}\int_{-\infin}^{\infin}x(w-w_0)e^{jwt}dw=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(u)e^{j(w_0+u)t}du=\dfrac{e^{jw_0t}}{2\pi}\int_{-\infin}^{\infin}X(u)e^{jut}=e^{jw_0t}x(t)\\注：w-w_0=u,w=u+w_0,dw=du
+\dfrac{1}{2\pi}\int_{-\infty}^{\infty}x(w-w_0)e^{jwt}dw=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(u)e^{j(w_0+u)t}du=\dfrac{e^{jw_0t}}{2\pi}\int_{-\infty}^{\infty}X(u)e^{jut}=e^{jw_0t}x(t)\\注：w-w_0=u,w=u+w_0,dw=du
 \]</span> ​ 6.時間微分性 <span class="math display">\[
-\dfrac{x(t)}{dt}=\dfrac{1}{2\pi}\int_{-\infin}^{\infin}X(w)jwe^{jwt}=jwX(w)\rightarrow
+\dfrac{x(t)}{dt}=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)jwe^{jwt}=jwX(w)\rightarrow
 \dfrac{d^nX(t)}{dt^n}\Longleftrightarrow (jw)^nX(w)
 \]</span> ​ 7.時間積分性 <span class="math display">\[
-\int_{-\infin}^t x(t&#39;)dt&#39;\longleftrightarrow
-\dfrac{X(w))}{jw}+\pi X(0)\delta(w)\\F[\int_{-\infin}^t
-[x(t)dt]]=\int_{-\infin}^{\infin}[\int_{-\infin}^t X(t)dt]e^{-jw\tau
+\int_{-\infty}^t x(t&#39;)dt&#39;\longleftrightarrow
+\dfrac{X(w))}{jw}+\pi X(0)\delta(w)\\F[\int_{-\infty}^t
+[x(t)dt]]=\int_{-\infty}^{\infty}[\int_{-\infty}^t X(t)dt]e^{-jw\tau
 }d\tau
 \]</span> ​ 8.畳み込み <span class="math display">\[
 y(t)=x_1(t)x_2(t)
@@ -1453,11 +1453,11 @@ class="math inline">\(\dfrac{1-z^{-1}\cos(w_0)}{1-2z^{-1}\cos(w_0)+z^{-2}}\)</sp
 </tbody>
 </table>
 <p><strong>三大变换的关系</strong> <span class="math display">\[
-\int_{-\infin}^{\infin}x(t)e^{-jwt}dt\\\downarrow
-乘以e^{-at}\\\Downarrow \\|\int_{-\infin}^{\infin}x(t)e^{-at}|&lt;\infin
+\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\\\downarrow
+乘以e^{-at}\\\Downarrow \\|\int_{-\infty}^{\infty}x(t)e^{-at}|&lt;\infty
 \therefore
-绝对可积\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-(\sigma+jw)t}dt
-\quad 令s=\sigma+jw\\\Downarrow\\\int_{-\infin}^{\infin}x(t)e^{-st}dt
+绝对可积\\\Downarrow\\\int_{-\infty}^{\infty}x(t)e^{-(\sigma+jw)t}dt
+\quad 令s=\sigma+jw\\\Downarrow\\\int_{-\infty}^{\infty}x(t)e^{-st}dt
 \quad 从实数推广为复数
 \]</span></p>
 <p>FFT: 函数要满足狄利克雷条件，信号要绝对可积/绝对可和</p>
