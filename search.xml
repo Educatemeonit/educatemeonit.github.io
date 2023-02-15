@@ -922,7 +922,7 @@
     <url>/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%E7%A7%91%E7%9B%AE%E8%A6%81%E7%82%B9/</url>
     <content><![CDATA[<p>修改记录：<br>2023.2.15 初稿，大学院备考时的知识点整理</p>
 <p>信号$\cdot$解析</p>
-<h3 id="Z变换"><a href="#Z变换" class="headerlink" title="Z变换"></a>Z变换</h3><h3 id="时域-rightarrow-频域（傅里叶变换）"><a href="#时域-rightarrow-频域（傅里叶变换）" class="headerlink" title="时域$\rightarrow $频域（傅里叶变换）"></a>时域$\rightarrow $频域（傅里叶变换）</h3><p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
+<h3 id="时域-rightarrow-频域（傅里叶变换）"><a href="#时域-rightarrow-频域（傅里叶变换）" class="headerlink" title="时域$\rightarrow $频域（傅里叶变换）"></a>时域$\rightarrow $频域（傅里叶变换）</h3><p>繰り返し周期をもっていない波形は周期が無限大の時間で繰り返し波形と見るこができる。</p>
 <p>$X(w)=\int_{-\infty}^{\infty}x(t)e^{-jwt}dt\quad t\rightarrow \infty$</p>
 <p>$x(t)=\dfrac{1}{2\pi}\int_{-\infty}^{\infty}X(w)e^{jwt}dw$</p>
 <h3 id="傅里叶级数"><a href="#傅里叶级数" class="headerlink" title="傅里叶级数"></a>傅里叶级数</h3><p>$x(t)=\dfrac{a_0}{2}+\sum_{i=1}^{\infty}a_i\cos(2\pi i\dfrac{t}{T})+\sum_{i=1}^{\infty}b_i\sin(2\pi i\dfrac{t}{T})$</p>
@@ -1069,7 +1069,7 @@ y(t)=x_1(t)x_2(t)
 <p>$\sum_{n=-\infty}^{\infty}x[n]e^{-jwn}$绝对可和 $\sum_{-\infty}^{\infty}|x[n]|&lt;\infty$</p>
 <p>$x[n]$乘以$a^{-n}$</p>
 <p>$\sum_{n=-\infty}^{\infty}x[n]a^{-n}\cdot e^{-jwn}$</p>
-<p>$\Rightarrow \sum_{n=-\infty}^{\infty} x<a href="a\cdot e^{jw}">n</a>^{-n}$</p>
+<p>$\therefore \sum_{n=-\infty}^{\infty} x<a href="a\cdot e^{jw}">n</a>^{-n}$</p>
 <p>将极坐标形式的复数$a\cdot e^{jw}$记为$z$</p>
 <p>$\sum_{n=-\infty}^{\infty}x[n]\cdot z^{-n}$就得到了Z变换</p>
 ]]></content>
