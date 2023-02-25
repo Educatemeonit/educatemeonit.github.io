@@ -19,28 +19,27 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"educatemeonit.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"default","show_result":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideDownBigOut"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="在花了几小时深度了几种个人博客方案后，还是决定回归到Hexo+Github上来。 简单地整理下自己的折腾过程： 1）本来看到网上有Hugo建站的教程，说是渲染速度快，本地环境搭建简单，但按教程一步步来，最后还是出错，而且自己也不想花时间深究哪里出错了。 2）又在xhs上看到直接用Notion+Vercel+Github可以实现笔记软件和博客的2合1，也很吸引我，但是在Vercel中进行Dep">
+    <meta name="description" content="TryHackMe（以后简称THM)一共有10个Learn Path，我目前只完成了其中2个，先从最最基础的[Pre Security]开始作一些笔记吧。  Intro to Offensive Security  What is Offensive Security?  The process of breaking into computer systems, exploiti">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo博客回归小记">
-<meta property="og:url" content="http://educatemeonit.github.io/2023/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%9B%9E%E5%BD%92%E5%B0%8F%E8%AE%B0/index.html">
+<meta property="og:title" content="【TryHackMe笔记】Learn Path学习笔记">
+<meta property="og:url" content="http://educatemeonit.github.io/2023/02/22/%E3%80%90TryHackMe%E7%AC%94%E8%AE%B0%E3%80%91Learn%20Path%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="东京打工人Jackie">
-<meta property="og:description" content="在花了几小时深度了几种个人博客方案后，还是决定回归到Hexo+Github上来。 简单地整理下自己的折腾过程： 1）本来看到网上有Hugo建站的教程，说是渲染速度快，本地环境搭建简单，但按教程一步步来，最后还是出错，而且自己也不想花时间深究哪里出错了。 2）又在xhs上看到直接用Notion+Vercel+Github可以实现笔记软件和博客的2合1，也很吸引我，但是在Vercel中进行Dep">
+<meta property="og:description" content="TryHackMe（以后简称THM)一共有10个Learn Path，我目前只完成了其中2个，先从最最基础的[Pre Security]开始作一些笔记吧。  Intro to Offensive Security  What is Offensive Security?  The process of breaking into computer systems, exploiti">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-02-11T13:00:04.000Z">
-<meta property="article:modified_time" content="2023-02-12T12:34:17.698Z">
+<meta property="article:published_time" content="2023-02-22T06:10:42.000Z">
+<meta property="article:modified_time" content="2023-02-25T07:49:09.734Z">
 <meta property="article:author" content="Jackie">
-<meta property="article:tag" content="杂谈">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://educatemeonit.github.io/2023/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%9B%9E%E5%BD%92%E5%B0%8F%E8%AE%B0/">
+<link rel="canonical" href="http://educatemeonit.github.io/2023/02/22/%E3%80%90TryHackMe%E7%AC%94%E8%AE%B0%E3%80%91Learn%20Path%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://educatemeonit.github.io/2023/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%9B%9E%E5%BD%92%E5%B0%8F%E8%AE%B0/","path":"2023/02/11/Hexo博客回归小记/","title":"Hexo博客回归小记"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://educatemeonit.github.io/2023/02/22/%E3%80%90TryHackMe%E7%AC%94%E8%AE%B0%E3%80%91Learn%20Path%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/","path":"2023/02/22/【TryHackMe笔记】Learn Path学习笔记/","title":"【TryHackMe笔记】Learn Path学习笔记"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Hexo博客回归小记 | 东京打工人Jackie</title>
+<title>【TryHackMe笔记】Learn Path学习笔记 | 东京打工人Jackie</title>
   
 
 
@@ -127,7 +126,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -140,6 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#intro-to-offensive-security"><span class="nav-number">1.</span> <span class="nav-text">Intro to Offensive Security</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -190,7 +190,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%9B%9E%E5%BD%92%E5%B0%8F%E8%AE%B0/">
+    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/22/%E3%80%90TryHackMe%E7%AC%94%E8%AE%B0%E3%80%91Learn%20Path%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -203,12 +203,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Hexo博客回归小记 | 东京打工人Jackie">
+      <meta itemprop="name" content="【TryHackMe笔记】Learn Path学习笔记 | 东京打工人Jackie">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hexo博客回归小记
+          【TryHackMe笔记】Learn Path学习笔记
         </h1>
 
         <div class="post-meta-container">
@@ -219,14 +219,23 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-02-11 22:00:04" itemprop="dateCreated datePublished" datetime="2023-02-11T22:00:04+09:00">2023-02-11</time>
+      <time title="创建时间：2023-02-22 15:10:42" itemprop="dateCreated datePublished" datetime="2023-02-22T15:10:42+09:00">2023-02-22</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-12 21:34:17" itemprop="dateModified" datetime="2023-02-12T21:34:17+09:00">2023-02-12</time>
+      <time title="修改时间：2023-02-25 16:49:09" itemprop="dateModified" datetime="2023-02-25T16:49:09+09:00">2023-02-25</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/TryHackMe%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">TryHackMe笔记</span></a>
+        </span>
     </span>
 
   
@@ -245,8 +254,8 @@
       </span>
       <span class="post-meta-item-text">Disqus：</span>
     
-    <a title="disqus" href="/2023/02/11/Hexo%E5%8D%9A%E5%AE%A2%E5%9B%9E%E5%BD%92%E5%B0%8F%E8%AE%B0/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/11/Hexo博客回归小记/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2023/02/22/%E3%80%90TryHackMe%E7%AC%94%E8%AE%B0%E3%80%91Learn%20Path%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/22/【TryHackMe笔记】Learn Path学习笔记/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -257,7 +266,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>612</span>
+      <span>605</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -275,28 +284,26 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>在花了几小时深度了几种个人博客方案后，还是决定回归到Hexo+Github上来。</p>
-<p>简单地整理下自己的折腾过程：</p>
-<p>1）本来看到网上有Hugo建站的教程，说是渲染速度快，本地环境搭建简单，但按教程一步步来，最后还是出错，而且自己也不想花时间深究哪里出错了。</p>
-<p>2）又在xhs上看到直接用Notion+Vercel+Github可以实现笔记软件和博客的2合1，也很吸引我，但是在Vercel中进行Deploy的时候又卡住了，继续出错。我本来觉得这个行得通应该是终极解决方案了，一劳永逸，但出错了，
-而且Notion的导出选项稍稍有点少（html,md,pdf).</p>
-<p>3）经历前面2次出错，有点失落，本来想着就在本地Mybase笔记软件里写给自己得了，但想了想，搞技术的如果只输出给自己，动力不足，而且会懈怠。还是弄一个博客吧，反正Hexo+Github之前自己试过，成功了，当然那时候写的文章现在也用不着了。于是就有了现在的这个博客。</p>
-<span id="more"></span>
-<p>目前已完成的部分有：</p>
-<p>1.将Hexo-blog文件夹放在谷歌盘中，方便我多台电脑间同步</p>
-<p>2.将博客配置文件作了调整，增加了一些必要的页面，改动了下logo,然后添加了Disqus评论系统。</p>
-<p>3.当然也有人添加了动画效果，还有虚拟形象之类的增加互动效果，还有的人会搞网易云音乐的插件，但我觉得内容最重要，先保持现在的样式吧。</p>
-<p>记录下自己想测试的功能和结果：</p>
-<p>1.markdown,当然是支持的，数学公式也是支持的，需要安装Module，网上教程很多的。而且我准备本地使用Typora来码字（毕竟花钱入了正版）。</p>
-<p>2.Typora可以配置picgo的图床，然后直接上传，所以我写好的东西发布到Hexo上，不需要另外存图片到github上。</p>
-<p>3.Typora的Mermaid功能也是支持的，虽然我很少用它。</p>
-<p>主要参考的教程有：</p>
-<p>https://blog.csdn.net/as480133937/article/details/100138838</p>
-<p>常用的Hexo命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;新文章名&quot;</span><br><span class="line">hexo g //生成</span><br><span class="line">hexo s //本地预览</span><br><span class="line">hexo d //发布</span><br></pre></td></tr></table></figure>
-<p>新建文章的Header字段：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title 文章标题</span><br><span class="line">date 文章创建日期</span><br><span class="line">comments 设置文章是否开启评论</span><br><span class="line">tags 文章标签</span><br><span class="line">categories 文章分类</span><br><span class="line">keywords 文章关键词</span><br></pre></td></tr></table></figure>
-<p>需要注意字段的冒号后面一定要加空格，否则hexo g的时候会出错。</p>
+        <p>TryHackMe（以后简称THM)一共有10个Learn
+Path，我目前只完成了其中2个，先从最最基础的[Pre
+Security]开始作一些笔记吧。</p>
+<script src="https://tryhackme.com/badge/1526401"></script>
+<h2 id="intro-to-offensive-security">Intro to Offensive Security</h2>
+<ul>
+<li>What is Offensive Security?</li>
+</ul>
+<p>The process of breaking into computer systems, exploiting software
+bugs, and finding <u>loopholes</u>（漏洞） in applications to gain
+unauthorized access to them.</p>
+<ul>
+<li>Careers in cyber seucrity</li>
+</ul>
+<p>Penetration Tester 渗透测试- Responsible for testing technology
+products for finding exploitable security vulnerabilities. Red Teamer
+红队- Plays the role of an <u>adversary</u>(对手，敌手）, attacking an
+organization and providing feedback from an enemy's perspective.
+Security Engineer安全工程师 - Design, monitor, and maintain security
+controls, networks, and systems to help prevent cyberattacks.</p>
 
     </div>
 
@@ -305,19 +312,16 @@
     
 
     <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E6%9D%82%E8%B0%88/" rel="tag"># 杂谈</a>
-          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2023/02/17/%E3%80%90%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95%E3%80%91CISSP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev" title="【资格考试】CISSP习笔记">
+                  <i class="fa fa-chevron-left"></i> 【资格考试】CISSP习笔记
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2023/02/12/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86%E4%B8%8E%E5%88%86%E6%9E%90%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97/" rel="next" title="【读书笔记】日志管理与分析权威指南">
-                  【读书笔记】日志管理与分析权威指南 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>

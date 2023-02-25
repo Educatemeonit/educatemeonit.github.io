@@ -147,13 +147,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">25</span>
+          <span class="site-state-item-count">28</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -175,6 +175,471 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/22/%E3%80%90TryHackMe%E7%AC%94%E8%AE%B0%E3%80%91Learn%20Path%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Jackie">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="东京打工人Jackie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 东京打工人Jackie">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/02/22/%E3%80%90TryHackMe%E7%AC%94%E8%AE%B0%E3%80%91Learn%20Path%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">【TryHackMe笔记】Learn Path学习笔记</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-02-22 15:10:42" itemprop="dateCreated datePublished" datetime="2023-02-22T15:10:42+09:00">2023-02-22</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-02-25 16:49:09" itemprop="dateModified" datetime="2023-02-25T16:49:09+09:00">2023-02-25</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/TryHackMe%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">TryHackMe笔记</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2023/02/22/%E3%80%90TryHackMe%E7%AC%94%E8%AE%B0%E3%80%91Learn%20Path%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/22/【TryHackMe笔记】Learn Path学习笔记/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>605</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>TryHackMe（以后简称THM)一共有10个Learn
+Path，我目前只完成了其中2个，先从最最基础的[Pre
+Security]开始作一些笔记吧。</p>
+<script src="https://tryhackme.com/badge/1526401"></script>
+<h2 id="intro-to-offensive-security">Intro to Offensive Security</h2>
+<ul>
+<li>What is Offensive Security?</li>
+</ul>
+<p>The process of breaking into computer systems, exploiting software
+bugs, and finding <u>loopholes</u>（漏洞） in applications to gain
+unauthorized access to them.</p>
+<ul>
+<li>Careers in cyber seucrity</li>
+</ul>
+<p>Penetration Tester 渗透测试- Responsible for testing technology
+products for finding exploitable security vulnerabilities. Red Teamer
+红队- Plays the role of an <u>adversary</u>(对手，敌手）, attacking an
+organization and providing feedback from an enemy's perspective.
+Security Engineer安全工程师 - Design, monitor, and maintain security
+controls, networks, and systems to help prevent cyberattacks.</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/17/%E3%80%90%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95%E3%80%91CISSP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Jackie">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="东京打工人Jackie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 东京打工人Jackie">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/02/17/%E3%80%90%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95%E3%80%91CISSP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">【资格考试】CISSP习笔记</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2023-02-17 12:19:02 / 修改时间：17:27:55" itemprop="dateCreated datePublished" datetime="2023-02-17T12:19:02+09:00">2023-02-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">资格考试</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2023/02/17/%E3%80%90%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95%E3%80%91CISSP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/17/【资格考试】CISSP学习笔记/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.1k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>4 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>参考教材：</p>
+<p>CISSP官方学习指南第8版（中文）</p>
+<p>全书一共有21章，我并没有想按顺序读，只是先从熟悉的章节开始读。</p>
+<h1 id="第11章-安全网络架构和保护网络组件">第11章
+安全网络架构和保护网络组件</h1>
+<p>考点相关：</p>
+<blockquote>
+<p>Domain4：通信与网络安全</p>
+<p>4.1在网络架构中实施安全设计原则</p>
+<p>​ 4.1.1 OSI模型和TCP/IP模型</p>
+<p>​ 4.1.2 互联网协议（IP)网络</p>
+<p>​ 4.1.3 多层协议的含义</p>
+<p>​ 4.1.4 融合协议</p>
+<p>​ 4.1.5 软件定义网络</p>
+<p>​ 4.1.6 无线网络</p>
+<p>4.2安全的网络组件</p>
+<p>​ 4.2.1 硬件操作</p>
+<p>​ 4.2.2 传输介质</p>
+<p>​ 4.2.3 网络访问控制（NAC)设备</p>
+<p>​ 4.2.4 端点安全</p>
+<p>​ 4.2.5 内容分发网络</p>
+</blockquote>
+<p>OSI模型我在大学院备考的时候学过3遍，自己在塾里讲课的时候，也有讲过至少8遍了，所以已经很熟悉了。从上至下分别为物理层，数据链路层，网络层，传输层，会话层，表示层和应用层。</p>
+<p>稍微加点历史发展过程的话，就是早期的计算机厂商有很多，每家都有不同的通信规则，互不兼容，为了解决这个问题，就要标准化，这时国际标准化组织ISO站出来，弄了一个OSI参考模型，大家以后按这个7层模型进行产品开发和设计。</p>
+<p>相比于事实上的标准TCP/IP模型，OSI出现得要晚，但理论学习用OSI很合适。</p>
+<p>除了要了解每层的作用之外，还要理解OSI模型的封装和解封装机制。数据由应用层的软件产生，然后向下传递，不断在增加报头（在L2有增加报尾），直到物理层变成0和1的比特流。再经过传输到达接收端，再层层解封装，这个过程与网购下单包裹的发送是类似的。</p>
+<hr />
+<p>CISSP讲义</p>
+<blockquote>
+<p>关于组织应保留多长时间的数据（Retention)并没有通用的协议，法律和监管要求因国家和行业特点而异。只有一条是通用的，要确保组织具有并遵守文档化的数据保留策略。</p>
+</blockquote>
+<p>要确认3个基本问题：</p>
+<p>1.哪些数据需要保存？</p>
+<p>2.这些数据保存多久？</p>
+<p>3.在哪里保存这些数据？</p>
+<p>数据有可能被再次访问到，所以需要考虑以下几方面：</p>
+<p>1）分类法 按功能，或时间顺序或组织等来分类保存数据</p>
+<p>2） 分级，按数据的敏感度来区分数据使用和保存时的控制方式。</p>
+<p>3）标准化，数据会有各种格式，但为了便于搜索，我们不能只保留它的原始格式，而是要开发标签模式。</p>
+<p>4）索引，使数据可搜索的常见方法是建立索引。</p>
+<p>一般性准则</p>
+<table>
+<thead>
+<tr class="header">
+<th>数据类型</th>
+<th>一般保留期限</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>业务文档（如会议记录）</td>
+<td>7年</td>
+</tr>
+<tr class="even">
+<td>发票</td>
+<td>5年</td>
+</tr>
+<tr class="odd">
+<td>应付与应收帐款</td>
+<td>7年</td>
+</tr>
+<tr class="even">
+<td>人力资源文件</td>
+<td>7年（离职员工）或3年（未雇佣的候选人）</td>
+</tr>
+<tr class="odd">
+<td>法律通信</td>
+<td>永久</td>
+</tr>
+</tbody>
+</table>
+<p>保留什么数据</p>
+<p>为了确保所有法律义务能得到满足，我们需要请法律顾问参与这一进程，在日本一般是有法务室的人来担当或专门的外部专家。</p>
+<p>保留数据的决定必须是谨慎，具体和可执行的。</p>
+<p>面临的挑战是，业务需求与员工或客户的隐私间的平衡，太长了费时费力，利用率低，而且有过度收集个人信息的问题。太短了不利于案件调查和合规检查。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/16/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91%E7%81%B0%E5%B8%BD%E9%BB%91%E5%AE%A2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Jackie">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="东京打工人Jackie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 东京打工人Jackie">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2023/02/16/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91%E7%81%B0%E5%B8%BD%E9%BB%91%E5%AE%A2/" class="post-title-link" itemprop="url">【读书笔记】灰帽黑客</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2023-02-16 23:09:38 / 修改时间：23:19:34" itemprop="dateCreated datePublished" datetime="2023-02-16T23:09:38+09:00">2023-02-16</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">读书笔记</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2023/02/16/%E3%80%90%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%91%E7%81%B0%E5%B8%BD%E9%BB%91%E5%AE%A2/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/16/【读书笔记】灰帽黑客/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>452</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>[TOC]</p>
+<h1 id="第i部分-合乎道德的揭秘行为简介">第I部分
+合乎道德的揭秘行为简介</h1>
+<h2 id="第1章-正义黑客的道德规范">第1章 正义黑客的道德规范</h2>
+<h2 id="第2章-合乎道德的正当揭秘行为">第2章 合乎道德的正当揭秘行为</h2>
+<h1 id="第ii部分-渗透测试及工具">第II部分 渗透测试及工具</h1>
+<h2 id="第3章-社会工程攻击">第3章 社会工程攻击</h2>
+<h2 id="第4章-潜入攻击">第4章 潜入攻击</h2>
+<h2 id="第5章-内部攻击">第5章 内部攻击</h2>
+<h2 id="第6章-使用backtrack-linux分发版本">第6章 使用BackTrack
+Linux分发版本</h2>
+<h2 id="第7章-使用metasploit">第7章 使用Metasploit</h2>
+<h2 id="第8章-渗透测试管理">第8章 渗透测试管理</h2>
+<h1 id="第iii部分-漏洞攻击">第III部分 漏洞攻击</h1>
+<h2 id="第9章-编程技能">第9章 编程技能</h2>
+<h2 id="第10章-基本的linux漏洞攻击">第10章 基本的Linux漏洞攻击</h2>
+<h2 id="第11章-高级linux漏洞攻击">第11章 高级Linux漏洞攻击</h2>
+<h2 id="第12章-shellcode策略">第12章 shellcode策略</h2>
+<h2 id="第13章-编写linux-shellcode">第13章 编写Linux shellcode</h2>
+<h2 id="第14章-windows漏洞攻击">第14章 Windows漏洞攻击</h2>
+<h2 id="第15章-content-type攻击原理与检测">第15章
+Content-Type攻击原理与检测</h2>
+<h2 id="第16章-web应用程序安全漏洞">第16章 Web应用程序安全漏洞</h2>
+<h2 id="第17章-voip攻击">第17章 VoIP攻击</h2>
+<h2 id="第18章-scada攻击">第18章 SCADA攻击</h2>
+<h1 id="第iv部分-漏洞分析">第IV部分 漏洞分析</h1>
+<h2 id="第19章-被动分析">第19章 被动分析</h2>
+<h2 id="第20章-使用ida-pro进行高级静态分析">第20章 使用IDA
+Pro进行高级静态分析</h2>
+<h2 id="第21章-高级逆向工程技术">第21章 高级逆向工程技术</h2>
+<h2 id="第22章-客户端浏览器的漏洞攻击">第22章
+客户端浏览器的漏洞攻击</h2>
+<h2 id="第23章-攻击-windows访问控制模型">第23章 攻击
+Windows访问控制模型</h2>
+<h2 id="第24章-智能模糊测试框架sulley">第24章
+智能模糊测试框架Sulley</h2>
+<h2 id="第25章-漏洞的可利用性和漏洞攻击程序">第25章
+漏洞的可利用性和漏洞攻击程序</h2>
+<h2 id="第26章-关闭漏洞缓解问题">第26章 关闭漏洞：缓解问题</h2>
+<h1 id="第v部分-恶意软件分析">第V部分 恶意软件分析</h1>
+<h2 id="第27章-收集恶意软件和初步分析">第27章
+收集恶意软件和初步分析</h2>
+<h2 id="第28章-破解恶意软件">第28章 破解恶意软件</h2>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -212,9 +677,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-02-14 18:24:35 / 修改时间：18:30:44" itemprop="dateCreated datePublished" datetime="2023-02-14T18:24:35+09:00">2023-02-14</time>
+      <time title="创建时间：2023-02-14 18:24:35" itemprop="dateCreated datePublished" datetime="2023-02-14T18:24:35+09:00">2023-02-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-02-22 17:26:14" itemprop="dateModified" datetime="2023-02-22T17:26:14+09:00">2023-02-22</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -247,14 +718,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>160</span>
+      <span>841</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>3 分钟</span>
     </span>
 </div>
 
@@ -268,6 +739,34 @@
           <p>简介： TCP/IP详解这本书一共分为3卷。原作者为Kevin R. Fall和W. Richard
 Steven，我是看的机械工业出版社的中文译本。3卷分别为700多页，900多页和200多页，也算是大部头了。
 为什么要读这本书，因为我知道，TCP/IP是计算机网络事实上的标准，所以要做网络安全，理论基础一定要扎实，这本书当然是必读书目，而且它对协议的介绍非常详细，并且会给出协议相关的安全问题，这对从业者来说是一个很好的参考。</p>
+<h2 id="卷1协议">卷1：协议</h2>
+<p>卷1：协议一共有18章，分别是</p>
+<p>第1章：概述</p>
+<p>第2章：Internet地址结构</p>
+<p>第3章：链路层</p>
+<p>第4章：地址解析协议</p>
+<p>第5章：Internet协议</p>
+<p>第6章：系统配置：DHCP和自动配置</p>
+<p>第7章：防火墙和网络地址转换</p>
+<p>第8章：ICMPv4和ICMPv6: Internet控制报文协议</p>
+<p>第9章：广播和本地组播（IGMP和MLD)</p>
+<p>第10章：用户数据报协议和IP分片</p>
+<p>第11章：名称解析和域名系统</p>
+<p>第12章：TCP：传输控制协议</p>
+<p>第13章：TCP连接管理</p>
+<p>第14章：TCP超时与重传</p>
+<p>第15章：TCP数据流与窗口管理</p>
+<p>第16章：TCP拥塞控制</p>
+<p>第17章：TCP保活机制</p>
+<p>第18章：安全：要扩展身份认证协议，IP安全协议，传输层安全，DNS安全，域名密钥识别邮件</p>
+<p>我对于第7章，第17章和第18章比较感兴趣，其他章节的内容已经很熟悉了。所以重点对这3章记一下笔记。</p>
+<h2 id="第7章">第7章</h2>
+<p>面对IPv4地址枯竭问题，除了转向IPv6外，最重要的就是NAT，采用NAT后，互联网地址就不需要是全球唯一了。</p>
+<p>与其确保终端安装的软件是最新的，而且漏洞被及时修复是很困难的，而在网络流量的中间设置防火墙来保护终端系统，过滤部分流量是很必要的。</p>
+<p>最常用的2种防火墙是代理防火墙（Proxy
+firewall)和包过滤防火墙（packet-filter firewall)。</p>
+<p>包过滤分为2种，一种是无状态的，它单独处理每一个数据报。</p>
+<p>另一种是有状态的，它能关联已经或即将到达的数据包来判断流或数据报的信息，将同一个传输文件的IP分片关联起来。</p>
 
       
     </div>
@@ -1061,361 +1560,6 @@ n=e^0=1\)</span></p>
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Jackie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="东京打工人Jackie">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 东京打工人Jackie">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/" class="post-title-link" itemprop="url">【斜杠笔记】大学院数学之向量解析</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-02-12 21:18:19 / 修改时间：21:34:01" itemprop="dateCreated datePublished" datetime="2023-02-12T21:18:19+09:00">2023-02-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">斜杠笔记</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus：</span>
-    
-    <a title="disqus" href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/12/【斜杠笔记】大学院数学之向量解析/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.2k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>4 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="常用向量">常用向量</h1>
-<p>1.单位向量</p>
-<p>2.基底</p>
-<h1 id="向量运算">向量运算</h1>
-<h2 id="内积">内积</h2>
-<p><span class="math inline">\(\vec{a}\cdot \vec{b}
-=x_1x_2+y_1y_2+z_1z_2\)</span></p>
-<p>&lt;a,b&gt;=|a| |b|$ $</p>
-<p>几何意义： 向量a在向量b上的投影，再乘以向量b的长度</p>
-<p>物理意义：力的分量所作的功</p>
-<p>用于判断两个向量的方向及角度：</p>
-<p>1）内积&gt;0,夹角小于90度</p>
-<p>2）内积=0，垂直</p>
-<p>3）内积&lt;0,夹角大于90度</p>
-<h2 id="外积">外积</h2>
-$ =det
-<span class="math display">\[\begin{bmatrix} \vec{i} &amp; \vec{j} &amp;
-\vec{k} \\x_1 &amp; y_1 &amp; z_1 \\ x_2 &amp; y_2 &amp; z_2
-\end{bmatrix}\]</span>
-<p>$</p>
-<p>几何意义：</p>
-<p>外积的长度<span class="math inline">\(a\times b =|a||b|\cos
-\theta\)</span>是两向量围成的平行四边形的面积</p>
-<p>物理意义：力矩，如旋转螺丝钉，螺丝钉前进方向垂直于刀口和扭力方向</p>
-<p>外积的方向与两向量均垂直，适合求法向量</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/02/12/%E3%80%90%E6%96%9C%E6%9D%A0%E7%AC%94%E8%AE%B0%E3%80%91%E5%A4%A7%E5%AD%A6%E9%99%A2%E6%95%B0%E5%AD%A6%E4%B9%8B%E5%90%91%E9%87%8F%E8%A7%A3%E6%9E%90/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E3%80%91MooC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Jackie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="东京打工人Jackie">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 东京打工人Jackie">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/02/12/%E3%80%90%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E3%80%91MooC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">【课程笔记】MooC学习笔记</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-02-12 21:04:02 / 修改时间：21:11:19" itemprop="dateCreated datePublished" datetime="2023-02-12T21:04:02+09:00">2023-02-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">课程笔记</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus：</span>
-    
-    <a title="disqus" href="/2023/02/12/%E3%80%90%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E3%80%91MooC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/12/【课程笔记】MooC学习笔记/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>2</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>占位</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://educatemeonit.github.io/2023/02/12/%E3%80%90%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E3%80%91B%E7%AB%99%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Jackie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="东京打工人Jackie">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | 东京打工人Jackie">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/02/12/%E3%80%90%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E3%80%91B%E7%AB%99%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">【课程笔记】B站学习笔记</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-02-12 21:03:42 / 修改时间：21:10:51" itemprop="dateCreated datePublished" datetime="2023-02-12T21:03:42+09:00">2023-02-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">课程笔记</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus：</span>
-    
-    <a title="disqus" href="/2023/02/12/%E3%80%90%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E3%80%91B%E7%AB%99%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/02/12/【课程笔记】B站学习笔记/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>2</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>占位</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
@@ -1441,14 +1585,14 @@ $ =det
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">12k</span>
+    <span title="站点总字数">15k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">44 分钟</span>
+    <span title="站点阅读时长">54 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
