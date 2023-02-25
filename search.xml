@@ -2052,6 +2052,7 @@ firewall)和包过滤防火墙（packet-filter firewall)。</p>
     <content><![CDATA[<p>TryHackMe（以后简称THM)一共有10个Learn
 Path，我目前只完成了其中2个，先从最最基础的[Pre
 Security]开始作一些笔记吧。</p>
+<p>2023.2.25进度：全球排名54533，房间数62，等级8，日本区排名459。</p>
 <script src="https://tryhackme.com/badge/1526401"></script>
 <h2 id="intro-to-offensive-security">Intro to Offensive Security</h2>
 <ul>
